@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&500&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    background-image: linear-gradient(to right, #2c3e50, #34495e);
+	font-family: 'Lato', sans-serif;
+}
+
+.map {
+    margin: 3vh;
+    left: 30%;
+    position: relative;
+    width: 25vw;
+    height: 73.5vh;
+    border: 1vh solid #353b48;
+    border-radius: 16px;
+    z-index: 1;
+}
+.map2 {
+    margin-top: 2vh;
+    left: 2.5%;
+    position: relative;
+    width: 90%;
+    height: 30vh;
+    border: 1vh solid #353b48;
+    border-radius: 16px;
+    z-index: 0;
+}
+
+.tablediv {
+    position: absolute;
+    top: 11%;
+    right: 0%;
+    border: 1vh solid #353b48;
+    background-color: #7f8c8d;
+    border-radius: 16px;
+    width: 36vw;
+    height: 80vh;
+    margin: 4vh;
+    margin-right: 5vh;
+    overflow-x: scroll;
+}
+
+.sub_bar {
+    width: 100%;
+    height: 4vh;
+    background-color: #353b48;
+    border-bottom: .5vh solid #7f8c8d;
+    border-top: .5vh solid #7f8c8d;
+}
+
+.main_form {
+    position: absolute;
+    background-color: #7f8c8d;
+    border: 1vh solid #353b48;
+    border-radius: 16px;
+    width: 25vw;
+    height: auto;
+    margin: 3vh;
+    padding: 2vh;
+}
+
+label {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    margin-left: 1vw;
+    top: 1vh;
+    color: #2e86de;
+}
+
+.main_form_label {
+    position: relative;
+    color: #2f3640;
+    margin-right: .5vw;
+    display: inline;
+
+}
+
+.lbloutput {
+    text-align: center;
+    top: .9vh;
+    width: 2vw;
+    position: relative;
+    background-color: white;
+    height: 1.5vh;
+}
+select {
+    position: relative;
+    top: .9vh;
+    width: auto;
+    margin-bottom: 2vh;
+    display: inline;
+
+}
+
+.ballcarrier {
+    position: relative;
+    top: 1vh;
+    width: auto;
+    margin-bottom: 2vh;
+    display: inline; 
+}
+
+.mainformtext {
+    top: .9vh;
+    position: relative;
+    font-size: 1.5vh;
+    width: 7.5vw;
+}
+
+.newdrive {
+    padding-left: .5vw;
+    padding-right: .5vw;
+    position: relative;
+    width: auto;
+    top: .9vh;
+    background-color: #34495e;
+    border: .25vh solid #7f8c8d;
+    border-radius: 16px;
+    color: white;
+}
+.newdrive:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+.clearmap {
+    float: right;
+    margin-right: 2vh;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    position: relative;
+    width: auto;
+    top: .9vh;
+    background-color: #34495e;
+    border: .25vh solid white;
+    border-radius: 16px;
+    color: white;
+}
+.clearmap:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+.submit {
+    float: left;
+    margin-left: 2vh;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    position: relative;
+    width: auto;
+    top: .9vh;
+    background-color: #34495e;
+    border: .25vh solid white;
+    border-radius: 16px;
+    color: white;
+}
+
+.submit:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+.Home {
+    position: relative;
+    z-index: 1;
+}
+
+.Away {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1280px) {
+    .sub_bar {
+        font-size: 1.5vh;
+        height: auto;
+    }
+
+    .tablediv{
+        margin: 1vh;
+    }
+
+    .map{
+        margin: 1vh;
+        margin-left: 3vh;
+        width: 25vw;
+    }
+
+    .main_form {
+        margin: 1vh;
+    }
+  }
+
+
+@media (max-width: 800px)
+{
+    .sub_bar {
+        font-size: 1.5vh;
+        height: auto;
+        width: 78%;
+        float: right;
+    }
+    .map{
+        position: relative;
+        float: right;
+        width: 70%;
+
+        margin: 2vh;
+        left: 0%;
+        height: 80vh;
+        z-index: 0;
+    }
+    .main_form {
+        position: relative;
+        float: right;
+        width: 70%;
+        margin: 2vh;
+        background-color: #7f8c8d;
+        border: 1vh solid #353b48;
+        border-radius: 16px;
+        height: 80vh;
+    }
+
+    .tablediv {
+        margin: 2vh;
+        float: right;
+        position: relative;
+        width: 70%;
+        height: 80vh;
+        overflow-x: scroll;
+    }
+}

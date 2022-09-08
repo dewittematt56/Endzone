@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&500&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+    background-color: #1C2A39;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+
+.FormationList {
+    position: relative;
+    float: right;
+    width: 25vw;
+    height: auto;
+    background-color: #1e272e;
+    border-left: .25vh solid #353b48;
+    z-index: 2;
+
+}
+
+.tablediv {
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 89vh;
+}
+
+.FormationCreate {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 4.3vh;
+    background-color: #1e272e;
+    border-bottom: .25vh solid #353b48;
+}
+
+h3 {
+    padding: 1vh;
+    color: white;
+    width: 100%;
+    border-bottom: .25vh solid #353b48;
+}
+
+label {
+    position: relative;
+    color: white;
+    margin-left: 2vh;
+    margin-right: 1vh;
+}
+
+form {
+    margin-top: 0vh;
+}
+input[type="number"]
+{
+    text-align: center;
+    width: 2vw;
+}
+
+.DrawTools {
+    position: absolute;
+    left: 0;
+    width: 5vw;
+    height: 33vh;
+    top: 33%;
+    z-index: 1;
+    background-color: #1e272e;
+    border-top: .25vh solid #353b48;
+    border-right: .25vh solid #353b48;
+    border-bottom: .25vh solid #353b48;
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+
+
+.FormationDraw {
+    position: relative;
+    width: 75vw;
+    height: 93vh;
+    z-index: 0;
+    border: .25vh solid #353b48;
+
+}

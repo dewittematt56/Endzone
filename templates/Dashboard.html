@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Endzone - Dashboard</title>
+        <link rel="icon" type="image/x-icon" href= "{{ url_for('static', filename='images/Endzone.jpg') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/Dashboard.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/nav.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/Filterbar.css') }}">
+
+
+        <script src="{{ url_for('static', filename='js/Dashboard.js') }}"></script>
+
+        <!-- Leaflet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+         integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="">
+        </script>
+        <script src="https://unpkg.com/georaster-layer-for-leaflet/dist/georaster-layer-for-leaflet.min.js"></script>
+
+        <!-- Leaflet Draw -->
+        <script src="{{ url_for('static', filename='leaflet_draw/leaflet.draw.js') }}"></script>
+        <script src="{{ url_for('static', filename='leaflet_draw/leaflet.draw-src.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='leaflet_draw/leaflet.draw.css') }}" media="all">
+        <link rel="stylesheet" href="{{ url_for('static', filename='leaflet_draw/leaflet.draw-src.css') }}" media="all">
+
+        <!-- Charts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+        
+    </head>
+    <body onload="LoadPage()">
+      <div class="topnav">
+        <div class="logo-image">
+          <img src="{{ url_for('static', filename='images/EndzoneLogo.png') }}" class="img-fluid">
+        </div>
+        <a href="/Endzone/Hub">Hub</a>
+        <a  href="/Endzone/GameManagement" class = "active">Game Management</a>
+        <div class="dropdown">
+          <button class="dropbtn" >Pre-Game Analysis<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="/Endzone/KIPP">KIPP</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">In-Game Analysis<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href = "/Endzone/DAT">Drive Analyzer</a>
+            <a href="/Endzone/CASE">CASE</a>
+            <a href="/Endzone/TARS">TARS</a>
+          </div>
+        </div>
+        <div class = "topnav-right">
+          <a href = "/Logout">{{ User }}</a>
+        </div>
+      </div>
+      <div class = "filterbar">
+        <label>Possession: </label><select name = "possession" id = "possession"></select>
+        <label>Down: </label><select name = "down" id = "down"></select>
+        <label>Distance: </label>
+        <select name = "distance" id = "distance">
+          <option>No Filter</option>
+          <option>Short</option>
+          <option>Medium</option>
+          <option>Long</option>
+        </select>
+        <label>O-Formation: </label><select name = "formation" id = "formation"></select>
+        <label>Drive Number: </label><select name = "drive" id = "drive"></select>
+        <label>Play Type: </label><select name = "play_type" id = "play_type"></select>
+        <label>Quarter: </label><select name = "quarter" id = "quarter"></select>
+        <input type="text" name ="spatial" id = "spatial" style="display: none;"/>
+        <button onclick="Filter_Data()">Activate Filter</button>
+      </div>
+      
+      <div id="fieldmap" class="fieldmap">
+          <div class = "bottom">
+            <label for = "show_result">Show Play Results:</label>
+            <input type="checkbox" id ="show_result">
+          </div>
+      </div>
+
+      <div>
+        <div id="graphMenu" class="graphMenu">
+          <div class ="graphdiv"><canvas height="100%" width = "100%" id = "playTypeGraph" class = "graph"></canvas></div>
+          <div class ="graphdiv"><canvas height="100%" width = "100%" id = "formationGraph" class = "graph"></canvas></div>
+          <div class ="graphdiv"><canvas height="100%" width = "100%" id = "playDirectionGraph" class = "graph"></canvas></div>
+          <div id="statMenu" class="statMenu">
+            <div class="statDiv" style="	border-right: .5vh solid #8395a7;"><h2>Average Gain</h2><h1 id = "avg_gain"></h1></div>
+            <div class="statDiv" style="	border-right: .5vh solid #8395a7;"><h2>Average Distance</h2><h1 id = "avg_dist"></h1></div>
+            <div class="statDiv" style="	border-right: .5vh solid #8395a7;"><h2>Plays to Strength</h2><h1 id = "str_play"></h1></div>
+            <div class="statDiv" style="	border-right: .5vh solid #8395a7;"><h2>Explosive Plays</h2><h1 id = "exp_play"></h1></div>
+            <div class="statDiv"><h2>Negative Play Rate</h2><h1 id = "neg_play"></h1></div>
+            <div class="statDiv" style="	border-right: .5vh solid #8395a7; border-top: .5vh solid #8395a7;"><h2>Offensive Efficency</h2><h1 id = "off_efc"></h1></div>
+            <div class="statDiv" style="	border-right: .5vh solid #8395a7; border-top: .5vh solid #8395a7;"><h2>Run Efficency</h2><h1 id = "run_efc"></h1></div>
+            <div class="statDiv" style="	border-right: .5vh solid #8395a7; border-top: .5vh solid #8395a7;"><h2>Pass Efficency</h2><h1 id = "pass_efc"></h1></div>
+            <div class="statDiv" style="	border-right: .5vh solid #8395a7; border-top: .5vh solid #8395a7;"><h2>Zone Efficency</h2><h1 id = "zone_efc"></h1></div>
+            <div class="statDiv" style="	border-top: .5vh solid #8395a7;"><h2>Man Efficency</h2><h1 id = "man_efc"></h1></div>
+          </div>
+        </div>
+
+      </div>
+
+      <script type="text/javascript">
+
+        var mapBounds = L.latLngBounds([
+          [-2, 0],
+          [12, 10]
+        ]);
+
+        var map = L.map('fieldmap', {  
+          zoomControl: false,
+          maxBounds: mapBounds,
+          maxBoundsViscosity: 1.0,
+          minZoom: 6,
+          maxZoom: 8});
+        
+        map.fitBounds(mapBounds);
+        map.setZoom(6);
+        
+        var imageUrl = "{{ url_for('static', filename='spatial/FootballFieldBase.jpg') }}";
+        var latLngBounds = L.latLngBounds([[0, 0], [10, 10]]);
+        var imageOverlay = L.imageOverlay(imageUrl, latLngBounds).addTo(map)
+
+        var imageUrl = "{{ url_for('static', filename='spatial/EndzoneNorth.jpg') }}";
+        var latLngBounds = L.latLngBounds([[10, 0], [12, 10]]);
+        var imageOverlayNorth = L.imageOverlay(imageUrl, latLngBounds).addTo(map)
+
+        var imageUrl = "{{ url_for('static', filename='spatial/EndzoneSouth.jpg') }}";
+        var latLngBounds = L.latLngBounds([[0, 0], [-2, 10]]);
+        var imageOverlayNorth = L.imageOverlay(imageUrl, latLngBounds).addTo(map)
+        
+        var featureGroup = new L.FeatureGroup();
+          map.addLayer(featureGroup);
+          var drawControl = new L.Control.Draw({
+              edit: {
+                  featureGroup: featureGroup,
+                  position: 'topright',
+              },
+              draw: {
+                  polyline: false,
+                  circle: false, // Turns off this drawing tool
+                  rectangle: false,
+                  marker: false,
+                  circlemarker: false,
+              }
+          });
+          map.addControl(drawControl);
+
+          map.on('draw:created', function (e) {
+              var fc_collection = {
+                  "type": "FeatureCollection",
+                  "features": []
+              };
+              // Add Layer to Feature Group
+              featureGroup.addLayer(e.layer);
+              featureGroup.eachLayer(function(layer){
+                  var geojson = layer.toGeoJSON()
+                  fc_collection.features.push(geojson)
+              });
+              document.getElementById("spatial").value = JSON.stringify(fc_collection)
+          });
+
+          //Get payload
+          var data = JSON.parse('{{ payload | tojson | safe}}');
+          const graphObj = new Object();
+          Page_Load(data);
+          Clear_Graphs(graphObj);
+          Build_Graphs(data, graphObj);
+          Build_Stats(data);
+          Build_Points(data, map);
+
+          function Filter_Data()
+          {
+            data = JSON.parse('{{ payload | tojson | safe}}');
+            // Get filter inputs
+            possession = document.getElementById("possession").value
+            down = document.getElementById("down").value
+            distance = document.getElementById("distance").value
+            o_form = document.getElementById("formation").value
+            drive_num = document.getElementById("drive").value
+            play_type = document.getElementById("play_type").value
+            quarter =  document.getElementById("quarter").value
+            
+            if(possession != "No Filter"){data = Filter_ByColumn(data, "Possession", possession)}
+            if(down != "No Filter"){data = Filter_ByColumn(data, "Down", down)}
+            if(distance != "No Filter")
+            {
+              new_data = []
+              if(distance == "Short")
+              {
+                for(i = 0; i < Object.keys(data).length; i++)
+                {
+                  if(data[i]["Distance"] <= 3)
+                  {
+                    new_data.push(data[i])
+                  }
+                }
+              }
+              else if(distance == "Medium")
+              {
+                for(i = 0; i < Object.keys(data).length; i++)
+                {
+                  if(data[i]["Distance"] > 3 & data[i]["Distance"] <= 7)
+                  {
+                    new_data.push(data[i])
+                  }
+                }
+              }
+              else
+              {
+                for(i = 0; i < Object.keys(data).length; i++)
+                {
+                  if(data[i]["Distance"] > 7)
+                  {
+                    new_data.push(data[i])
+                  }
+                }
+              }
+              data = new_data
+            }
+            if(o_form != "No Filter"){data = Filter_ByColumn(data, "Formation", o_form)}
+            if(drive_num != "No Filter"){data = Filter_ByColumn(data, "Drive", drive_num)}
+            if(play_type != "No Filter"){data = Filter_ByColumn(data, "Play_Type", play_type)}
+            if(quarter != "No Filter"){data = Filter_ByColumn(data, "Quarter", quarter)}
+            if(document.getElementById("spatial").value != "")
+            // Spatial Filter
+            canvas = document.getElementById("playTypeGraph");
+            var c = document.getElementById("playTypeGraph");
+            var ctx = c.getContext("2d");
+            ctx.clearRect(0, 0, c.width, c.height);
+            Clear_Graphs(graphObj)
+            Build_Graphs(data, graphObj)
+            Build_Stats(data)
+            Build_Points(data, map)
+          }
+      </script>
+    </body>
+<html>

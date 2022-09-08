@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Endzone - Football Analytics</title>
+        <link rel="icon" type="image/x-icon" href= "{{ url_for('static', filename='images/Endzone.jpg') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/Home.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/nav.css') }}">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <div id="topnav" class = "topnav">
+            <div class="logo-image">
+                <img src="{{ url_for('static', filename='images/EndzoneLogo.png') }}" class="img-fluid">
+            </div>
+            <a class="active" href="#home">Home</a>
+            <a href="#aboutE">About Endzone</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#about">New Team</a>
+            <a href="/jointeam">Join Team</a>
+            <div class = "topnav-right">
+                <a href = "/Login">Login</a>
+            </div>
+        </div>
+        
+        <div class="sidenav">
+            <a class = "active" href="#">Home</a>
+            <a href="#aboutE">About Endzone</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#about">About Us</a>
+            <a href="#about">New Team</a>
+            <a href="/jointeam">Join Team</a>
+            <a href = "/Login">Log-In</a>
+        </div>   
+
+        <!-- Background Photo -->
+        <img src="{{ url_for('static', filename='images/HomeBackground.jpg') }}" class = "HomeBackground">
+        <img src="{{ url_for('static', filename='images/HomeBackground_Iphone.jpg') }}" class = "HomeBackground_Iphone">
+
+        <!-- Home Links -->
+        <div>
+            <div class = "HomeLink1">
+                <a href = "#AboutUs" class = "LinkHeader">Learn More About Endzone</a>
+                <p class = "LinkBody">
+                   Learn how Endzone helps put your players in the best position to make plays
+                </p>
+                <a href = "#Learn" class = "LinkFoot">Click to Learn More</a>
+            </div>
+    
+            <div class = "HomeLink2">
+                <a href = "#Join" class = "LinkHeader">Help Empower your Decision Making</a>
+                <p class = "LinkBody">
+                    Allow Endzone to empower your coaching staff to win more games
+                </p>
+                <a href = "#Join" class = "LinkFoot">Click to Join Endzone</a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&500&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    background-color: #1e272e;
+	font-family: 'Lato', sans-serif;
+}
+
+#graphMenu {
+	position: relative;
+	padding: 1vh;
+	float: right;
+	top: 0vh;
+	right: 0vw;
+	margin: 1vw;
+	width: 60vw;
+	height: 77.5vh;
+	background-color: #1e272e;
+	border: .25vh solid #576574;
+    border-radius: 16px;
+	display: flex;
+	flex-flow: row wrap;
+}
+.graphdiv {
+	margin-left: .5%;
+	display: flex;
+	width: 32%;
+	height: 40%;
+}
+.graph {
+	border: solid #8395a7;
+	background-color: #222f3e;
+	padding: 1vh;
+}
+
+.statMenu {
+	width: 100%;
+	height: auto;
+	border: .5vh solid #8395a7;
+	border-radius: 16px;
+	background-color: #222f3e;
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+}
+.statDiv {
+	margin: 0 auto;
+	width: 19.625%;
+	height: 50%;
+}
+.statDiv h2 {
+	margin: 0 auto;
+	color: white;
+}
+.statDiv h1 {
+	padding-top: 1vh;
+	font-size: 5vh;
+	margin: 0 auto;
+	color: #34ace0;
+}
+
+.bottom {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 1vh;
+}
+.bottom label  {
+	font-size: 2vh;
+}
+
+.fieldmap {
+    float: left;
+    padding: 1vh;
+    margin: 1vw;
+    position: relative;
+    width: 28vw;
+    height: 77.5vh;
+    border: 1vh solid #353b48;
+    border-radius: 16px;
+    z-index: 0;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Endzone - Formation+</title>
+        <link rel="icon" type="image/x-icon" href= "{{ url_for('static', filename='images/Endzone.jpg') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/nav.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/Formations.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/Table.css') }}">
+
+        <script src="{{ url_for('static', filename='js/Formation.js') }}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.5.0/fabric.min.js"></script>
+
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+      <div class="topnav">
+        <div class="logo-image">
+          <img src="{{ url_for('static', filename='images/EndzoneLogo.png') }}" class="img-fluid">
+        </div>
+        <a href="/Endzone/Hub">Hub</a>
+        <a  href="/Endzone/GameManagement">Game Management</a>
+        <div class="dropdown" style="background-color: #1e73be;">
+            <button class="dropbtn">Team Management
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href = "/Endzone/Formations">Formations</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn" >Pre-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/Endzone/KIPP">KIPP</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">In-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/Endzone/DAT">Drive Analyzer</a>
+            <a href="/Endzone/CASE">CASE</a>
+            <a href="/Endzone/TARS">TARS</a>
+          </div>
+        </div>
+        <div class = "topnav-right">
+          <a href = "/Logout">{{ User }}</a>
+        </div>
+      </div>
+      <div class = "FormationList">
+        <h3>Formations</h3>
+          <div class = "tablediv">
+            <table id = "table">
+                <colgroup>
+                    <col style = "width:35%">
+                    <col style = "width:10%">
+                    <col style = "width:10%">
+                    <col style = "width:10%">
+                    <col style = "width:17.5%">
+                    <col style = "width:17.5%">
+                  </colgroup>
+                <thead>
+                    <tr>
+                        <th>Formation</th>
+                        <th>Wide Receievers</th>
+                        <th>Tight Ends</th>
+                        <th>Running Backs</th>
+                        <th>Load Formation</th>
+                        <th>Delete Formation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  {% for Formation in Formations %}
+                  <tr>
+                    <td ALIGN="center">{{ Formation.Formation }}</td>
+                    <td ALIGN="center">{{ Formation.Wide_Recievers }}</td>
+                    <td ALIGN="center">{{ Formation.Tight_Ends }}</td>
+                    <td ALIGN="center">{{ Formation.Running_Backs }}</td>
+                    <td ALIGN="center">
+                      <button onclick="LoadFormation(this.id)" id = {{ loop.index }}>Load</button>
+                    </td>
+                    <td>
+                      <button onclick="DeleteFormation(this.id)" id = {{ loop.index }}>Delete</button>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+          </div>
+        </div>
+        <div class = "FormationCreate">
+          <form action = "{{url_for('Build_Formation')}}" method="POST">
+              <label>Formation:</label>
+              <input type="text" maxlength="50" name="Formation" id = "Formation">
+              <label>Wide Recievers:</label>
+              <input type="number" max="5" min="0" value="0" name="WR" id="WR">
+              <label>Tight Ends:</label>
+              <input type="number" max="5" min="0" value="0" name = "TE" id ="TE">
+              <label>Running Backs</label>
+              <input type="number" max="5" min="0" value="0" name="RB" id = "RB">
+              <button type="submit">Build Formation</button>
+          </form>
+        </div>
+        <div class = "DrawTools" id="toolbar">
+          <button onclick="createRectangle()">Add Rectangle</button>
+          <button onclick="createCircle()">Add Circle</button>
+          <button onclick="deleteObject()">Delete Object</button>
+        </div>
+        <div class="FormationDraw" id = "FormationDraw">
+          <canvas id="drawing-board" class="drawing-board"></canvas>
+        </div>
+    </body>
+</html>

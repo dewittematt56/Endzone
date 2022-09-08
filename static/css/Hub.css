@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;500&family=Lato&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background-image: linear-gradient(to right, #2c3e50, #34495e);
+    font-family: 'Lato', sans-serif;
+}

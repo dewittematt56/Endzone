@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Endzone - TARS</title>
+        <link rel="icon" type="image/x-icon" href= "{{ url_for('static', filename='images/Endzone.jpg') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/nav.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/TARS.css') }}">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="{{ url_for('static', filename='js/TARS.js') }}"></script>
+    </head>
+    <body onload="TARS_write_welcome()">
+      <div class="topnav">
+        <div class="logo-image">
+          <img src="{{ url_for('static', filename='images/EndzoneLogo.png') }}" class="img-fluid">
+        </div>
+        <a href="/Endzone/Hub">Hub</a>
+        <a  href="/Endzone/GameManagement">Game Management</a>
+        <div class="dropdown">
+          <button class="dropbtn">Team Management
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/Endzone/Formations">Formations</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn" >Pre-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/Endzone/KIPP">KIPP</a>
+          </div>
+        </div>
+        <div class="dropdown"  style="background-color: #1e73be;">
+          <button class="dropbtn">In-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/Endzone/DAT">Drive Analyzer</a>
+            <a href="/Endzone/CASE">CASE</a>
+            <a href="/Endzone/TARS">TARS</a>
+          </div>
+        </div>
+        <div class = "topnav-right">
+          <a href = "/Logout">{{ User }}</a>
+        </div>
+      </div>
+
+
+
+      <div class = "input_panel">
+
+        <div class = "model_panel">
+        <!-- 
+          <div class = "create_model">
+            <h3>Create a Model for Prediction</h3>
+            <label>Model Type:</label><br>
+            <select id="model_type" name = "model_type">
+              <option>Nearest Neighbor</option>
+              <option>Neural Network</option>
+            </select><br>
+            <label>Team of Interest:</label><br>
+            <select id="model_team" name = "model_team">
+              {% for Team in Teams_of_Interest %}  
+              <option>{{ Team.Possession }}</option>
+              {% endfor %}  
+            </select><br>
+            <button class = "submit" >Create Model</button>
+          </div>
+        -->
+        </div>
+
+        <div class = "game_panel">
+          <div class = "select_model">
+            <h3>Select a Team of Focus</h3>
+            <select id="TOF" name = "TOF">
+              {% for Team in Teams %}   
+              <option>{{ Team[0] }}</option>
+              {% endfor %}  
+            </select>
+          </div>
+          <fieldset id = "fieldset">      
+            <legend>Games to Model:</legend>   
+            {% for Game in Games %}   
+            <input type="checkbox" name="avaliable_games" value="{{ Game.Team_Name }}_{{ Game.Opponent_Name }}_{{ Game.Year }}">{{ Game.Team_Name }} VS {{ Game.Opponent_Name }} | {{ Game.Year }}<br>        
+            {% endfor %}  
+          </fieldset>  
+        </div>
+        <div class = "play_panel">
+          <form>
+            <h3>Input Parameters for Prediction</h3>
+            <label>Down:</label>
+            <select id="down" name = "down">
+              <option>No Filter</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select><br>
+            <label>Distance:</label>
+            <select id ="distance" name = "distance">
+              <option>No Filter</option>
+              <option>Long</option>
+              <option>Medium</option>
+              <option>Short</option>
+            </select><br>
+            <label>Yard Line:</label>
+            <select id = "yard" name = "yard">
+              <option>No Filter</option>
+              <option>Backed Up</option>
+              <option>Midfield</option>
+              <option>Scoring Position</option>
+            </select><br>
+            <label>Hash:</label>
+            <select id = "hash" name = "hash">
+              <option>No Filter</option>
+              <option>Left</option>
+              <option>Middle</option>
+              <option>Right</option>
+            </select><br>
+            <!--
+            <label>Personnel:</label>
+            <select>
+              <option>No Filter</option>
+            </select><br>
+            -->
+            <button class = "submit" type="button" onclick = "Run_TARS()" id = "btnPredict">Call TARS</button>
+          </form>
+        </div>
+      </div>
+
+      <div class = "tars_panel">
+        <div class = "tar_div">
+          <textarea id = "TARS" readonly></textarea>
+        </div>
+      </div>
+      <script>
+        
+        $(document).ready(function(){
+          $("#btnPredict").click(function(){
+            down = document.getElementById("down").value;
+            distance = document.getElementById("distance").value;
+            yard = document.getElementById("yard").value;
+            hash = document.getElementById("hash").value;
+            team_of_interest = document.getElementById("TOF").value;
+            var game_checkboxes = document.getElementsByName("avaliable_games");
+
+            game_values = []
+              for (var i = 0; i < game_checkboxes.length; i++) {
+                if(game_checkboxes[i].checked == true)
+                {
+                  game_values.push(game_checkboxes[i].value);
+                }
+              }
+            url = "/Endzone/TARS/Run?down=" + down + "&distance=" + distance + "&yard=" + yard + '&hash=' + hash + "&games=" + game_values + "&possession=" + team_of_interest; 
+            $.get(url, function(data, status){
+              TARS_write(data);
+            });
+          });
+      });
+      </script>
+    </body>
+</html>

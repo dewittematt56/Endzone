@@ -1,0 +1,1761 @@
+INFO:root:	 Job 1662404897 Start | 	['Burnsville_Park_2021']	2022-09-05T14:08:17.545627
+INFO:root:	 Job 1662404935 Start | 	['Burnsville_Park_2021']	2022-09-05T14:08:55.919547
+INFO:root:	 Job 1662404944 Start | 	['Burnsville_Park_2021']	2022-09-05T14:09:04.378561
+INFO:root:	 Job 1662404972 Start | 	['Burnsville_Park_2021']	2022-09-05T14:09:32.562004
+INFO:root:	 Job 1662405012 Start | 	['Burnsville_Park_2021']	2022-09-05T14:10:12.038082
+INFO:root:	 Job 1662405035 Start | 	['Burnsville_Park_2021']	2022-09-05T14:10:35.824588
+INFO:root:	 Job 1662405055 Start | 	['Burnsville_Park_2021']	2022-09-05T14:10:55.232178
+INFO:root:	 Job 1662405105 Start | 	['Burnsville_Park_2021']	2022-09-05T14:11:45.387065
+INFO:root:	 Job 1662405129 Start | 	['Burnsville_Park_2021']	2022-09-05T14:12:09.694570
+INFO:root:	 Job 1662405157 Start | 	['Burnsville_Park_2021']	2022-09-05T14:12:37.505489
+INFO:root:	 Job 1662405157 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:12:40.529307
+INFO:root:	 Job 1662405178 Start | 	['Burnsville_Park_2021']	2022-09-05T14:12:58.282197
+INFO:root:	 Job 1662405298 Start | 	['Burnsville_Park_2021']	2022-09-05T14:14:58.928705
+INFO:root:	 Job 1662405993 Start | 	['Burnsville_Park_2021']	2022-09-05T14:26:33.173165
+ERROR:root:'Defense_Section' object has no attribute 'team_of_interest'
+INFO:root:	 Job 1662406039 Start | 	['Burnsville_Park_2021']	2022-09-05T14:27:19.948148
+ERROR:root:'Defense_Section' object has no attribute 'team_of_interest'
+INFO:root:	 Job 1662406067 Start | 	['Burnsville_Park_2021']	2022-09-05T14:27:47.466019
+ERROR:root:'KIP_Report' object has no attribute 'job_id'
+INFO:root:	 Job 1662406080 Start | 	['Burnsville_Park_2021']	2022-09-05T14:28:00.405462
+ERROR:root:'KIP_Report' object has no attribute 'job_id'
+INFO:root:	 Job 1662406098 Start | 	['Burnsville_Park_2021']	2022-09-05T14:28:18.361227
+INFO:root:	 Job 1662406098 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:28:19.737974
+INFO:root:	 Job 1662406245 Start | 	['Burnsville_Park_2021']	2022-09-05T14:30:45.964881
+INFO:root:	 Job 1662406245 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:30:47.370441
+INFO:root:	 Job 1662406279 Start | 	['Burnsville_Park_2021']	2022-09-05T14:31:19.697296
+ERROR:root:'function' object has no attribute 'rows'
+INFO:root:	 Job 1662406333 Start | 	['Burnsville_Park_2021']	2022-09-05T14:32:13.498267
+INFO:root:	 Job 1662406333 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:32:14.946262
+INFO:root:	 Job 1662406406 Start | 	['Burnsville_Park_2021']	2022-09-05T14:33:26.255562
+INFO:root:	 Job 1662406406 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:33:27.768487
+INFO:root:	 Job 1662406437 Start | 	['Burnsville_Park_2021']	2022-09-05T14:33:57.337400
+INFO:root:	 Job 1662406437 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:33:58.835710
+INFO:root:	 Job 1662406730 Start | 	['Burnsville_Park_2021']	2022-09-05T14:38:50.899427
+INFO:root:	 Job 1662406730 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:38:53.033902
+INFO:root:	 Job 1662406833 Start | 	['Burnsville_Park_2021']	2022-09-05T14:40:33.483869
+INFO:root:	 Job 1662406833 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:40:34.940712
+INFO:root:	 Job 1662407023 Start | 	['Burnsville_Park_2021']	2022-09-05T14:43:43.480906
+ERROR:root:list index out of range
+INFO:root:	 Job 1662407071 Start | 	['Burnsville_Park_2021']	2022-09-05T14:44:31.739581
+INFO:root:	 Job 1662407071 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:44:33.795518
+INFO:root:	 Job 1662407124 Start | 	['Burnsville_Park_2021']	2022-09-05T14:45:24.080072
+INFO:root:	 Job 1662407124 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:45:25.590648
+INFO:root:	 Job 1662407175 Start | 	['Burnsville_Park_2021']	2022-09-05T14:46:15.432806
+INFO:root:	 Job 1662407175 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:46:16.905862
+INFO:root:	 Job 1662407466 Start | 	['Burnsville_Park_2021']	2022-09-05T14:51:06.072759
+ERROR:root:'Defense_Section' object has no attribute 'Crosstab_Display'
+INFO:root:	 Job 1662407494 Start | 	['Burnsville_Park_2021']	2022-09-05T14:51:34.342973
+INFO:root:	 Job 1662407494 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:51:35.942351
+INFO:root:	 Job 1662407687 Start | 	['Burnsville_Park_2021']	2022-09-05T14:54:47.061841
+ERROR:root:SwarmPlot() missing 2 required positional arguments: 'w_size' and 'h_size'
+INFO:root:	 Job 1662407714 Start | 	['Burnsville_Park_2021']	2022-09-05T14:55:14.511593
+INFO:root:	 Job 1662407714 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:55:16.281986
+INFO:root:	 Job 1662407778 Start | 	['Burnsville_Park_2021']	2022-09-05T14:56:18.461843
+INFO:root:	 Job 1662407778 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:56:20.244633
+INFO:root:	 Job 1662407795 Start | 	['Burnsville_Park_2021']	2022-09-05T14:56:35.975110
+INFO:root:	 Job 1662407795 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:56:37.713585
+INFO:root:	 Job 1662407965 Start | 	['Burnsville_Park_2021']	2022-09-05T14:59:25.125906
+INFO:root:	 Job 1662407965 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:59:26.824026
+INFO:root:	 Job 1662407977 Start | 	['Burnsville_Park_2021']	2022-09-05T14:59:37.732468
+INFO:root:	 Job 1662407977 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:59:39.420469
+INFO:root:	 Job 1662407993 Start | 	['Burnsville_Park_2021']	2022-09-05T14:59:53.379165
+INFO:root:	 Job 1662407993 Complete | 	['Burnsville_Park_2021']	2022-09-05T14:59:55.073423
+INFO:root:	 Job 1662408009 Start | 	['Burnsville_Park_2021']	2022-09-05T15:00:09.260090
+INFO:root:	 Job 1662408009 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:00:11.054782
+INFO:root:	 Job 1662408260 Start | 	['Burnsville_Park_2021']	2022-09-05T15:04:20.873003
+INFO:root:	 Job 1662408260 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:04:22.624161
+INFO:root:	 Job 1662408365 Start | 	['Burnsville_Park_2021']	2022-09-05T15:06:05.881150
+INFO:root:	 Job 1662408365 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:06:07.746567
+INFO:root:	 Job 1662408392 Start | 	['Burnsville_Park_2021']	2022-09-05T15:06:32.479953
+INFO:root:	 Job 1662408392 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:06:34.356597
+INFO:root:	 Job 1662408415 Start | 	['Burnsville_Park_2021']	2022-09-05T15:06:55.492661
+INFO:root:	 Job 1662408415 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:06:57.334457
+INFO:root:	 Job 1662408494 Start | 	['Burnsville_Park_2021']	2022-09-05T15:08:14.245134
+INFO:root:	 Job 1662408494 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:08:16.610605
+INFO:root:	 Job 1662408815 Start | 	['Burnsville_Park_2021']	2022-09-05T15:13:35.230893
+INFO:root:	 Job 1662408815 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:13:36.938612
+INFO:root:	 Job 1662408830 Start | 	['Burnsville_Park_2021']	2022-09-05T15:13:50.786523
+INFO:root:	 Job 1662408830 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:13:53.069290
+INFO:root:	 Job 1662408970 Start | 	['Burnsville_Park_2021']	2022-09-05T15:16:10.724613
+INFO:root:	 Job 1662408970 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:16:13.517862
+INFO:root:	 Job 1662409161 Start | 	['Burnsville_Park_2021']	2022-09-05T15:19:21.859410
+INFO:root:	 Job 1662409161 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:19:24.878181
+INFO:root:	 Job 1662409352 Start | 	['Burnsville_Park_2021']	2022-09-05T15:22:32.130504
+ERROR:root:Targets() takes 0 positional arguments but 1 was given
+INFO:root:	 Job 1662409366 Start | 	['Burnsville_Park_2021']	2022-09-05T15:22:46.276074
+INFO:root:	 Job 1662409366 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:22:49.481169
+INFO:root:	 Job 1662409428 Start | 	['Burnsville_Park_2021']	2022-09-05T15:23:48.607994
+INFO:root:	 Job 1662409428 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:23:51.831237
+INFO:root:	 Job 1662409643 Start | 	['Burnsville_Park_2021']	2022-09-05T15:27:23.572244
+INFO:root:	 Job 1662409643 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:27:26.840678
+INFO:root:	 Job 1662410087 Start | 	['Burnsville_Park_2021']	2022-09-05T15:34:47.304651
+ERROR:root:'int' object is not iterable
+INFO:root:	 Job 1662410116 Start | 	['Burnsville_Park_2021']	2022-09-05T15:35:16.776286
+INFO:root:	 Job 1662410116 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:35:20.172246
+INFO:root:	 Job 1662410354 Start | 	['Burnsville_Park_2021']	2022-09-05T15:39:14.557473
+INFO:root:	 Job 1662410354 Complete | 	['Burnsville_Park_2021']	2022-09-05T15:39:17.958909
+INFO:root:	 Job 1662412711 Start | 	['Burnsville_Park_2021']	2022-09-05T16:18:31.421992
+ERROR:root:unsupported operand type(s) for &: 'float' and 'bool'
+INFO:root:	 Job 1662412791 Start | 	['Burnsville_Park_2021']	2022-09-05T16:19:51.667799
+ERROR:root:unsupported operand type(s) for &: 'float' and 'bool'
+INFO:root:	 Job 1662412815 Start | 	['Burnsville_Park_2021']	2022-09-05T16:20:15.916263
+ERROR:root:unsupported operand type(s) for &: 'float' and 'bool'
+INFO:root:	 Job 1662412830 Start | 	['Burnsville_Park_2021']	2022-09-05T16:20:30.018620
+ERROR:root:unsupported operand type(s) for &: 'float' and 'bool'
+INFO:root:	 Job 1662412904 Start | 	['Burnsville_Park_2021']	2022-09-05T16:21:44.272634
+ERROR:root:'Offense_Section' object has no attribute 'dataself'
+INFO:root:	 Job 1662413241 Start | 	['Burnsville_Park_2021']	2022-09-05T16:27:21.326368
+ERROR:root:Cannot perform 'ror_' with a dtyped [object] array and scalar of type [bool]
+INFO:root:	 Job 1662413306 Start | 	['Burnsville_Park_2021']	2022-09-05T16:28:26.805698
+ERROR:root:setting an array element with a sequence.
+INFO:root:	 Job 1662413329 Start | 	['Burnsville_Park_2021']	2022-09-05T16:28:49.689355
+ERROR:root:unsupported operand type(s) for &: 'bool' and 'str'
+INFO:root:	 Job 1662413357 Start | 	['Burnsville_Park_2021']	2022-09-05T16:29:17.584131
+INFO:root:	 Job 1662413357 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:29:21.038810
+INFO:root:	 Job 1662413401 Start | 	['Burnsville_Park_2021']	2022-09-05T16:30:01.962323
+INFO:root:	 Job 1662413401 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:30:05.372688
+INFO:root:	 Job 1662413570 Start | 	['Burnsville_Park_2021']	2022-09-05T16:32:50.478643
+INFO:root:	 Job 1662413570 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:32:53.948560
+INFO:root:	 Job 1662413659 Start | 	['Burnsville_Park_2021']	2022-09-05T16:34:19.538435
+INFO:root:	 Job 1662413659 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:34:22.958738
+INFO:root:	 Job 1662413733 Start | 	['Burnsville_Park_2021']	2022-09-05T16:35:33.147978
+INFO:root:	 Job 1662413733 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:35:34.612587
+INFO:root:	 Job 1662414030 Start | 	['Burnsville_Park_2021']	2022-09-05T16:40:30.980982
+ERROR:root:list index out of range
+INFO:root:	 Job 1662414047 Start | 	['Burnsville_Park_2021']	2022-09-05T16:40:47.863252
+ERROR:root:list index out of range
+INFO:root:	 Job 1662414082 Start | 	['Burnsville_Park_2021']	2022-09-05T16:41:22.603290
+ERROR:root:list index out of range
+INFO:root:	 Job 1662414102 Start | 	['Burnsville_Park_2021']	2022-09-05T16:41:42.757256
+INFO:root:	 Job 1662414102 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:41:44.173651
+INFO:root:	 Job 1662414121 Start | 	['Burnsville_Park_2021']	2022-09-05T16:42:01.610508
+INFO:root:	 Job 1662414121 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:42:03.070544
+INFO:root:	 Job 1662414336 Start | 	['Burnsville_Park_2021']	2022-09-05T16:45:36.191952
+INFO:root:	 Job 1662414336 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:45:37.654146
+INFO:root:	 Job 1662414369 Start | 	['Burnsville_Park_2021']	2022-09-05T16:46:09.279278
+INFO:root:	 Job 1662414369 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:46:10.791986
+INFO:root:	 Job 1662414455 Start | 	['Burnsville_Park_2021']	2022-09-05T16:47:35.068151
+INFO:root:	 Job 1662414455 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:47:36.725784
+INFO:root:	 Job 1662414468 Start | 	['Burnsville_Park_2021']	2022-09-05T16:47:48.529237
+INFO:root:	 Job 1662414468 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:47:51.141084
+INFO:root:	 Job 1662414483 Start | 	['Burnsville_Park_2021']	2022-09-05T16:48:03.395141
+INFO:root:	 Job 1662414483 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:48:05.040989
+INFO:root:	 Job 1662414553 Start | 	['Burnsville_Park_2021']	2022-09-05T16:49:13.479444
+INFO:root:	 Job 1662414553 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:49:15.260395
+INFO:root:	 Job 1662414730 Start | 	['Burnsville_Park_2021']	2022-09-05T16:52:10.944860
+INFO:root:	 Job 1662414730 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:52:12.949926
+INFO:root:	 Job 1662414852 Start | 	['Burnsville_Park_2021']	2022-09-05T16:54:12.567811
+ERROR:root:not all arguments converted during string formatting
+INFO:root:	 Job 1662414865 Start | 	['Burnsville_Park_2021']	2022-09-05T16:54:25.494601
+INFO:root:	 Job 1662414865 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:54:27.503271
+INFO:root:	 Job 1662414902 Start | 	['Burnsville_Park_2021']	2022-09-05T16:55:02.673956
+INFO:root:	 Job 1662414902 Complete | 	['Burnsville_Park_2021']	2022-09-05T16:55:04.736900
+INFO:root:	 Job 1662503488 Start | 	['Burnsville_Park_2021']	2022-09-06T17:31:28.994995
+INFO:root:	 Job 1662503488 Complete | 	['Burnsville_Park_2021']	2022-09-06T17:31:30.384879
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:root:	 Job 1662503500 Start | 	['Burnsville_Park_2021']	2022-09-06T17:31:40.662712
+INFO:root:	 Job 1662503500 Complete | 	['Burnsville_Park_2021']	2022-09-06T17:31:42.095530
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:43] "[36mGET /static/css/Home.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:43] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:43] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:43] "[36mGET /static/images/HomeBackground.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:43] "[36mGET /static/images/HomeBackground_Iphone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:43] "GET /static/images/Endzone.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:44] "GET /Login HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:44] "GET /static/css/Login.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:50] "[32mPOST /LoginAttempt HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:50] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:50] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:50] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:50] "GET /static/css/Hub.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:54] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:54] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:54] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:54] "GET /static/css/KIPP.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:54] "GET /static/js/KIPP.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:31:54] "GET /static/images/KIPP_Background.jpg HTTP/1.1" 200 -
+INFO:matplotlib.font_manager:generated new fontManager
+INFO:root:	 Job 1662503521 Start | 	['', 'Woodbury_White-Bear-Lake_2021', 'Centennial_Woodbury_2021', 'East-Ridge_Woodbury_2021', 'Woodbury_ChamplinPark_2021', 'Woodbury_Champlin-Park_2022', 'Eastview_Woodbury_2021', 'Woodbury_Rosemount_2021']	2022-09-06T17:32:01.680724
+INFO:root:	 Job 1662503521 Complete | 	['', 'Woodbury_White-Bear-Lake_2021', 'Centennial_Woodbury_2021', 'East-Ridge_Woodbury_2021', 'Woodbury_ChamplinPark_2021', 'Woodbury_Champlin-Park_2022', 'Eastview_Woodbury_2021', 'Woodbury_Rosemount_2021']	2022-09-06T17:32:06.986971
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:32:07] "[32mPOST /Endzone/KIPP/Run HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:32:07] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:32:07] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:32:07] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:32:07] "[36mGET /static/js/KIPP.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:32:07] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:32:07] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:matplotlib.font_manager:generated new fontManager
+INFO:root:	 Job 1662503623 Start | 	['Centennial_Woodbury_2021', 'East-Ridge_Woodbury_2021', 'Eastview_Woodbury_2021', 'Woodbury_Rosemount_2021', 'Woodbury_ChamplinPark_2021', 'Woodbury_White-Bear-Lake_2021']	2022-09-06T17:33:43.649529
+INFO:root:	 Job 1662503623 Complete | 	['Centennial_Woodbury_2021', 'East-Ridge_Woodbury_2021', 'Eastview_Woodbury_2021', 'Woodbury_Rosemount_2021', 'Woodbury_ChamplinPark_2021', 'Woodbury_White-Bear-Lake_2021']	2022-09-06T17:33:47.708767
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:33:47] "[32mPOST /Endzone/KIPP/Run HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:33:47] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:33:48] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:33:48] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:33:48] "[36mGET /static/js/KIPP.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:33:48] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:33:48] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:matplotlib.font_manager:generated new fontManager
+INFO:root:	 Job 1662503639 Start | 	['Woodbury_Champlin-Park_2022']	2022-09-06T17:33:59.721209
+INFO:root:	 Job 1662503639 Complete | 	['Woodbury_Champlin-Park_2022']	2022-09-06T17:34:03.489127
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:34:03] "[32mPOST /Endzone/KIPP/Run HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:34:03] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:34:03] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:34:03] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:34:03] "[36mGET /static/js/KIPP.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:34:03] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [06/Sep/2022 17:34:03] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:root:	 Job 1662597896 Start | 	['Burnsville_Park_2021']	2022-09-07T19:44:56.147004
+INFO:root:	 Job 1662597896 Complete | 	['Burnsville_Park_2021']	2022-09-07T19:44:57.550322
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662597900 Start | 	['Burnsville_Park_2021']	2022-09-07T19:45:00.753697
+INFO:root:	 Job 1662597900 Complete | 	['Burnsville_Park_2021']	2022-09-07T19:45:02.210566
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662597943 Start | 	['Burnsville_Park_2021']	2022-09-07T19:45:43.457731
+INFO:root:	 Job 1662597943 Complete | 	['Burnsville_Park_2021']	2022-09-07T19:45:44.901136
+INFO:root:	 Job 1662597949 Start | 	['Burnsville_Park_2021']	2022-09-07T19:45:49.067926
+INFO:root:	 Job 1662597949 Complete | 	['Burnsville_Park_2021']	2022-09-07T19:45:50.425200
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662597953 Start | 	['Burnsville_Park_2021']	2022-09-07T19:45:53.605552
+INFO:root:	 Job 1662597953 Complete | 	['Burnsville_Park_2021']	2022-09-07T19:45:54.977351
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:root:	 Job 1662597964 Start | 	['Burnsville_Park_2021']	2022-09-07T19:46:04.175914
+INFO:root:	 Job 1662597964 Complete | 	['Burnsville_Park_2021']	2022-09-07T19:46:05.606254
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662597968 Start | 	['Burnsville_Park_2021']	2022-09-07T19:46:08.779096
+INFO:root:	 Job 1662597968 Complete | 	['Burnsville_Park_2021']	2022-09-07T19:46:10.211993
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:46:33] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:46:33] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:46:33] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:46:33] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:root:	 Job 1662598017 Start | 	['Burnsville_Park_2021']	2022-09-07T19:46:57.811712
+INFO:root:	 Job 1662598017 Complete | 	['Burnsville_Park_2021']	2022-09-07T19:46:59.258613
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662598022 Start | 	['Burnsville_Park_2021']	2022-09-07T19:47:02.439455
+INFO:root:	 Job 1662598022 Complete | 	['Burnsville_Park_2021']	2022-09-07T19:47:03.869298
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:47:20] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:47:20] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:47:20] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:47:20] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:47:20] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:47:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:47:46] "GET /static/css/nav.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:47:46] "GET /static/css/Home.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:47:46] "GET /static/images/HomeBackground_Iphone.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:47:46] "GET /static/images/EndzoneLogo.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:47:46] "GET /static/images/HomeBackground.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:47:47] "GET /static/images/Endzone.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:47:48] "GET /Login HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:47:48] "GET /static/css/Login.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:01] "[32mPOST /LoginAttempt HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:01] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:01] "GET /static/css/Hub.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:01] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:01] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:07] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:07] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:07] "GET /static/css/Filterbar.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:07] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:07] "GET /static/js/DAT.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:07] "GET /static/leaflet_draw/leaflet.draw.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:07] "GET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:07] "GET /static/leaflet_draw/leaflet.draw.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:07] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.119 - - [07/Sep/2022 19:48:07] "GET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:48:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:48:48] "GET /static/css/Home.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:48:48] "GET /static/css/nav.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:48:48] "GET /static/images/EndzoneLogo.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:48:48] "GET /static/images/HomeBackground.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:48:48] "GET /static/images/HomeBackground_Iphone.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:48:49] "GET /static/images/Endzone.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:48:50] "GET /Login HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:48:50] "GET /static/css/Login.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:09] "[32mPOST /LoginAttempt HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:09] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:09] "GET /static/css/Hub.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:09] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:09] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:28] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:28] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:28] "GET /static/css/Filterbar.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:28] "GET /static/js/DAT.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:28] "GET /static/leaflet_draw/leaflet.draw.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:28] "GET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:28] "GET /static/leaflet_draw/leaflet.draw.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:28] "GET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:28] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:28] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:29] "GET /static/spatial/EndzoneNorth.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:29] "GET /static/spatial/FootballFieldBase.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:29] "GET /static/leaflet_draw/images/spritesheet.svg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:29] "GET /static/spatial/EndzoneSouth.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:29] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Farmington&year=2021&possession=Farmington&_=1662598168980 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:49:29] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Farmington&year=2021&drive=1&_=1662598168981 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:27] "GET /Endzone/GameManagement HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:27] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:27] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:27] "GET /static/css/GameManagement.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:27] "GET /static/css/Table.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:34] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:34] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:34] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:34] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:34] "GET /static/css/switch.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:34] "GET /static/css/SlimTable.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:34] "GET /static/js/Game.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:34] "GET /static/spatial/FootballFieldBase.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:34] "GET /static/spatial/EndzoneNorth.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:34] "GET /static/spatial/EndzoneSouth.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:34] "GET /static/spatial/Pressure.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:35] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:50:35] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:51:19] "[36mGET /static/css/Game.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:51:19] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:51:19] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:51:19] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:07] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:52:18] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:32] "GET /Endzone/GameManagement HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:32] "GET /static/css/GameManagement.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:32] "GET /static/css/Table.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:32] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:32] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:37] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:37] "GET /static/css/SlimTable.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:37] "GET /static/js/Game.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:37] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:37] "GET /static/css/switch.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:37] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:37] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:38] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:38] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:38] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:38] "GET /static/spatial/Pressure.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:38] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.136 - - [07/Sep/2022 19:52:38] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:07] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:21] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:26] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:26] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:26] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:26] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:26] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:26] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:26] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:27] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:27] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:27] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:27] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:27] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:27] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:27] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:42] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:53] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:54:59] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:20] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:27] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:49] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:54] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:54] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:54] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:54] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:54] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:54] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:54] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:55] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:55] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:55] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:55] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:55] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:55] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:55:55] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:15] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:25] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:25] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:25] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:25] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:25] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:25] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:25] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:26] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:26] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:26] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:26] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:26] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:26] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:26] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:49] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:56:55] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:57:23] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:03] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:13] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:24] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:24] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:24] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:24] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:24] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:24] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:24] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:25] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:25] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:25] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:25] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:25] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:25] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:25] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:41] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:41] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:41] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:41] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:41] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:41] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:41] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:42] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:42] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:42] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:42] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:42] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:42] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:58:42] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:01] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:01] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:01] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:01] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:01] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:01] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:01] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:01] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:01] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:01] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:01] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:01] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:01] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:02] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:13] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:13] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:13] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:13] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:13] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:13] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:13] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:13] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:13] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:13] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:13] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:13] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:14] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:14] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:30] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:42] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:49] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:53] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:53] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:53] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:53] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:53] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:53] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:53] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:53] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:53] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:53] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:53] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:53] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:53] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:54] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 19:59:58] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:03] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:14] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:14] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:14] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:14] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:14] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:14] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:14] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:14] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:14] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:14] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:14] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:14] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:14] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:15] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "POST /Endzone/Game HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "GET /static/css/Game.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "[36mGET /static/css/switch.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "[36mGET /static/css/SlimTable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "[36mGET /static/js/Game.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "[36mGET /static/spatial/Pressure.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "GET /endzone/rest/getdata?teamcode=EVHS22&team=Test&opponent=Test&year=2022&full=false HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:00:27] "GET /endzone/rest/getformation HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:01:26] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:01:26] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:01:26] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:01:26] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:02:01] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:02:01] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:02:01] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:02:01] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:02:01] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:02:21] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:02:21] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:02:21] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:02:21] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:02:21] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:root:	 Job 1662598954 Start | 	['Burnsville_Park_2021']	2022-09-07T20:02:34.722587
+INFO:root:	 Job 1662598954 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:02:36.185209
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662598959 Start | 	['Burnsville_Park_2021']	2022-09-07T20:02:39.386842
+INFO:root:	 Job 1662598959 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:02:40.817447
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:root:	 Job 1662599035 Start | 	['Burnsville_Park_2021']	2022-09-07T20:03:55.878371
+INFO:root:	 Job 1662599035 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:03:57.950953
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662599041 Start | 	['Burnsville_Park_2021']	2022-09-07T20:04:01.379562
+INFO:root:	 Job 1662599041 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:04:02.856760
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662599053 Start | 	['Burnsville_Park_2021']	2022-09-07T20:04:13.218230
+INFO:root:	 Job 1662599058 Start | 	['Burnsville_Park_2021']	2022-09-07T20:04:18.311760
+INFO:root:	 Job 1662599058 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:04:19.701456
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662599062 Start | 	['Burnsville_Park_2021']	2022-09-07T20:04:23.001288
+INFO:root:	 Job 1662599062 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:04:24.429066
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662599083 Start | 	['Burnsville_Park_2021']	2022-09-07T20:04:43.015493
+INFO:root:	 Job 1662599083 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:04:44.591548
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662599088 Start | 	['Burnsville_Park_2021']	2022-09-07T20:04:48.193261
+INFO:root:	 Job 1662599088 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:04:49.706837
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662599123 Start | 	['Burnsville_Park_2021']	2022-09-07T20:05:23.337542
+INFO:root:	 Job 1662599123 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:05:24.739868
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662599128 Start | 	['Burnsville_Park_2021']	2022-09-07T20:05:28.043344
+INFO:root:	 Job 1662599128 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:05:29.487543
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:40] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:40] "[36mGET /static/images/HomeBackground.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:40] "[36mGET /static/images/HomeBackground_Iphone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:40] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:40] "[36mGET /static/css/Home.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:40] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:41] "GET /Login HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:41] "[36mGET /static/css/Login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:46] "[32mPOST /LoginAttempt HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:46] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:46] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:46] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:46] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:52] "GET /Endzone/GameManagement HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:52] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:52] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:52] "[36mGET /static/css/GameManagement.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:52] "[36mGET /static/css/Table.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:57] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:57] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:57] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:57] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:59] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:05:59] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:root:	 Job 1662599179 Start | 	['Burnsville_Park_2021']	2022-09-07T20:06:19.237722
+INFO:root:	 Job 1662599179 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:06:20.641278
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662599183 Start | 	['Burnsville_Park_2021']	2022-09-07T20:06:23.897765
+INFO:root:	 Job 1662599183 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:06:25.276504
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:07:19] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:07:19] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:07:19] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:07:19] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:07:19] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:07:49] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:07:49] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:07:49] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:07:49] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:07:49] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:07:53] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:07:53] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:08:27] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:08:27] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:08:27] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:08:27] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:08:27] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:08:36] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:08:36] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:08:36] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:08:36] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:08:36] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:08:42] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:08:42] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:10] "GET /Endzone/Hub HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:10] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:10] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:10] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:10] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:15] "GET /Endzone/GameManagement HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:15] "[36mGET /static/css/GameManagement.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:15] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:15] "[36mGET /static/css/Table.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:15] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:22] "[36mGET /static/css/Hub.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:22] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:37] "GET /Endzone/Formations HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:37] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:37] "[36mGET /static/css/Table.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:37] "GET /static/css/Formations.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:37] "GET /static/js/Formation.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:37] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "GET /static/css/Filterbar.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "GET /static/leaflet_draw/leaflet.draw.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "GET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "GET /static/js/DAT.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "GET /static/leaflet_draw/leaflet.draw.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "GET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "GET /static/leaflet_draw/images/spritesheet.svg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599382434 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:09:42] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599382435 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:10:57] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=4&_=1662599382436 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:10] "GET /Endzone/DAT/GetParam?team=Eastview&opponent=LN&year=2022&possession=LN&_=1662599382437 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:10] "GET /Endzone/DAT/GetData?team=Eastview&opponent=LN&year=2022&drive=3&_=1662599382438 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:19] "GET /Endzone/DAT/GetParam?team=Woodbury&opponent=White-Bear-Lake&year=2021&possession=White-Bear-Lake&_=1662599382439 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:19] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=White-Bear-Lake&year=2021&drive=2&_=1662599382440 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:29] "GET /Endzone/DAT/GetParam?team=Woodbury&opponent=White-Bear-Lake&year=2021&possession=Woodbury&_=1662599382441 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:29] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=White-Bear-Lake&year=2021&drive=1&_=1662599382442 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:45] "GET /Endzone/DAT/GetParam?team=Woodbury&opponent=Champlin-Park&year=2022&possession=Champlin-Park&_=1662599382443 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:45] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=Champlin-Park&year=2022&drive=&_=1662599382444 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:47] "GET /Endzone/DAT/GetParam?team=Woodbury&opponent=Champlin-Park&year=2022&possession=Woodbury&_=1662599382445 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:47] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=Champlin-Park&year=2022&drive=1&_=1662599382446 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:49] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=Champlin-Park&year=2022&drive=2&_=1662599382447 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:50] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=Champlin-Park&year=2022&drive=1&_=1662599382448 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:52] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=Champlin-Park&year=2022&drive=2&_=1662599382449 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:56] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=Champlin-Park&year=2022&drive=1&_=1662599382450 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:57] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=Champlin-Park&year=2022&drive=3&_=1662599382451 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:11:59] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=Champlin-Park&year=2022&drive=4&_=1662599382452 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:01] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=Champlin-Park&year=2022&drive=5&_=1662599382453 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:02] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=Champlin-Park&year=2022&drive=6&_=1662599382454 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:04] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=Champlin-Park&year=2022&drive=7&_=1662599382455 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:05] "GET /Endzone/DAT/GetData?team=Woodbury&opponent=Champlin-Park&year=2022&drive=1&_=1662599382456 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[36mGET /static/leaflet_draw/images/spritesheet.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599565427 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:12:45] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599565428 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[36mGET /static/leaflet_draw/images/spritesheet.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:00] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:01] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599580930 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:01] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599580931 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[36mGET /static/leaflet_draw/images/spritesheet.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599596552 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:16] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599596553 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[36mGET /static/leaflet_draw/images/spritesheet.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:41] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599621634 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:42] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599621635 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[36mGET /static/leaflet_draw/images/spritesheet.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:51] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:52] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599631970 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:13:52] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599631971 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[36mGET /static/leaflet_draw/images/spritesheet.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599644252 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:04] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599644253 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:14] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:14] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:14] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:14] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:14] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:14] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:14] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:14] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:14] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:14] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:15] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:15] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:15] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:15] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:15] "[36mGET /static/leaflet_draw/images/spritesheet.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:15] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:15] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599655073 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:15] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599655074 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:20] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:20] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:20] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:20] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:20] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:20] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:20] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:20] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:20] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:20] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:21] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:21] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:21] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:21] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:21] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:21] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599661109 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:21] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599661110 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:26] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:26] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:26] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:26] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:26] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:26] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:26] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:26] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:26] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:26] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:26] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:27] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:27] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:27] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:27] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:27] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599666988 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:27] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599666989 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599684457 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:44] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599684458 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599692193 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:52] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599692194 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:56] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599696660 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:14:57] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599696661 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:22] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:22] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:22] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:22] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:22] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:22] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:22] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:22] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:22] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:22] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:23] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:23] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:23] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:23] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:23] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:23] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599723052 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:23] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599723053 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599727474 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:27] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599727475 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:37] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:37] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:37] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:37] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:37] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:37] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:37] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:37] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:37] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:37] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:38] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:38] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:38] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:38] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:38] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:38] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599738003 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:38] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599738004 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599743314 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:43] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599743315 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599754276 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:15:54] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599754277 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599762231 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:02] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599762232 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599776173 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:16] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599776174 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:44] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:44] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:44] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:44] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:44] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:44] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:44] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:44] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:44] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:44] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:45] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:45] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:45] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:45] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:45] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:45] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662599805128 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:16:45] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662599805129 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:20:22] "GET /Endzone/GameManagement HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:20:22] "[36mGET /static/css/GameManagement.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:20:22] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:20:22] "[36mGET /static/css/Table.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:20:22] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:20:33] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:20:33] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:20:33] "GET /static/css/TARS.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:20:33] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:20:33] "GET /static/js/TARS.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:21:08] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:21:08] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:21:08] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:21:08] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:21:08] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:21:08] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:21:18] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:21:18] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:21:18] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:21:18] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:21:18] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:21:18] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:07] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:07] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:07] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:07] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:07] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:07] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:12] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=No%20Filter&hash=No%20Filter&games=&possession=Blaine HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:22] "GET /Endzone/TARS/Run?down=1&distance=Long&yard=Backed%20Up&hash=Left&games=&possession=Eastview HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:50] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:50] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:50] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:50] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:50] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:22:50] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:01] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:01] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:01] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:01] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:01] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:01] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:07] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:07] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:07] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:07] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:07] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:07] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:20] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:20] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:20] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:20] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:20] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:20] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:39] "GET /Endzone/TARS/Run?down=1&distance=Long&yard=Backed%20Up&hash=Left&games=&possession=LN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:55] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:55] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:55] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:55] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:55] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:23:55] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600281 Start | 	['Burnsville_Park_2021']	2022-09-07T20:24:41.082703
+INFO:root:	 Job 1662600281 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:24:42.534973
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:24:44] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:24:44] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:24:44] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:24:44] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:24:44] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:24:44] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:24:51] "GET /Endzone/TARS/Run?down=No%20Filter&distance=Long&yard=Midfield&hash=Middle&games=&possession=Blaine HTTP/1.1" 200 -
+INFO:root:	 Job 1662600312 Start | 	['Burnsville_Park_2021']	2022-09-07T20:25:12.148625
+INFO:root:	 Job 1662600312 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:25:13.544022
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600316 Start | 	['Burnsville_Park_2021']	2022-09-07T20:25:16.740413
+INFO:root:	 Job 1662600316 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:25:18.161445
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:25:19] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:25:19] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:25:19] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:25:19] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:25:19] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:25:19] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:25:25] "GET /Endzone/TARS/Run?down=No%20Filter&distance=Long&yard=Backed%20Up&hash=Middle&games=&possession=Blaine HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600336 Start | 	['Burnsville_Park_2021']	2022-09-07T20:25:36.182880
+INFO:root:	 Job 1662600336 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:25:37.572046
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\utils_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600379 Start | 	['Burnsville_Park_2021']	2022-09-07T20:26:19.973646
+INFO:root:	 Job 1662600379 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:26:21.402691
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\utils_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600391 Start | 	['Burnsville_Park_2021']	2022-09-07T20:26:31.677186
+INFO:root:	 Job 1662600391 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:26:33.087975
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600468 Start | 	['Burnsville_Park_2021']	2022-09-07T20:27:48.681097
+INFO:root:	 Job 1662600468 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:27:50.123333
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:root:	 Job 1662600475 Start | 	['Burnsville_Park_2021']	2022-09-07T20:27:55.475115
+INFO:root:	 Job 1662600475 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:27:58.002229
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600481 Start | 	['Burnsville_Park_2021']	2022-09-07T20:28:01.175261
+INFO:root:	 Job 1662600481 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:28:02.587973
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:28:10] "GET /Endzone/TARS/Run?down=No%20Filter&distance=Long&yard=Backed%20Up&hash=Middle&games=&possession=Blaine HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600519 Start | 	['Burnsville_Park_2021']	2022-09-07T20:28:39.162956
+INFO:root:	 Job 1662600519 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:28:40.546474
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600523 Start | 	['Burnsville_Park_2021']	2022-09-07T20:28:43.815202
+INFO:root:	 Job 1662600523 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:28:45.187804
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600540 Start | 	['Burnsville_Park_2021']	2022-09-07T20:29:00.189887
+INFO:root:	 Job 1662600540 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:29:01.633974
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600545 Start | 	['Burnsville_Park_2021']	2022-09-07T20:29:05.420475
+INFO:root:	 Job 1662600545 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:29:06.834048
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:29:08] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=Midfield&hash=Middle&games=&possession=Blaine HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:29:12] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=Backed%20Up&hash=Middle&games=&possession=Blaine HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:29:14] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=Scoring%20Position&hash=Middle&games=&possession=Blaine HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:29:19] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=Scoring%20Position&hash=Left&games=&possession=LN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:29:21] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=Midfield&hash=Left&games=&possession=LN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:29:23] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=Midfield&hash=Right&games=&possession=LN HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600585 Start | 	['Burnsville_Park_2021']	2022-09-07T20:29:45.911180
+INFO:root:	 Job 1662600585 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:29:47.318238
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600607 Start | 	['Burnsville_Park_2021']	2022-09-07T20:30:07.599208
+INFO:root:	 Job 1662600607 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:30:09.009623
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600658 Start | 	['Burnsville_Park_2021']	2022-09-07T20:30:58.855683
+INFO:root:	 Job 1662600658 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:31:00.248077
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600663 Start | 	['Burnsville_Park_2021']	2022-09-07T20:31:03.470968
+INFO:root:	 Job 1662600663 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:31:04.835619
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:31:09] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:31:09] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:31:09] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:31:09] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:31:09] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:31:09] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:31:13] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=No%20Filter&hash=Middle&games=&possession=Blaine HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:31:19] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=No%20Filter&hash=Middle&games=&possession=LN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:31:21] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=Midfield&hash=Middle&games=&possession=LN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:31:23] "GET /Endzone/TARS/Run?down=No%20Filter&distance=Long&yard=Midfield&hash=Middle&games=&possession=LN HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600711 Start | 	['Burnsville_Park_2021']	2022-09-07T20:31:51.746173
+INFO:root:	 Job 1662600711 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:31:53.157622
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:root:	 Job 1662600718 Start | 	['Burnsville_Park_2021']	2022-09-07T20:31:58.658967
+INFO:root:	 Job 1662600718 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:32:00.059987
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600723 Start | 	['Burnsville_Park_2021']	2022-09-07T20:32:03.255072
+INFO:root:	 Job 1662600723 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:32:04.644587
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:32:10] "GET /Endzone/TARS/Run?down=No%20Filter&distance=Long&yard=Midfield&hash=Middle&games=&possession=LN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:32:16] "GET /Endzone/TARS/Run?down=No%20Filter&distance=Medium&yard=Midfield&hash=Middle&games=&possession=LN HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600752 Start | 	['Burnsville_Park_2021']	2022-09-07T20:32:32.610715
+INFO:root:	 Job 1662600757 Start | 	['Burnsville_Park_2021']	2022-09-07T20:32:37.050939
+INFO:root:	 Job 1662600757 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:32:38.481622
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662600761 Start | 	['Burnsville_Park_2021']	2022-09-07T20:32:41.814695
+INFO:root:	 Job 1662600761 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:32:43.229115
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:32:48] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:32:48] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:32:48] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:32:48] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:32:48] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:32:48] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:32:49] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=No%20Filter&hash=No%20Filter&games=&possession=Blaine HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:32:51] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=No%20Filter&hash=No%20Filter&games=&possession=Blaine HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:32:56] "GET /Endzone/TARS/Run?down=No%20Filter&distance=Long&yard=Midfield&hash=Left&games=&possession=Blaine HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:36:43] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=Midfield&hash=Left&games=&possession=Blaine HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662601044 Start | 	['Burnsville_Park_2021']	2022-09-07T20:37:24.273190
+INFO:root:	 Job 1662601044 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:37:25.696690
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662601101 Start | 	['Burnsville_Park_2021']	2022-09-07T20:38:21.512897
+INFO:root:	 Job 1662601101 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:38:22.921594
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662601120 Start | 	['Burnsville_Park_2021']	2022-09-07T20:38:40.947959
+INFO:root:	 Job 1662601120 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:38:42.351667
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662601156 Start | 	['Burnsville_Park_2021']	2022-09-07T20:39:16.539025
+INFO:root:	 Job 1662601156 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:39:17.956107
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662601161 Start | 	['Burnsville_Park_2021']	2022-09-07T20:39:21.204539
+INFO:root:	 Job 1662601161 Complete | 	['Burnsville_Park_2021']	2022-09-07T20:39:22.610639
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:39:24] "GET /Endzone/TARS/Run?down=No%20Filter&distance=No%20Filter&yard=No%20Filter&hash=No%20Filter&games=&possession=Blaine HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone_Alpha\\Dev\\Endzone\\KIPP.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:	 Job 1662601834 Start | 	['', 'LN_Totino-Grace_2021', 'Edina_LN_2021', 'LN_Stillwater_2021', 'LN_Maple-Grove_2021', 'White-Bear-Lake_LN_2021', 'LN_Totino-Grace_2022', 'LN_Maple Grove_2022', 'LN_Stillwater_2022', 'Eastview_LN_2022']	2022-09-07T20:50:34.228920
+INFO:root:	 Job 1662601834 Complete | 	['', 'LN_Totino-Grace_2021', 'Edina_LN_2021', 'LN_Stillwater_2021', 'LN_Maple-Grove_2021', 'White-Bear-Lake_LN_2021', 'LN_Totino-Grace_2022', 'LN_Maple Grove_2022', 'LN_Stillwater_2022', 'Eastview_LN_2022']	2022-09-07T20:50:39.057532
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:39] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:50] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:50] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:50] "[36mGET /static/css/DAT.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:50] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:50] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:50] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:50] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:50] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:50] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:50] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:51] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:51] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:51] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:51] "[36mGET /static/leaflet_draw/images/spritesheet.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:52] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662601851897 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:52] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662601851898 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:53] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:53] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:53] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:53] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:50:53] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:54:57] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:54:57] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:58:19] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:58:19] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:58:19] "GET /static/css/TARS.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:58:19] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:58:19] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:58:19] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:58:50] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:58:50] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:58:50] "GET /static/css/TARS.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:58:50] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:58:50] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:58:50] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:01] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:01] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:01] "GET /static/css/TARS.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:01] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:01] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:01] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:09] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:09] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:09] "GET /static/css/TARS.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:09] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:09] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:09] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:21] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:21] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:21] "GET /static/css/TARS.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:21] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:21] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:21] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:36] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:36] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:36] "GET /static/css/TARS.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:36] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:36] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:36] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:47] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 20:59:48] "[36mGET /static/css/TARS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:00:09] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:00:09] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:00:09] "GET /static/css/TARS.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:00:09] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:00:09] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:00:09] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:00:53] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:00:53] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:00:53] "GET /static/css/TARS.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:00:53] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:00:53] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:00:53] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:06] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:06] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:06] "GET /static/css/TARS.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:06] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:06] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:06] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:13] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:13] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:13] "GET /static/css/TARS.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:13] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:13] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:13] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:40] "GET /Endzone/TARS HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:40] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:40] "GET /static/css/TARS.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:40] "[36mGET /static/js/TARS.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:40] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:01:40] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "GET /Endzone/DAT HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[36mGET /static/css/DAT.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[36mGET /static/js/DAT.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:00] "[36mGET /static/leaflet_draw/images/spritesheet.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:01] "GET /Endzone/DAT/GetParam?team=Burnsville&opponent=Park&year=2021&possession=Park&_=1662602520852 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:01] "GET /Endzone/DAT/GetData?team=Burnsville&opponent=Park&year=2021&drive=2&_=1662602520853 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:04] "GET /Endzone/GameManagement HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:04] "[36mGET /static/css/GameManagement.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:04] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:04] "[36mGET /static/css/Table.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:04] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:08] "POST /Endzone/Dashboard HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:08] "GET /static/css/Dashboard.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:08] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:08] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:08] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:08] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:08] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:08] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:08] "GET /static/js/Dashboard.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:08] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:09] "[33mGET /static/leaflet_draw/leaflet.draw-src.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:09] "[36mGET /static/leaflet_draw/images/spritesheet.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:09] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:09] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:09] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:24] "[36mGET /static/css/GameManagement.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:24] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [07/Sep/2022 21:02:24] "[36mGET /static/css/Table.css HTTP/1.1[0m" 304 -

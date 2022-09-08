@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin Request</title>
+
+        <!-- Website Icon Credit: https://www.iconfinder.com/icons/9177494/family_peace_protect_safe_icon-->
+        <link rel="icon" type="image/x-icon" href= "{{ url_for('static', filename='images/Endzone.jpg') }}">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "stylesheet" href="{{ url_for('static', filename='css/JoinTeam.css') }}">
+
+    </head>
+    <body onload = "ValidateRequest()">
+        <h3>Join a Team</h3>
+        <div class = "container">
+            <form action = "{{url_for('Join')}}" id="form" method = "POST">
+                <!-- Name Section -->
+                <label>First Name:</label>
+                <input type="text" name = "first" maxlength="25" required><br>
+                <label>Last Name:</label>
+                <input type="text" name = "last" maxlength="25" required><br>
+
+                <!-- Email Section -->
+                <label>Email Address:</label>
+                <input type="text" name = "email" maxlength="320" id = "email" onfocusout="ValidateEmail()" required><br>
+
+                <!-- Password Section -->
+                <label>Password:</label>
+                <input type="password" name = "password" maxlength="128" id = "in_password" required><br>
+
+                <label>Retype Password:</label>
+                <input type="password" maxlength="128" name = "redo_password" id = "redo_password" required><br>
+
+                <!-- Team Code Section -->
+                <label>Team Code:</label>
+                <input type="text" name = "teamcode" maxlength="320" id = "teamcode" required><br>
+
+                <!-- Submit Section -->
+                <div class = "subcontainer">
+                    <input type = "button" class = "submit" value="Submit" onclick="JoinTeam()"></button>
+                    <button class = "cancel" onclick = "window.location = '/'">Cancel</button>
+                    <p id = "message"></p>
+                </div>
+            </form>
+            <script type="text/javascript">
+                // Check Email
+                function ValidateEmail() 
+                {
+                    email = email.value
+                    if (email == "")
+                    {
+                        return;
+                    }
+                    else if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
+                    {
+                        return;
+                    }
+                    else
+                    {
+                        alert("You have entered an invalid email address.")
+                        return;
+                    }
+                }
+                // Check First Password
+                function ValidateFirstPassword()
+                {
+                    const password = document.getElementById("in_password").value;
+                    if(password == "")
+                    {
+                        return;
+                    }
+                    
+                    else if(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/.test(password))
+                    {
+                        return;
+                    } 
+                    else 
+                    {
+                        alert("Password must be 6-20 characters and include a uppercase, lowercase, number and special character.");
+                    }
+
+
+                }
+
+                // Check Second Password
+                function ValidatePassword()
+                {
+                    ValidateFirstPassword()
+                    const password = document.getElementById("in_password");
+                    const redo_password = document.getElementById("redo_password")
+
+                    if(password.value == redo_password.value)
+                    {
+                        return;
+                    }
+                    else if (redo_password.length != 0 && password.length != 0)
+                    {
+                        alert("Passwords do not match.");
+                    }
+                }
+                function JoinTeam()
+                {
+                    ValidatePassword()
+                    document.getElementById("form").submit();
+                }
+                function ValidateRequest()
+                {
+                    message = document.getElementById("message").innerHTML = "{{ message }}"
+                }
+            </script>
+        </div>
+    </body>
+</html>

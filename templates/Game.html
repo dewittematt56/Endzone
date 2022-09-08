@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Endzone - Game</title>
+        <link rel="icon" type="image/x-icon" href= "{{ url_for('static', filename='images/Endzone.jpg') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/Game.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/nav.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/switch.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/SlimTable.css') }}">
+
+        <!-- Leaflet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+         integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="">
+        </script>
+        <script src="https://unpkg.com/georaster-layer-for-leaflet/dist/georaster-layer-for-leaflet.min.js"></script>
+
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="{{ url_for('static', filename='js/Game.js') }}"></script>
+    </head>
+
+    <body>
+        <div class="topnav">
+            <div class="logo-image">
+              <img src="{{ url_for('static', filename='images/EndzoneLogo.png') }}" class="img-fluid">
+          </div>
+            <a href="/Endzone/Hub">Hub</a>
+            <a href="/Endzone/GameManagement" class="active">Game Management</a>
+            <div class="dropdown">
+              <button class="dropbtn">Team Management
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href = "/Endzone/Formations">Formations</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn" >Pre-Game Analysis
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="/Endzone/KIPP">KIPP</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">In-Game Analysis
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href = "/Endzone/DAT">Drive Analyzer</a>
+                <a href="/Endzone/CASE">CASE</a>
+                <a href="/Endzone/TARS">TARS</a>
+              </div>
+            </div>
+            <div class = "topnav-right">
+              <a href = "/Logout">{{ User }}</a>
+            </div>
+        </div>
+        <div class="sidenav">
+          <a href = "/Logout">{{ User }}</a>
+          <a class = "active" href="/Endzone/Hub">Hub</a>
+          <a href="/Endzone/GameManagement">Game Management</a>
+          <a href = "/Endzone/Formations">Formations</a>
+          <a href="/Endzone/KIPP">Pre-Game KIPP</a>
+          <a href = "/Endzone/DAT">In-Game Drive Analyzer</a>
+          <a href="/Endzone/CASE">In-Game CASE</a>
+          <a href="/Endzone/TARS">In-Game TARS</a>
+      </div>   
+        <form id = "form">
+          <!-- Top bar section -->
+          <div class = "sub_bar" id = "sub_bar">
+            <!-- Metadata Elements -->
+            <input type="text" id = "simplified" name="simplified" style="display: none;">
+            <input type="text" name ="row_id" id = "row_id" style="display: none;"/>
+            <input type="text" name ="action" id = "action" style="display: none;"/>
+
+            <!-- Normal elements-->
+            <label>Possession:</label>
+            <select name = "possession" class="Hash" id = "Possession" onchange="changePossession('{{ metadata.team}}')">
+              <option value = "{{ metadata.team}}">{{ metadata.team}}</option>
+              <option value = "{{ metadata.opponent}}">{{ metadata.opponent}}</option>
+            </select>
+
+            <label>Drive Number:</label>
+            <input name = "drivenum" type="text" id = "drivenum" class = "lbloutput" required>
+            <button type="button" class = "newdrive" onclick="newdrive()">New Drive</button>
+
+            <label>Play Num:</label>
+            <input name = "playnum" type="text" id = "playnum" class = "lbloutput" required>
+
+            <label>Quarter:</label>
+            <select class = "Down" id ="quarter" name="quarter" required>
+              <option value = "1">1</option>
+              <option value = "2">2</option>
+              <option value = "3">3</option>
+              <option value = "4">4</option>
+            </select>
+            
+            <label>Yard Line:</label>
+            <input name = "yard" id = "yard" type="text" class = "lbloutput" required>
+
+            <label>Hash:</label>
+            <select name = "hash" class="Hash" id = "hash">
+              <option value = "Right">Right</option>
+              <option value = "Middle">Middle</option>
+              <option value = "Left">Left</option>
+            </select>
+
+            <label>Down:</label>
+            <select name = "down" class = "Down" id ="down">
+              <option value = "1">1</option>
+              <option value = "2">2</option>
+              <option value = "3">3</option>
+              <option value = "4">4</option>
+            </select>
+
+            
+            <label>Distance:</label>
+            <input name = "distance" type="text" id = "distance" class = "lbloutput" required>
+          </div>
+
+          <!-- Main Form Body -->
+          <div class = "main_form">
+            <label class = "main_form_label">Toggle Simplified Form:</label>
+            <label class="switch switch-left-right">
+              <input id = "simplify" class="switch-input" type="checkbox" />
+              <span class="switch-label" data-on="On" data-off="Off"></span> 
+              <span class="switch-handle"></span> 
+            </label>
+            <label class = "main_form_label">Defensive Formation:</label>
+            <select name = "dformation" id = "dformation">
+              <option>3-4</option>
+              <option>4-3</option>
+              <option>5-2</option>
+              <option>Goal Line</option>
+            </select>
+            <br>
+            <label class = "main_form_label">Formation:</label>
+            <select name = "formation" id = "formation"></select>
+            <select name = "strength" id = "strength">
+              <option>Left</option>
+              <option>Right</option>
+              <option>Balanced</option>
+            </select><br>
+
+            <label class = "main_form_label">Play Type:</label>
+            <select class = "playtype" name = "playtype" id = "playtype" onchange="PlayTypeUpdate()">
+              <option>Not Selected</option>
+              <option>Inside Run</option>
+              <option>Outside Run</option>
+              <option>Pocket Pass</option>
+              <option>Boot Pass</option>
+              <option>Unknown</option>
+            </select>
+
+            <select name = "playdirection" id = "playdir">
+              <option>Not Selected</option>
+              <option>Left</option>
+              <option>Right</option>
+            </select><br>
+
+            <label id = "passzoneLbl" class = "main_form_label">Pass Zone:</label>
+            <select name = "passzone" id = "passzone">
+              <option>Non Passing Play</option>
+              <option>Flats - Left</option>
+              <option>Flats - Right</option>
+              <option>Middle - Left</option>
+              <option>Middle - Middle</option>
+              <option>Middle - Right</option>
+              <option>Deep - Left</option>
+              <option>Deep - Right</option>
+            </select><br>
+
+            <label class = "main_form_label" id ="coverage_label">Coverage:</label>
+            <select id = "coverage" name="coverage">
+              <option>Not Selected</option>
+              <option>Zone 2</option>
+              <option>Zone 3</option>
+              <option>Zone 4</option>
+              <option>Man 0</option>
+              <option>Man 1</option>
+              <option>Man 2</option>
+              <option>Man 3</option>
+              <option>Unknown</option>
+            </select><br>
+
+            <label class = "main_form_label" id = "ballcarrierID">Ball Carrier/Reciever:</label>
+            <input type="number" max=99 min=0 value="" class = "ballcarrier" id = "ballcarrier" name="ballcarrier"><br>
+
+            <label class = "main_form_label" id = "PressureID">Pressure:</label>
+            <div id = "map2" class = "map2"></div>
+            <button type="button" id = "submit" class = "submit" onclick = "AddPlay()">Add Play</button>
+
+            <!-- Pressure -->
+            <input type="text" id = "pressure_left" name="pressure_left" style="display: none;">
+            <input type="text" id = "pressure_right" name="pressure_right" style="display: none;">
+            <input type="text" id = "pressure_middle" name="pressure_middle" style="display: none;">
+            <input type="text" id = "pressure_stunt" name="pressure_stunt" style="display: none;">
+
+            <!-- Location & Result -->
+            <input type="text" id = "result" name="result" style="display: none;">
+            <input type="text" id = "result_lat" name="result_lat" style="display: none;">
+            <input type="text" id = "result_lon" name="result_lon" style="display: none;">
+
+            <input type="text" id = "lat" name="lat" style="display: none;">
+            <input type="text" id = "lon" name="lon" style="display: none;">
+        </form>
+          <button type='button' class = "clearmap" onclick="clearmap()">Clear Map</button>
+      </div>
+      <div id = "map" class = "map"></div>
+      <div id = "tablediv" class = "tablediv">
+        <table id = "table">
+          <thead>
+            <tr>
+                <th>Play #</th>
+                <th>Drive #</th>
+                <th>Possession</th>
+                <th>Yard</th>
+                <th>Hash</th>
+                <th>Down</th>
+                <th>Distance</th>
+                <th>Formation</th>
+                <th>Strength</th>
+                <th>Play Type</th>
+                <th>Play Dir</th>
+                <th>Pass Zone</th>
+                <th>D-Formation</th>
+                <th>Coverage</th>
+                <th>Pressure Left</th>
+                <th>Pressure Middle</th>
+                <th>Pressure Right</th>
+                <th>Result</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody id = "tbody"></tbody>
+        </table>
+      </div>
+    </body>
+    <script>
+      // Global Variables
+      const PlayData = Object();
+      PlayData.team = '{{ metadata.team }}';
+      PlayData.opponent = '{{ metadata.opponent }}';
+      PlayData.possession = '{{ plays[0].Possession }}'
+      PlayData.teamcode = '{{ metadata.team_code }}';
+      PlayData.year = '{{ metadata.year }}';
+      PlayData.playnum = parseInt('{{ plays[0].PlayNum }}') + 1
+      PlayData.quarter = '{{ plays[0].Quarter }}';
+      PlayData.drive = parseInt('{{ plays[0].Drive }}')
+      PlayData.simplified = '{{ metadata.simplified }}';
+      PlayData.pright = 0;
+      PlayData.pmiddle = 0;
+      PlayData.pleft = 0;
+      PlayData.pstunt =  0;
+      PlayData.dformation = '{{ plays[0].D_Formation }}';
+      PlayData.formation = '{{ plays[0].Formation }}';
+      PlayData.result = '{{ plays[0].Result }}';
+      PlayData.distance = '{{ plays[0].Distance }}';
+
+      if(PlayData.playnum == 1){PlayData.down = parseInt('{{ plays[0].Down }}')}
+      else {PlayData.down = parseInt('{{ plays[0].Down }}') + 1;}
+
+      PlayData.yard = '{{ plays[0].Yard }}';
+      PlayData.lat = '{{ plays[0].Result_Lat }}';
+      PlayData.lon = '{{ plays[0].Result_Lon }}';
+      if(PlayData.distance - PlayData.result <= 0)
+      {
+        PlayData.distance = 10;
+        PlayData.down = 1;
+      }
+      else
+      {
+        PlayData.distance = PlayData.distance - PlayData.result;
+      }
+      // Play logic is here!
+      if(PlayData.down == 5)
+      {
+        PlayData.down = 1;
+        PlayData.distance = 10;
+      }
+    
+      // Display
+      document.getElementById("playnum").value = PlayData.playnum;
+      document.getElementById("down").value = PlayData.down;
+      document.getElementById("distance").value = PlayData.distance;
+      document.getElementById("drivenum").value = PlayData.drive;
+      document.getElementById("quarter").value = PlayData.quarter;
+      document.getElementById("yard").value = PlayData.yard;
+      document.getElementById("dformation").value = PlayData.dformation;
+      document.getElementById("Possession").value = PlayData.possession;
+      document.getElementById("simplify").addEventListener("change", function(e){
+        if(document.getElementById("simplify").checked)
+        {
+          document.getElementById("map2").style.display = "none"
+          document.getElementById("PressureID").style.display = "none"
+          document.getElementById("coverage").style.display = "none"
+          document.getElementById("coverage_label").style.display = "none"
+          document.getElementById("ballcarrierID").style.display = "none"
+          document.getElementById("ballcarrier").style.display = "none"
+          metadata.simplified = "true"
+        }
+        else 
+        {
+          document.getElementById("map2").style.display = "block"
+          document.getElementById("PressureID").style.display = "inline"
+          document.getElementById("coverage").style.display = "inline"
+          document.getElementById("coverage_label").style.display = "inline"
+          document.getElementById("ballcarrierID").style.display = "inline"
+          document.getElementById("ballcarrier").style.display = "inline"
+          metadata.simplified = "false"
+        }
+      })
+      document.getElementById("passzoneLbl").style.display = "none";
+      document.getElementById("passzone").style.display = "none";
+      document.getElementById("formation").addEventListener("click", Formation_Change)
+      Get_Formation()
+      GetData();
+      if(PlayData.team == PlayData.possession)
+      {
+        document.getElementById("sub_bar").style.backgroundColor = "#353b48";
+      }
+      else
+      {
+        document.getElementById("sub_bar").style.backgroundColor = "#ecf0f1";
+      }
+
+
+
+      const mapObject = Object();
+      mapObject.greenIcon = new L.Icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+          });
+      mapObject.redIcon = new L.Icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
+      mapObject.go_added = Boolean(false);
+      mapObject.stop_added = Boolean(false);
+      mapObject.mapBounds = L.latLngBounds([
+            [-2, 0],
+            [12, 10]
+        ]);
+      mapObject.mapBounds_p = L.latLngBounds([
+            [0, 0],
+            [.711, 1]
+        ]);
+      mapObject.map = L.map('map', {  
+        zoomControl: false,
+        maxBounds: mapObject.mapBounds,
+        maxBoundsViscosity: 1.0,
+        minZoom: 6,
+        maxZoom: 11});
+      mapObject.map_p = L.map('map2', {
+          zoomControl: false,
+          maxBounds: mapObject.mapBounds_p,
+          maxBoundsViscosity: 1.0,
+          minZoom: 9,
+          maxZoom: 9
+           }).setView([0.36, .5], 9);
+      // Set up Map Details
+      mapObject.map.on('click', MainMapDriver);
+      mapObject.map_p.on('click', function(e){
+          L.marker(e.latlng).addTo(mapObject.map_p);
+          pressure_validate(e)
+        })
+      mapObject.map.fitBounds(mapObject.mapBounds);
+      mapObject.map.setZoom(6);
+
+      //var imageUrl = "{{ url_for('static', filename='spatial/FootballFieldBase.jpg') }}";
+      //var latLngBounds = L.latLngBounds([[0, 0], [10, 10]]);
+      var imageOverlay = L.imageOverlay("{{ url_for('static', filename='spatial/FootballFieldBase.jpg') }}", L.latLngBounds([[0, 0], [10, 10]])).addTo(mapObject.map)
+      var imageOverlayNorth = L.imageOverlay("{{ url_for('static', filename='spatial/EndzoneNorth.jpg') }}",  L.latLngBounds([[10, 0], [12, 10]])).addTo(mapObject.map)
+      var imageOverlayNorth = L.imageOverlay("{{ url_for('static', filename='spatial/EndzoneSouth.jpg') }}", L.latLngBounds([[0, 0], [-2, 10]])).addTo(mapObject.map)
+      // Map 2: Pressure
+      var imageOverlayNorth = L.imageOverlay("{{ url_for('static', filename='spatial/Pressure.jpg') }}",  L.latLngBounds([[0, 0], [.711, 1]])).addTo(mapObject.map_p)
+    
+      //Place Marker
+      mapObject.map.fireEvent('click',{latlng:[PlayData.lat, PlayData.lon ]})  
+
+      async function GetData(){
+        var url = "/endzone/rest/getdata?teamcode=" + PlayData.teamcode + "&team=" + PlayData.team + "&opponent=" + PlayData.opponent + "&year=" + PlayData.year + "&full=false";
+        $.get(url, function(data, status){
+          rowObj = new Object();
+          for(i = 0; i < Object.keys(data).length; i++)
+          {
+            rowObj.playnum = data[i].PlayNum;
+            rowObj.drive = data[i].Drive;
+            rowObj.possession = data[i].Possession;
+            rowObj.yard = data[i].Yard;
+            rowObj.hash = data[i].Hash;
+            rowObj.down = data[i].Down;
+            rowObj.distance = data[i].Distance;
+            rowObj.formation = data[i].Formation;
+            rowObj.strength = data[i].Formation_Strength;
+            rowObj.playtype = data[i].Play_Type;
+            rowObj.playdir = data[i].Play_Type_Dir;
+            rowObj.passzone = data[i].Pass_Zone;
+            rowObj.dformation = data[i].D_Formation;
+            rowObj.coverage = data[i].Coverage;
+            rowObj.pleft = data[i].Pressure_Left;
+            rowObj.pmiddle = data[i].Pressure_Middle;
+            rowObj.pright = data[i].Pressure_Right;
+            rowObj.result = data[i].Result;
+            rowObj.playnum = data[i].PlayNum;
+            InsertRow(rowObj, i)
+          }
+        })
+
+      }
+
+      function InsertRow(rowObj, index)
+      {
+        const table = document.getElementById("table");
+        var row = table.insertRow(1);
+        var cell1 = row.insertCell(0);
+        var cell2 = row.insertCell(1);
+        var cell3 = row.insertCell(2);
+        var cell4 = row.insertCell(3);
+        var cell5 = row.insertCell(4);
+        var cell6 = row.insertCell(5);
+        var cell7 = row.insertCell(6);
+        var cell8 = row.insertCell(7);
+        var cell9 = row.insertCell(8);
+        var cell10 = row.insertCell(9);
+        var cell11 = row.insertCell(10);
+        var cell12 = row.insertCell(11);
+        var cell13 = row.insertCell(12);
+        var cell14 = row.insertCell(13);
+        var cell15 = row.insertCell(14);
+        var cell16 = row.insertCell(15);
+        var cell17 = row.insertCell(16);
+        var cell18 = row.insertCell(17);
+        var cell19 = row.insertCell(18);
+        var cell20  = row.insertCell(19);
+        cell1.innerHTML = rowObj.playnum;
+        cell1.style.textAlign = "center"
+        cell1.contentEditable = "true";
+        cell2.innerHTML = rowObj.drive;
+        cell2.style.textAlign = "center"
+        cell2.contentEditable = "true";
+        cell3.innerHTML = rowObj.possession;
+        cell3.style.textAlign = "center"
+        cell3.contentEditable = "true";     
+        cell4.innerHTML = rowObj.yard;
+        cell4.style.textAlign = "center"
+        cell4.contentEditable = "true";
+        cell5.innerHTML = rowObj.hash;
+        cell5.style.textAlign = "center"
+        cell5.contentEditable = "true";
+        cell6.innerHTML = rowObj.down;
+        cell6.style.textAlign = "center"
+        cell6.contentEditable = "true";
+        cell7.innerHTML = rowObj.distance;
+        cell7.style.textAlign = "center"
+        cell7.contentEditable = "true";
+        cell8.innerHTML = rowObj.formation;
+        cell8.style.textAlign = "center"
+        cell8.contentEditable = "true";
+        cell9.innerHTML = rowObj.strength;
+        cell9.style.textAlign = "center"
+        cell9.contentEditable = "true";
+        cell10.innerHTML = rowObj.playtype;
+        cell10.style.textAlign = "center"
+        cell10.contentEditable = "true";
+        cell11.innerHTML = rowObj.playdir;
+        cell11.style.textAlign = "center"
+        cell11.contentEditable = "true";
+        cell12.innerHTML = rowObj.passzone;
+        cell12.style.textAlign = "center"
+        cell12.contentEditable = "true";
+        cell13.innerHTML = rowObj.dformation;
+        cell13.style.textAlign = "center"
+        cell13.contentEditable = "true";
+        cell14.innerHTML = rowObj.coverage;
+        cell14.style.textAlign = "center"
+        cell14.contentEditable = "true";
+        cell15.innerHTML = rowObj.pleft;
+        cell15.style.textAlign = "center"
+        cell15.contentEditable = "true";
+        cell16.innerHTML = rowObj.pmiddle;
+        cell16.style.textAlign = "center"
+        cell16.contentEditable = "true";
+        cell17.innerHTML = rowObj.pright;
+        cell17.style.textAlign = "center"
+        cell17.contentEditable = "true";
+        cell18.innerHTML = rowObj.result;
+        cell18.style.textAlign = "center"
+        cell18.contentEditable = "true";
+
+        let btn_delete = document.createElement("button");
+        btn_delete.innerHTML = "Delete";
+        btn_delete.id = rowObj.ID;
+        btn_delete.onclick = (function(){return DeletePlay(index)});
+        cell19.appendChild(btn_delete);
+        let btn_update = document.createElement("button");
+        btn_update.innerHTML = "Update";
+        btn_update.id = rowObj.ID;
+        btn_update.onclick = (function(){return UpdatePlay(index)});
+        cell20.appendChild(btn_update);
+      }
+
+      async function DeletePlay(id)
+        {
+          if(confirm("Do you really want to delete this play?"))
+          {
+            const table = document.getElementById("table");
+            alert(table.rows.length - id - 1) 
+            row = table.rows[(table.rows.length - id) - 1];
+            DeleteObj = new Object();
+            DeleteObj.team = PlayData.team
+            DeleteObj.opponent = PlayData.opponent
+            DeleteObj.year = PlayData.year
+            DeleteObj.teamcode = PlayData.teamcode
+            DeleteObj.playnum = row.cells[0].innerText;
+            var url = "/endzone/rest/deleteplay?"
+            for(var attribute in DeleteObj)
+            {
+              if(DeleteObj.hasOwnProperty(attribute))
+              {
+                url += "&" + attribute + "=" +  DeleteObj[attribute]
+              }
+            }
+
+            $.post(url, function(data, status)
+            {
+              alert(data)
+              Refresh_Table();
+              return;
+            })
+          }
+          
+        }
+      
+      async function AddPlay()
+      {
+        //Get Vars
+        PlayData.possession = document.getElementById('Possession').value
+        PlayData.drive = document.getElementById('drivenum').value
+        PlayData.playnum = document.getElementById('playnum').value
+        PlayData.quarter = document.getElementById('quarter').value
+        PlayData.yard = document.getElementById('yard').value
+        PlayData.hash = document.getElementById('hash').value
+        PlayData.down = document.getElementById('down').value
+        PlayData.distance = document.getElementById('distance').value
+
+
+        PlayData.dformation = document.getElementById('dformation').value
+        PlayData.formation = document.getElementById("formation").value
+        PlayData.strength = document.getElementById("strength").value
+        PlayData.playtype = document.getElementById("playtype").value
+        PlayData.playdir = document.getElementById("playdir").value
+        PlayData.coverage = document.getElementById("coverage").value
+        PlayData.ballcarrier = document.getElementById("ballcarrier").value
+        if(PlayData.ballcarrier ==""){PlayData.ballcarrier = -99}
+        PlayData.passzone = document.getElementById("passzone").value
+        var url = "/endzone/rest/addplay?";
+        for(var attribute in PlayData)
+        {
+          if(PlayData.hasOwnProperty(attribute))
+          {
+            url += "&" + attribute + "=" +  PlayData[attribute]
+          }
+        }
+
+        $.post(url, function(data, status){
+          InsertRow(PlayData, document.getElementById("table").rows.length - 1)
+
+          PlayData.playnum++;
+          PlayData.down++;
+          document.getElementById("playnum").value = PlayData.playnum;
+          // Update Location
+          PlayData.lat = PlayData.r_lat;
+          PlayData.lon = PlayData.r_lon;
+          mapObject.map.fireEvent('click',{latlng:[PlayData.lat, PlayData.lon ]});
+          mapObject.map.fireEvent('click',{latlng:[PlayData.lat, PlayData.lon ]});
+          // First Down Case
+          if(PlayData.distance - PlayData.result <= 0){
+            PlayData.distance = 10
+            PlayData.down = 1
+          }
+          else
+          {
+            PlayData.distance = PlayData.distance - PlayData.result;
+
+          }
+          // Play logic is here!
+          if(PlayData.down == 5)
+          {
+            PlayData.down = 1;
+            PlayData.distance = 10;
+            newdrive()
+          }
+
+          // Displays
+          document.getElementById("distance").value = PlayData.distance;
+          document.getElementById("down").value = PlayData.down;
+          clearmap();
+          return;
+        })
+      }
+
+      function UpdatePlay(id)
+        {
+          const table = document.getElementById("table"); 
+          row = table.rows[(table.rows.length - id) - 1];
+          
+          UpdateObj = new Object()
+
+          // Read Table
+          UpdateObj.teamcode = PlayData.teamcode;
+          UpdateObj.team = PlayData.team;
+          UpdateObj.opponent = PlayData.opponent;
+          UpdateObj.year = PlayData.year;
+          UpdateObj.playnum = row.cells[0].innerText;
+          UpdateObj.drive = row.cells[1].innerText;
+          UpdateObj.possession = row.cells[2].innerText;
+          UpdateObj.yard = row.cells[3].innerText;
+          UpdateObj.hash = row.cells[4].innerText;
+          UpdateObj.down = row.cells[5].innerText;
+          UpdateObj.distance = row.cells[6].innerText;
+          UpdateObj.formation = row.cells[7].innerText;
+          UpdateObj.strength = row.cells[8].innerText;
+          UpdateObj.playtype = row.cells[9].innerText;
+          UpdateObj.playdir = row.cells[10].innerText;
+          UpdateObj.passzone = row.cells[11].innerText;
+          UpdateObj.dform = row.cells[12].innerText;
+          UpdateObj.coverage = row.cells[13].innerText;
+          UpdateObj.pleft = row.cells[14].innerText;
+          UpdateObj.pmiddle = row.cells[15].innerText;
+          UpdateObj.pright = row.cells[16].innerText;
+          UpdateObj.result = row.cells[17].innerText;
+          var url = "/endzone/rest/updateplay?"
+          for(var attribute in UpdateObj)
+          {
+            if(UpdateObj.hasOwnProperty(attribute))
+            {
+              url += "&" + attribute + "=" +  UpdateObj[attribute]
+            }
+          }
+
+          $.post(url, function(data, status){
+            alert(data);
+            Refresh_Table()
+            return
+          });
+      }
+      function Refresh_Table(table)
+      {
+        var table = document.getElementById("table");
+        for(var i = table.rows.length - 1; i > 0; i--)
+        {
+            table.deleteRow(i);
+        }
+        GetData();
+      }
+    </script>
+</html>

@@ -1,0 +1,102 @@
+ID,Team_Name,Opponent_Name,Year,Owner_Team_Code,PlayNum,Possession,Yard,Hash,Down,Distance,Drive,Quarter,D_Formation,Formation,Formation_Strength,Play_Type,Play_Type_Dir,Pass_Zone,Coverage,Pressure_Left,Pressure_Middle,Pressure_Right,Result,Result_BallCarrier,Result_Lat,Result_Lon,Play_Lat,Play_Lon,Simplified
+29,Burnsville,Farmington,2021,EVHS22,1,Farmington,43,Right,1,10,1,1,4-3,Double Wide,Left,Pocket Pass,Not Selected,Flats - Left,Zone 3,0,0,0,14,-99,5.7,5.045,4.3,6.0,false
+30,Burnsville,Farmington,2021,EVHS22,2,Farmington,57,Left,1,10,1,1,4-3,Double Wide,Right,Pocket Pass,Not Selected,Flats - Left,Zone 3,0,0,0,15,-99,7.2,5.045,5.7,5.045,false
+31,Burnsville,Farmington,2021,EVHS22,3,Farmington,72,Left,1,10,1,1,4-3,Double Wide,Right,Inside Run,Right,Non Passing Play,Zone 3,0,0,0,6,-99,7.8,5.045,7.2,5.045,false
+32,Burnsville,Farmington,2021,EVHS22,4,Farmington,76,Left,2,4,1,1,4-3,Double Wide,Right,Pocket Pass,Not Selected,Deep - Right,Zone 3,0,0,0,19,-99,9.5,5.045,7.6,5.045,false
+33,Burnsville,Farmington,2021,EVHS22,5,Farmington,95,Right,1,10,1,1,4-3,Double Wide,Left,Inside Run,Left,Non Passing Play,Man 0,0,0,0,2,-99,9.7,5.045,9.5,6.0,false
+34,Burnsville,Farmington,2021,EVHS22,6,Farmington,97,Right,2,8,1,1,4-3,Wide,Left,Inside Run,Left,Non Passing Play,Man 0,1,0,0,2,-99,9.9,5.045,9.7,6.0,false
+35,Burnsville,Farmington,2021,EVHS22,7,Farmington,97,Middle,3,6,1,1,4-3,Trips Flex,Left,Inside Run,Left,Non Passing Play,Man 0,0,0,0,3,-99,10.0,5.045,9.7,4.0,false
+36,Burnsville,Farmington,2021,EVHS22,8,Burnsville,44,Right,1,10,2,1,3-4,Twins,Left,Inside Run,Right,Non Passing Play,Zone 3,0,0,0,1,-99,4.5,5.045,4.4,6.0,false
+37,Burnsville,Farmington,2021,EVHS22,9,Burnsville,45,Right,2,9,2,1,3-4,Wing,Left,Inside Run,Left,Non Passing Play,Man 1,0,0,0,1,-99,4.6,5.045,4.5,6.0,false
+38,Burnsville,Farmington,2021,EVHS22,10,Burnsville,46,Right,3,8,2,1,3-4,Wing,Left,Boot Pass,Not Selected,Non Passing Play,Man 1,0,0,0,10,-99,5.6,5.045,4.6,6.0,false
+39,Burnsville,Farmington,2021,EVHS22,11,Burnsville,56,Right,1,10,2,1,3-4,Wing,Left,Inside Run,Left,Non Passing Play,Man 1,0,0,0,3,-99,5.9,5.045,5.6,6.0,false
+40,Burnsville,Farmington,2021,EVHS22,12,Burnsville,59,Middle,2,7,2,1,3-4,Wing,Left,Inside Run,Left,Non Passing Play,Man 1,0,0,0,0,-99,5.9,5.045,5.9,4.0,false
+41,Burnsville,Farmington,2021,EVHS22,13,Burnsville,60,Middle,3,7,2,1,3-4,Wing,Right,Boot Pass,Not Selected,Middle - Left,Man 1,0,0,0,0,-99,6.0,5.045,6.0,4.0,false
+42,Burnsville,Farmington,2021,EVHS22,14,Burnsville,60,Middle,4,7,2,1,3-4,Wing,Left,Boot Pass,Not Selected,Deep - Right,Zone 3,0,0,0,0,-99,6.0,5.045,6.0,4.0,false
+43,Burnsville,Farmington,2021,EVHS22,15,Farmington,40,Middle,1,10,3,1,4-3,Double Wide,Right,Inside Run,Left,Non Passing Play,Zone 3,0,0,0,1,-99,4.1,5.045,4.0,4.0,false
+44,Burnsville,Farmington,2021,EVHS22,16,Farmington,41,Left,2,9,3,1,4-3,Double Wide,Right,Inside Run,Not Selected,Non Passing Play,Zone 3,0,0,0,-9,-99,3.2,5.045,4.1,5.045,false
+45,Burnsville,Farmington,2021,EVHS22,17,Farmington,32,Left,3,18,3,1,4-3,Double Wide,Right,Pocket Pass,Not Selected,Flats - Right,Zone 3,0,1,0,0,-99,3.2,5.045,3.2,5.045,false
+46,Burnsville,Farmington,2021,EVHS22,18,Burnsville,38,Right,1,10,4,1,3-4,Twins,Left,Outside Run,Right,Non Passing Play,Zone 3,0,0,0,4,-99,4.2,5.045,3.8,6.0,false
+47,Burnsville,Farmington,2021,EVHS22,19,Burnsville,42,Right,2,6,4,1,3-4,Wing,Left,Inside Run,Left,Non Passing Play,Man 1,0,0,0,7,-99,4.9,5.045,4.2,6.0,false
+48,Burnsville,Farmington,2021,EVHS22,20,Burnsville,49,Middle,1,10,4,1,3-4,Wing,Right,Inside Run,Not Selected,Non Passing Play,Man 1,0,0,0,8,-99,5.7,5.045,4.9,4.0,false
+49,Burnsville,Farmington,2021,EVHS22,21,Burnsville,52,Left,2,7,4,1,3-4,Wing,Left,Outside Run,Right,Non Passing Play,Man 1,0,0,0,3,-99,5.5,5.045,5.2,5.045,false
+50,Burnsville,Farmington,2021,EVHS22,22,Burnsville,58,Right,3,2,4,1,3-4,Thunder,Left,Inside Run,Left,Non Passing Play,Man 1,0,0,0,6,-99,6.4,5.045,5.8,6.0,false
+51,Burnsville,Farmington,2021,EVHS22,23,Burnsville,64,Middle,1,10,4,1,3-4,Wing,Right,Inside Run,Right,Non Passing Play,Man 1,0,0,0,1,-99,6.5,5.045,6.4,4.0,false
+52,Burnsville,Farmington,2021,EVHS22,24,Burnsville,65,Middle,2,9,4,1,3-4,Wing,Right,Boot Pass,Not Selected,Flats - Right,Man 0,0,0,0,0,-99,6.5,5.045,6.5,4.0,false
+53,Burnsville,Farmington,2021,EVHS22,25,Burnsville,65,Middle,3,9,4,1,3-4,Wing,Right,Inside Run,Not Selected,Non Passing Play,Man 1,0,0,0,2,-99,6.7,5.045,6.5,4.0,false
+54,Burnsville,Farmington,2021,EVHS22,26,Burnsville,67,Left,4,7,4,1,3-4,Wing,Right,Pocket Pass,Not Selected,Non Passing Play,Zone 4,0,1,0,-15,-99,5.2,5.045,6.7,5.045,false
+55,Burnsville,Farmington,2021,EVHS22,27,Farmington,47,Left,1,10,5,1,4-3,Double Wide,Right,Inside Run,Left,Non Passing Play,Zone 3,1,0,0,0,-99,4.7,5.045,4.7,5.045,false
+56,Burnsville,Farmington,2021,EVHS22,28,Farmington,47,Middle,2,10,5,1,4-3,Trips Flex,Right,Pocket Pass,Not Selected,Middle - Left,Zone 3,0,0,0,15,-99,6.2,5.045,4.7,4.0,false
+57,Burnsville,Farmington,2021,EVHS22,29,Farmington,60,Left,1,10,5,1,4-3,Double Wide,Right,Pocket Pass,Not Selected,Flats - Left,Zone 3,0,0,0,0,-99,6.0,5.045,6.0,5.045,false
+58,Burnsville,Farmington,2021,EVHS22,30,Farmington,60,Left,2,10,5,1,4-3,Double Wide,Right,Outside Run,Left,Non Passing Play,Man 1,0,0,0,9,-99,6.9,5.045,6.0,5.045,false
+59,Burnsville,Farmington,2021,EVHS22,31,Farmington,69,Left,3,1,5,1,4-3,Wide,Left,Inside Run,Left,Non Passing Play,Man 1,0,0,0,1,-99,7.0,5.045,6.9,5.045,false
+60,Burnsville,Farmington,2021,EVHS22,32,Farmington,70,Left,1,10,5,1,4-3,Wide,Left,Outside Run,Right,Non Passing Play,Man 1,1,0,0,21,-99,9.1,5.045,7.0,5.045,false
+61,Burnsville,Farmington,2021,EVHS22,33,Farmington,91,Right,1,10,5,1,4-3,Trips Flex,Left,Inside Run,Right,Non Passing Play,Man 1,1,0,0,2,-99,9.3,5.045,9.1,6.0,false
+62,Burnsville,Farmington,2021,EVHS22,34,Farmington,93,Right,2,8,5,1,4-3,Trips Flex,Left,Pocket Pass,Not Selected,Flats - Left,Man 1,1,0,0,0,-99,9.3,5.045,9.3,6.0,false
+63,Burnsville,Farmington,2021,EVHS22,35,Farmington,93,Right,3,8,5,1,4-3,Trips Flex,Left,Pocket Pass,Not Selected,Non Passing Play,Man 1,1,1,0,5,-99,9.8,5.045,9.3,6.0,false
+64,Burnsville,Farmington,2021,EVHS22,36,Farmington,98,Right,4,3,5,1,4-3,Double Wide,Left,Inside Run,Left,Non Passing Play,Man 1,1,0,0,3,-99,10.1,5.045,9.8,6.0,false
+65,Burnsville,Farmington,2021,EVHS22,37,Burnsville,20,Middle,1,10,6,1,3-4,Thunder,Left,Inside Run,Left,Non Passing Play,Man 1,0,0,0,0,-99,2.0,5.045,2.0,4.0,false
+66,Burnsville,Farmington,2021,EVHS22,38,Burnsville,20,Left,2,10,6,1,3-4,Wing,Right,Inside Run,Right,Non Passing Play,Man 1,0,0,0,6,-99,2.6,5.045,2.0,5.045,false
+67,Burnsville,Farmington,2021,EVHS22,39,Burnsville,26,Middle,3,4,6,1,3-4,Wing,Right,Inside Run,Right,Non Passing Play,Man 1,1,0,0,0,-99,2.6,5.045,2.6,4.0,false
+68,Burnsville,Farmington,2021,EVHS22,40,Farmington,66,Right,1,10,7,1,4-3,Double Wide,Left,Inside Run,Right,Non Passing Play,Man 1,0,0,0,6,-99,7.2,5.045,6.6,6.0,false
+69,Burnsville,Farmington,2021,EVHS22,41,Farmington,72,Right,2,4,7,1,4-3,Double Wide,Left,Boot Pass,Not Selected,Flats - Right,Man 1,0,0,0,0,-99,7.2,5.045,7.2,6.0,false
+70,Burnsville,Farmington,2021,EVHS22,42,Farmington,72,Right,3,4,7,1,4-3,Double Wide,Left,Pocket Pass,Not Selected,Middle - Left,Man 0,1,0,0,18,-99,9.0,5.045,7.2,6.0,false
+71,Burnsville,Farmington,2021,EVHS22,43,Farmington,90,Middle,1,10,7,1,4-3,Double Wide,Right,Pocket Pass,Not Selected,Flats - Left,Man 0,0,0,0,8,-99,9.8,5.045,9.0,4.0,false
+72,Burnsville,Farmington,2021,EVHS22,44,Farmington,98,Left,2,2,7,1,4-3,Double Wide,Right,Inside Run,Right,Non Passing Play,Man 0,1,0,0,0,-99,9.8,5.045,9.8,5.045,false
+73,Burnsville,Farmington,2021,EVHS22,45,Farmington,98,Left,3,2,7,1,4-3,Boa,Left,Inside Run,Left,Non Passing Play,Man 0,0,0,0,3,-99,10.1,5.045,9.8,5.045,false
+74,Burnsville,Farmington,2021,EVHS22,46,Burnsville,43,Right,1,10,8,1,3-4,Twins,Left,Boot Pass,Not Selected,Non Passing Play,Zone 4,0,0,0,1,-99,4.4,5.045,4.3,6.0,false
+75,Burnsville,Farmington,2021,EVHS22,47,Burnsville,44,Right,2,9,8,1,3-4,Twins,Left,Inside Run,Right,Non Passing Play,Zone 4,0,0,0,47,-99,9.1,5.045,4.4,6.0,false
+76,Burnsville,Farmington,2021,EVHS22,48,Burnsville,85,Right,1,10,8,1,3-4,Wing,Right,Inside Run,Right,Non Passing Play,Man 1,0,0,0,2,-99,8.7,5.045,8.5,6.0,false
+77,Burnsville,Farmington,2021,EVHS22,49,Burnsville,87,Right,2,8,8,1,3-4,Wing,Right,Inside Run,Left,Non Passing Play,Man 1,0,0,0,0,-99,8.7,5.045,8.7,6.0,false
+78,Burnsville,Farmington,2021,EVHS22,50,Farmington,11,Middle,1,10,9,1,4-3,Trips Flex,Right,Inside Run,Left,Non Passing Play,Man 0,0,0,0,8,-99,1.9,5.045,1.1,4.0,false
+79,Burnsville,Farmington,2021,EVHS22,51,Farmington,19,Left,2,2,9,1,4-3,Trips Flex,Right,Outside Run,Right,Non Passing Play,Man 0,1,0,0,7,-99,2.6,5.045,1.9,5.045,false
+80,Burnsville,Farmington,2021,EVHS22,52,Farmington,26,Right,1,10,9,1,4-3,Trips Flex,Left,Inside Run,Left,Non Passing Play,Man 1,1,0,0,2,-99,2.8,5.045,2.6,6.0,false
+81,Burnsville,Farmington,2021,EVHS22,53,Farmington,28,Right,2,8,9,1,4-3,Double Wide,Left,Pocket Pass,Not Selected,Deep - Right,Man 1,0,0,0,0,-99,2.8,5.045,2.8,6.0,false
+82,Burnsville,Farmington,2021,EVHS22,54,Farmington,28,Right,3,8,9,1,4-3,Trips Flex,Right,Pocket Pass,Not Selected,Flats - Right,Zone 3,0,0,0,30,-99,5.8,5.045,2.8,6.0,false
+83,Burnsville,Farmington,2021,EVHS22,55,Farmington,58,Right,1,10,9,1,4-3,Double Wide,Left,Pocket Pass,Not Selected,Deep - Right,Zone 4,0,0,0,20,-99,7.8,5.045,5.8,6.0,false
+84,Burnsville,Farmington,2021,EVHS22,56,Farmington,78,Middle,1,10,9,1,4-3,Double Wide,Right,Pocket Pass,Not Selected,Middle - Left,Zone 4,0,0,0,11,-99,8.9,5.045,7.8,4.0,false
+85,Burnsville,Farmington,2021,EVHS22,57,Farmington,89,Left,1,10,9,1,4-3,Trips Flex,Right,Pocket Pass,Not Selected,Middle - Middle,Man 0,0,0,0,11,-99,10.0,5.045,8.9,5.045,false
+86,Burnsville,Farmington,2021,EVHS22,58,Burnsville,10,Right,1,10,10,1,3-4,Wing,Left,Outside Run,Left,Non Passing Play,Zone 4,0,0,0,21,-99,3.1,5.045,1.0,6.0,false
+87,Burnsville,Farmington,2021,EVHS22,59,Burnsville,31,Left,1,10,10,1,3-4,Wing,Left,Outside Run,Left,Non Passing Play,Zone 3,0,0,0,5,-99,3.6,5.045,3.1,5.045,false
+88,Burnsville,Farmington,2021,EVHS22,60,Burnsville,36,Left,2,5,10,1,3-4,Wing,Right,Pocket Pass,Not Selected,Middle - Right,Zone 3,0,0,0,12,-99,4.8,5.045,3.6,5.045,false
+89,Burnsville,Farmington,2021,EVHS22,61,Burnsville,48,Right,1,10,10,1,3-4,Double Wide,Left,Pocket Pass,Not Selected,Non Passing Play,Zone 4,0,0,0,-12,-99,3.6,5.045,4.8,6.0,false
+90,Burnsville,Farmington,2021,EVHS22,62,Burnsville,35,Right,1,10,10,1,3-4,Wing,Right,Pocket Pass,Not Selected,Non Passing Play,Man 1,0,0,0,-5,-99,3.0,5.045,3.5,6.0,false
+91,Burnsville,Farmington,2021,EVHS22,63,Burnsville,30,Right,2,15,10,1,3-4,Wing,Right,Outside Run,Right,Non Passing Play,Zone 3,0,0,0,-1,-99,2.9,5.045,3.0,6.0,false
+92,Burnsville,Farmington,2021,EVHS22,64,Burnsville,29,Right,3,16,10,1,3-4,Wing,Right,Boot Pass,Not Selected,Non Passing Play,Man 2,0,1,0,-8,-99,2.1,5.045,2.9,6.0,false
+93,Burnsville,Farmington,2021,EVHS22,65,Farmington,41,Left,1,10,11,1,4-3,Double Wide,Right,Inside Run,Right,Non Passing Play,Man 1,1,0,0,1,-99,4.2,5.045,4.1,5.045,false
+94,Burnsville,Farmington,2021,EVHS22,66,Farmington,42,Middle,2,9,11,1,4-3,Double Wide,Right,Inside Run,Left,Non Passing Play,Man 1,1,0,0,1,-99,4.3,5.045,4.2,4.0,false
+95,Burnsville,Farmington,2021,EVHS22,67,Farmington,43,Left,3,8,11,1,4-3,Double Wide,Right,Pocket Pass,Not Selected,Deep - Right,Man 1,1,0,0,0,-99,4.3,5.045,4.3,5.045,false
+96,Burnsville,Farmington,2021,EVHS22,68,Burnsville,16,Left,1,10,12,1,3-4,Wing,Left,Inside Run,Right,Non Passing Play,Zone 3,0,0,0,5,-99,2.1,5.045,1.6,5.045,false
+97,Burnsville,Farmington,2021,EVHS22,69,Burnsville,21,Left,2,5,12,1,3-4,Wing,Left,Outside Run,Right,Non Passing Play,Zone 2,0,0,0,9,-99,3.0,5.045,2.1,5.045,false
+98,Burnsville,Farmington,2021,EVHS22,70,Burnsville,30,Right,1,10,12,1,3-4,Wing,Right,Inside Run,Right,Non Passing Play,Zone 3,0,0,0,2,-99,3.2,5.045,3.0,6.0,false
+99,Burnsville,Farmington,2021,EVHS22,71,Burnsville,32,Middle,2,8,12,1,3-4,Wing,Right,Outside Run,Left,Non Passing Play,Zone 3,0,0,0,5,-99,3.7,5.045,3.2,4.0,false
+100,Burnsville,Farmington,2021,EVHS22,72,Burnsville,37,Left,3,3,12,1,3-4,Wing,Left,Inside Run,Right,Non Passing Play,Zone 2,0,0,0,33,-99,7.0,5.045,3.7,5.045,false
+101,Burnsville,Farmington,2021,EVHS22,73,Burnsville,70,Left,1,10,12,1,3-4,Wing,Left,Boot Pass,Not Selected,Deep - Right,Zone 2,0,0,0,30,-99,10.0,5.045,7.0,5.045,false
+102,Burnsville,Farmington,2021,EVHS22,74,Farmington,75,Left,1,10,13,1,4-3,Double Wide,Right,Inside Run,Right,Non Passing Play,Zone 3,1,0,0,-1,-99,7.4,5.045,7.5,5.045,false
+103,Burnsville,Farmington,2021,EVHS22,75,Farmington,70,Middle,2,6,13,1,4-3,Double Wide,Left,Outside Run,Right,Non Passing Play,Man 1,1,0,0,1,-99,7.1,5.045,7.0,4.0,false
+104,Burnsville,Farmington,2021,EVHS22,76,Farmington,71,Right,3,5,13,1,4-3,Double Wide,Left,Pocket Pass,Not Selected,Middle - Left,Man 1,1,0,0,0,-99,7.1,5.045,7.1,6.0,false
+105,Burnsville,Farmington,2021,EVHS22,77,Burnsville,31,Left,1,10,14,1,3-4,Wing,Left,Inside Run,Left,Non Passing Play,Zone 4,0,0,0,2,-99,3.3,5.045,3.1,5.045,false
+106,Burnsville,Farmington,2021,EVHS22,78,Burnsville,33,Left,2,8,14,1,3-4,Wing,Left,Inside Run,Right,Non Passing Play,Zone 4,0,0,0,0,-99,3.3,5.045,3.3,5.045,false
+107,Burnsville,Farmington,2021,EVHS22,79,Burnsville,33,Middle,3,8,14,1,3-4,Double Wide,Left,Pocket Pass,Not Selected,Middle - Middle,Zone 4,0,0,0,0,-99,3.3,5.045,3.3,4.0,false
+108,Burnsville,Farmington,2021,EVHS22,80,Farmington,30,Left,1,10,15,1,4-3,Double Wide,Right,Inside Run,Not Selected,Non Passing Play,Man 1,1,0,0,17,-99,4.7,5.045,3.0,5.045,false
+109,Burnsville,Farmington,2021,EVHS22,81,Farmington,47,Right,1,10,15,1,4-3,Double Wide,Right,Pocket Pass,Not Selected,Middle - Right,Man 1,1,0,0,8,-99,5.5,5.045,4.7,6.0,false
+110,Burnsville,Farmington,2021,EVHS22,82,Farmington,58,Right,1,10,15,1,4-3,Double Wide,Left,Inside Run,Not Selected,Non Passing Play,Man 1,1,0,0,-1,-99,5.7,5.045,5.8,6.0,false
+111,Burnsville,Farmington,2021,EVHS22,83,Farmington,57,Right,2,11,15,1,4-3,Trips Flex,Left,Boot Pass,Not Selected,Non Passing Play,Man 1,1,0,0,-5,-99,5.2,5.045,5.7,6.0,false
+112,Burnsville,Farmington,2021,EVHS22,84,Farmington,52,Right,3,16,15,1,4-3,Trips Flex,Left,Pocket Pass,Not Selected,Flats - Left,Zone 4,0,0,0,0,-99,5.2,5.045,5.2,6.0,false
+113,Burnsville,Farmington,2021,EVHS22,85,Burnsville,39,Left,1,10,16,1,3-4,Wing,Right,Outside Run,Right,Non Passing Play,Zone 3,0,0,0,-1,-99,3.8,5.045,3.9,5.045,false
+114,Burnsville,Farmington,2021,EVHS22,86,Burnsville,38,Right,2,11,16,1,3-4,Wing,Left,Inside Run,Right,Non Passing Play,Zone 4,0,0,0,2,-99,4.0,5.045,3.8,6.0,false
+115,Burnsville,Farmington,2021,EVHS22,87,Burnsville,40,Right,3,9,16,1,3-4,Twins,Left,Boot Pass,Not Selected,Flats - Left,Zone 4,1,0,0,1,-99,4.1,5.045,4.0,6.0,false
+116,Burnsville,Farmington,2021,EVHS22,88,Farmington,30,Middle,1,10,17,1,4-3,Double Wide,Right,Outside Run,Right,Non Passing Play,Man 1,1,0,0,1,-99,3.1,5.045,3.0,4.0,false
+117,Burnsville,Farmington,2021,EVHS22,89,Farmington,31,Right,2,9,17,1,4-3,Double Wide,Left,Inside Run,Not Selected,Non Passing Play,Man 1,1,0,0,69,-99,10.0,5.045,3.1,6.0,false
+118,Burnsville,Farmington,2021,EVHS22,90,Burnsville,15,Right,1,10,18,1,3-4,Wing,Right,Inside Run,Left,Non Passing Play,Zone 4,0,0,0,3,-99,1.8,5.045,1.5,6.0,false
+119,Burnsville,Farmington,2021,EVHS22,91,Burnsville,27,Middle,1,10,18,1,3-4,Wing,Right,Boot Pass,Not Selected,Deep - Left,Zone 4,0,0,0,0,-99,2.7,5.045,2.7,4.0,false
+120,Burnsville,Farmington,2021,EVHS22,92,Burnsville,27,Left,2,10,18,1,3-4,Wing,Left,Outside Run,Right,Non Passing Play,Zone 4,0,0,0,2,-99,2.9,5.045,2.7,5.045,false
+121,Burnsville,Farmington,2021,EVHS22,93,Burnsville,30,Right,3,6,18,1,3-4,Wing,Right,Pocket Pass,Not Selected,Non Passing Play,Zone 3,0,0,0,8,-99,3.8,5.045,3.0,6.0,false
+122,Burnsville,Farmington,2021,EVHS22,94,Burnsville,38,Right,1,10,18,1,3-4,Wing,Right,Pocket Pass,Not Selected,Deep - Right,Zone 4,0,0,0,0,-99,3.8,5.045,3.8,6.0,false
+123,Burnsville,Farmington,2021,EVHS22,95,Burnsville,38,Right,2,10,18,1,3-4,Wing,Right,Outside Run,Left,Non Passing Play,Zone 3,1,0,0,2,-99,4.0,5.045,3.8,6.0,false
+124,Burnsville,Farmington,2021,EVHS22,96,Burnsville,40,Left,3,8,18,1,3-4,Wing,Left,Inside Run,Left,Non Passing Play,Zone 4,0,0,0,2,-99,4.2,5.045,4.0,5.045,false
+125,Burnsville,Farmington,2021,EVHS22,97,Farmington,35,Right,1,10,19,1,4-3,Double Wide,Left,Outside Run,Right,Non Passing Play,Man 0,1,0,0,-4,-99,3.1,5.045,3.5,6.0,false
+126,Burnsville,Farmington,2021,EVHS22,98,Farmington,33,Right,2,12,19,1,4-3,Double Wide,Left,Pocket Pass,Not Selected,Middle - Left,Man 1,1,0,0,0,-99,3.3,5.045,3.3,6.0,false
+127,Burnsville,Farmington,2021,EVHS22,99,Farmington,33,Right,3,12,19,1,3-4,Double Wide,Left,Inside Run,Left,Non Passing Play,Man 1,0,0,0,2,-99,3.5,5.045,3.3,6.0,false
+128,Burnsville,Farmington,2021,EVHS22,100,Burnsville,75,Left,1,10,20,1,3-4,Twins,Right,Outside Run,Right,Non Passing Play,Zone 3,0,0,0,0,-99,7.5,5.045,7.5,5.045,false
+129,Burnsville,Farmington,2021,EVHS22,101,Burnsville,75,Middle,2,10,20,1,3-4,Twins,Right,Pocket Pass,Not Selected,Middle - Left,Zone 3,0,0,0,0,-99,7.5,5.045,7.5,4.0,false

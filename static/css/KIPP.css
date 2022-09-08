@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&500&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    background-color: #1C2A39;
+	font-family: 'Lato', sans-serif;
+	overflow: hidden;
+}
+
+.K_Container {
+	position: absolute;
+	right: 0;
+	top: 6.5vh;
+	height: auto;
+	width: 33vw;
+	background-color: #3C4A59;
+	padding-left: 2vh;
+	padding-right: 2vh;
+	padding-top: 1vh;
+	border: .25vh solid #1e272e;
+	border-radius: 12px;
+	margin: 1vh;
+}
+
+.K_Container h3 {
+
+	text-align: center;
+	font-size: 3vh;
+	font-weight: 200;
+	color: white;
+
+}
+.K_Container h2 {
+	text-align: center;
+	font-size: 2vh;
+	font-weight: 100;
+	color: white;
+	margin-bottom: 1vh;
+}
+
+.K_Container legend 
+{
+	font-size: 2.5vh;
+	color: white;
+}
+.K_Container fieldset {
+	border: .25vh solid #1e73be;
+	border-radius: 12px;
+	padding: 1vh;
+	margin: .5vh;
+	height: auto;
+}
+
+.K_Container select
+{
+    position: relative;
+    width: auto;
+    margin: .5vh;
+    display: inline;
+	font-size: 1.5vh;
+}
+
+.K_Container label {
+	margin: .5vh;
+}
+
+.K_Container input[type=checkbox]
+{
+	margin: .5vh;
+}
+
+.K_Panel {
+	height: 75vh;
+	width: 100%;
+	background-color: #4C5A69;
+	border: .25vh solid #1e272e;
+	border-radius: 12px;
+	margin-bottom: 1vh;
+	overflow-y: auto;
+}
+.KIPP_Background {
+	z-index: -1;
+	width: 100vw;
+	height: auto;
+}
+
+button {
+	font-size: 2vh;
+	padding: 1vh;
+	border-radius: 12px;
+	background-color: #1C2A39;
+	color: white;
+}
+
+button:hover {
+    background-color: #1e73be;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;500&family=Lato&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #2c3e50;
+}
+
+.container {
+    position: relative;
+    width: 25vw;
+    height: 50vh;
+    margin: 3vh;
+}
+
+.container2 {
+    justify-content: center;
+    float: right;
+    position: relative;
+    width: 30vw;
+    height: auto;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    margin-top: 3vh;
+
+}
+
+.container3 {
+    position: absolute;
+    top: 10vh;
+    left: 32.5vw;
+    width: 30vw;
+}
+.subcontainer {
+    position: relative;
+    background-color: #7f8c8d;
+    border: .5vh solid #2f3640;
+    width: auto;
+    height: auto;
+    padding: 1vh;
+    border-radius: 12px;
+}
+
+.subcontainer2 {
+    border: .5vh solid #2f3640;
+    border-radius: 12px;
+    position: relative;
+    width: auto;
+    height: 75vh;
+    background-color: #7f8c8d;
+    padding: 1vh;
+    overflow-y: auto;
+}
+
+.subcontainer3 {
+    background-color: #7f8c8d;
+    width: auto;
+    height: 76vh;
+    border: .5vh solid #2f3640;
+    border-radius: 12px;
+    overflow-y: auto;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 3vh;
+    margin: 1vh;
+    color: white;
+}
+
+input[type="text"] {
+    position: relative;
+    padding: 1vh;
+    width: 75%;
+    margin: 1%;
+    font-size: 1.5vh;
+    font-family: 'Lato', sans-serif;
+}
+
+input[type="number"] {
+    position: relative;
+    padding: 1vh;
+    margin: 1%;
+    width: 15%;
+    font-size: 1.5vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.submit {
+    position: relative;
+    margin: 1vh;
+    width: auto;
+    font-size: 2vh;
+    border-radius: 12px;
+    padding: 1vh;
+    background-color: #2c3e50;
+    font-weight: 300;
+    color: white;
+    border: .25vh solid #34495e;
+    font-family: 'Lato', sans-serif;
+}
+
+.submit:hover
+{
+    background-color: #1abc9c;
+    transform: scale(1.025);
+    transition: all .3s ease-in-out;
+    color: #2c3e50;
+}
+
+fieldset
+{
+    margin: 1vh;
+    color: black;
+}
+
+fieldset input[type="checkbox"]
+{
+    margin: .75vh;
+}

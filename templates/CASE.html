@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Endzone - TARS</title>
+        <link rel="icon" type="image/x-icon" href= "{{ url_for('static', filename='images/Endzone.jpg') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/nav.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/TARS.css') }}">
+    </head>
+    <body>
+      <div class="topnav">
+        <div class="logo-image">
+          <img src="{{ url_for('static', filename='images/EndzoneLogo.png') }}" class="img-fluid">
+        </div>
+        <a href="/Endzone/Hub">Hub</a>
+        <a  href="/Endzone/GameManagement">Game Management</a>
+        <div class="dropdown">
+          <button class="dropbtn">Team Management
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/Endzone/Formations">Formations</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn" >Pre-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/Endzone/KIPP">KIPP</a>
+          </div>
+        </div>
+        <div class="dropdown"  style="background-color: #1e73be;">
+          <button class="dropbtn">In-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/Endzone/DAT">Drive Analyzer</a>
+            <a href="/Endzone/CASE">CASE</a>
+            <a href="/Endzone/TARS">TARS</a>
+          </div>
+        </div>
+        <div class = "topnav-right">
+          <a href = "/Logout">{{ User }}</a>
+        </div>
+      </div>
+      <h3>CASE</h3>
+    </body>
+</html>

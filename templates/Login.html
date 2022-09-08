@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Endzone - Login</title>
+        <link rel="icon" type="image/x-icon" href= "{{ url_for('static', filename='images/Endzone.jpg') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/Login.css') }}">
+    </head>
+
+    <body onload = "Message()">
+        <h3>Log Onto Endzone</h3>
+        <div class="container">
+            <form method="post" action = "{{url_for('LoginAttempt')}}">
+                <label>Email:</label><br>
+                <input type="text" name = "email"  maxlength="320" required><br>
+
+                <label>Password:</label><br>
+                <input type="password" name = "password"  maxlength="128" required><br>
+
+
+                <div class = "subcontainer">
+                    <input type="submit" value = "Log-In" class = "submit"></Input>
+                    <button class = "cancel" onclick="window.location = '/'" >Cancel</button><br>
+                    <p id = "message"></p><br>
+                    <a href = "/jointeam">Don't have a Account? Click here to join a team.</a>
+
+                </div>
+            </form>
+        </div>
+    </body>
+    <script type="text/javascript">
+        function Message()
+        {
+            message = document.getElementById("message").innerHTML = "{{ message }}"
+        }
+    </script>
+</html>

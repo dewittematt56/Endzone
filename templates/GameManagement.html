@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Endzone - Load Game</title>
+        <link rel="icon" type="image/x-icon" href= "{{ url_for('static', filename='images/Endzone.jpg') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/GameManagement.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/nav.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/Table.css') }}">
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+      <div class="topnav">
+        <div class="logo-image">
+          <img src="{{ url_for('static', filename='images/EndzoneLogo.png') }}" class="img-fluid">
+        </div>
+        <a href="/Endzone/Hub" >Hub</a>
+        <a  href="/Endzone/GameManagement" class = "active">Game Management</a>
+        <div class="dropdown">
+          <button class="dropbtn">Team Management
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/Endzone/Formations">Formations</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Pre-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/Endzone/KIPP">KIPP</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">In-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/Endzone/DAT">Drive Analyzer</a>
+            <a href="/Endzone/CASE">CASE</a>
+            <a href="/Endzone/TARS">TARS</a>
+          </div>
+        </div>
+
+        <div class = "topnav-right">
+          <a href = "/Logout">{{ User }}</a>
+        </div>
+      </div>
+      <div class = "container2">
+        <h3>Load Game</h3>
+        <div class = "subcontainer2">
+          <table id = "table">
+            <colgroup>
+                <col style = "width:15%">
+                <col style = "width:15%">
+                <col style = "width:20%">
+                <col style = "width:15%">
+                <col style = "width:15%">
+                <col style = "width:15%">
+              </colgroup>
+            <thead>
+                <tr>
+                    <th>Team Name</th>
+                    <th>Opponent</th>
+                    <th>Year</th>
+                    <th>Load</th>
+                    <th>Delete</th>
+                    <th>Export</th>
+                </tr>
+            </thead>
+            <tbody>
+              {% for Game in Games %}
+              <tr>
+                <td ALIGN="center">{{ Game.Team_Name }}</td>
+                <td ALIGN="center">{{ Game.Opponent_Name }}</td>
+                <td ALIGN="center">{{ Game.Year }}</td>
+                <td ALIGN="center">
+                  <button onclick="LoadGame(this.id)" id = {{ loop.index }}>Load</button>
+                </td>
+                <td ALIGN="center">
+                  <button id = {{ Game.ID }} onclick="DeleteGame(this.id)">Delete</button>
+                </td>
+                <td ALIGN="center">
+                  <button id = {{ loop.index }} onclick="ExportGame(this.id)">Export</button>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class = "container">
+        <h3>Create New Game</h3>
+        <div class = "subcontainer">
+          <form action = "{{url_for('GameData')}}" method = "POST" enctype="multipart/form-data" id = "form">
+            <label>Team: </label><br>
+            <input type="text"  name = "team" id = "team" required><br>
+            <label>Opponent: </label><br>
+            <input type="text"  name = "opponent" id = "opponent" required><br>
+            <label>Year: </label><br>
+            <input type="number" min="1900" max="3000" step="1" value="2022"  name ="year" id = "year" required/><br>
+            <input type="text" name ="action" id = "action" style="display: none;"/><br>
+            <input type="text" name ="row_id" id = "row_id" style="display: none;"/><br>
+            <button class = "submit" onclick="CreateGame(this.id)" id = "create_game">Create Game</button>
+          </form>
+        </div>
+      </div>
+      <div class="container3">
+        <h3>Load Dashboard</h3>
+        <div class = subcontainer3>
+          <fieldset>      
+            <legend>Games to Inculde:</legend>   
+            {% for Game in Games %}   
+            <input type="checkbox" name="game_dashboard" value="{{ Game.Team_Name }}_{{ Game.Opponent_Name }}_{{ Game.Year }}">{{ Game.Team_Name }} VS {{ Game.Opponent_Name }} | {{ Game.Year }}<br>        
+            {% endfor %}  
+          </fieldset>  
+          <form method="POST" action = "{{url_for('Dashboard')}}" id = "load_dashboard">      
+            <input type="text" name ="action_dash" id = "action_dash" style="display: none;"/><br>  
+            <input type="text" name ="game_dash" id = "game_dash" style="display: none;"/><br>   
+            <button class = "submit" onclick="LoadDashboard()">Load Dashoard</button> 
+          </form>
+        </div>
+      </div>
+      <script type="text/javascript">
+          function LoadGame(id)
+          {
+              const table = document.getElementById("table"); 
+              row = table.rows[id];
+
+              team = row.cells[0].innerText;
+              
+              opponent = row.cells[1].innerText;
+
+              year = row.cells[2].innerText;
+
+              document.getElementById("team").value = team;
+              document.getElementById("opponent").value = opponent;
+              document.getElementById("year").value = year;
+
+              document.getElementById("action").value = "load_game";
+              document.getElementById("form").submit();
+          }
+          function CreateGame(id)
+          {
+              document.getElementById("action").value = "load_game";
+              document.getElementById("form").submit();
+
+          }
+          function LoadDashboard()
+          {
+            //document.getElementById("action_dash").value = "load_dashboard";
+
+            var categories = "";
+            var checkboxes = document.getElementsByName("game_dashboard");
+            values = []
+            for (var i = 0; i < checkboxes.length; i++) {
+              if(checkboxes[i].checked == true)
+              {
+                values.push(checkboxes[i].value);
+              }
+            }
+            document.getElementById("action_dash").value = "load_dashboard";
+            document.getElementById("game_dash").value = values;
+            document.getElementById("form").submit();
+
+          }
+          function DeleteGame(id)
+          {
+            if(confirm("Do you really want to delete this game?"))
+            {
+                document.getElementById("action").value = "delete_game";
+                document.getElementById("row_id").value = id;
+                document.getElementById("form").submit();
+            }
+          }
+
+          function ExportGame(id)
+          {
+            const table = document.getElementById("table"); 
+            row = table.rows[id];
+            team = row.cells[0].innerText;
+
+            opponent = row.cells[1].innerText;
+
+            year = row.cells[2].innerText;
+
+            base_url = "/endzone/rest/exportgame?team=" + team + "&opponent=" + opponent + "&year=" + year 
+            window.location.href = base_url
+          }
+
+      </script>
+    </body>
+</html>

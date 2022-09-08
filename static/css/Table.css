@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;500&family=Lato&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+
+.tableFixHead {
+    margin: 1vh;
+    overflow-y: auto;
+    width: 51%; 
+    height: 106px;
+}
+.tableFixHead thead th {
+    position: sticky;
+    font-family: 'Lato', sans-serif;
+    top: 0;
+}
+
+table tfoot {
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+  }
+
+table {
+    position: relative;
+    margin-top: 1vh;
+    border-collapse: collapse;
+    width: 100%; 
+
+}
+
+th, td {
+    height: 1.5vh;
+    border: 1px solid #ccc;
+    background: #c8d6e5;
+    font-size: 1.5vh;
+
+}
+td {
+    padding: .5vh;
+}
+th {
+    background: #8395a7;
+}
+
+
+select {
+    padding: .5vh;
+    text-align: center;
+    font-size: 1.5vh;
+    border: .1vh solid #54a0ff;
+    background: #54a0ff80;
+}
+
+button
+{
+    color: white;
+    font-size: 1.5vh;
+    padding: .5vh;
+    font-weight: 300;
+    margin: .5vh;
+    resize: none;
+    border-radius: .75vh;
+    border: none;
+    background-color: #222f3e;
+}
+
+button:hover
+{
+    background-color: #576574;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+@media (max-width: 1280px) and (min-width: 800px)
+{
+    .table{
+        width: 10%;
+    }
+
+}
+
+@media (max-width: 820px)
+{
+    td {
+        padding: .5vh;
+    }
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&500&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    background-image: linear-gradient(to right, #2c3e50, #34495e);
+	font-family: 'Lato', sans-serif;
+	border: 1px solid transparent;
+}
+
+.container {
+    position: relative;
+    width: 25%;
+    left: 36.5%;
+    border: .5vh solid white;
+    text-align: left;
+    padding: 2vh;
+}
+
+.subcontainer {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    border-top: .25vh solid #1e73be;
+}
+
+h3 {
+    position: relative;
+    margin-top: 5vh;
+    width: 50%;
+    left: 25%;
+    color: #1e73be;
+    font-weight: 300;
+    font-size: 3.5vh;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+p {
+    font-size: 2vh;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+
+label {
+    font-size: 2vh;
+    font-weight: 300;
+    color: white;
+    padding: 2vh;
+}
+
+
+input[type=text], input[type=password], textarea {
+    position: relative;
+    font-size: 2vh;
+    font-weight: 300;
+    width: 45%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 2vh;
+    resize: none;
+}
+
+button {
+    font-size: 2vh;
+    font-weight: 300;
+    font-family: "Epilogue";
+    height: 3vh;
+    width: 33%;
+    margin: 3vh;
+    border-radius: .75vh;
+    border: none;
+}
+
+.submit {
+    font-size: 2vh;
+    font-weight: 300;
+    font-family: "Epilogue";
+    height: 3vh;
+    width: 33%;
+    margin: 3vh;
+    border-radius: .75vh;
+    border: none;
+    background-color: #10ac84;
+}
+.submit:hover {
+    background-color: #1dd1a1;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+.cancel:hover {
+    background-color: #ff6b6b;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+.cancel {
+    background-color: #ee5253;
+}
+
+
+@media (max-width: 1500px)
+{
+    .container{
+        width: 75%;
+        left: 6.5%
+    }
+    h3 {
+        width: 100%;
+        left: 0%;
+    }
+}
+
+@media (max-width: 1000px)
+{
+    .container{
+        width: 75%;
+        left: 8%
+    }
+    h3 {
+        width: 100%;
+        left: 0%;
+    }
+}

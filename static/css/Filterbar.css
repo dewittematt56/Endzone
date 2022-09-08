@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&500&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.filterbar 
+{
+    position: relative;
+    background-color: #1e272e;
+    border-bottom: .25vh solid #222f3e;
+    padding: 1vh;
+    width: auto;
+    height: auto;
+}
+
+.filterbar label {
+    color: white;
+    margin-right: 1vh;
+}
+
+.filterbar select {
+    color: white;
+    background-color: #636e72;
+    border: .25vh solid #2d3436;
+    margin-right: 1vw;
+}
+
+.filterbar button {
+    color: white;
+    background-color: #636e72;
+    border: .25vh solid #2d3436;
+}
+
