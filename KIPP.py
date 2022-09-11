@@ -125,14 +125,15 @@ class KIP_Report:
                             ### Title Page - Table of Contents
                             self.report.add_heading('%s - Offense' %team, 3)
                             self.report.add_paragraph('Efficiencies', style='List Number 2')
-                            self.report.add_paragraph('Yardage -- IN DEV', style='List Number 2')
+                            self.report.add_paragraph('Yardage', style='List Number 2')
                             self.report.add_paragraph('Play Type', style='List Number 2')
                             self.report.add_paragraph('Ball Carrier', style='List Number 2')
                             self.report.add_paragraph('1st Down', style='List Number 2')
                             self.report.add_paragraph('2nd Down', style='List Number 2')
                             self.report.add_paragraph('3rd Down', style='List Number 2')
                             self.report.add_paragraph('Pass Zones', style='List Number 2')
-                            self.report.add_paragraph('Targets -- IN DEV', style='List Number 2')
+                            self.report.add_paragraph('Ideal Passing Coverage', style='List Number 2')
+                            self.report.add_paragraph('Targets', style='List Number 2')
                             self.report.add_paragraph('Redzone', style='List Number 2')
                             self.report.add_paragraph('Boundary', style='List Number 2')
                             self.report.add_paragraph('Temporal -- IN DEV', style='List Number 2')
@@ -174,7 +175,6 @@ class Graph_Utils:
         r.add_picture(self.memory_space, width=Inches(w_size), height=Inches(h_size))
         plt.clf()
         self.memory_space = BytesIO()
-        table.style = 'Table Grid'
         self.report.add_paragraph()
 
     def BarGraph(self, data, xCol: str, byCol: str, Xaxis: str, Yaxis: str, w_size, h_size):
@@ -226,11 +226,31 @@ class Graph_Utils:
         for i in range(df.shape[0]):
             for j in range(df.shape[-1]):
                 table.cell(i + 1, j + 1).text = str(round(df.values[i,j] * 100, 1)) + "%"
-        table.style = 'Table Grid'
         self.report.add_paragraph()
-        pass
-    def Table():
-        pass
+
+    def SummaryTable(self, df, columns: 'list[str]', groupbyCol: str, title: str):
+        print("Check")
+        print(df[columns].groupby(groupbyCol).describe())
+
+    def Table(self, df, title):
+        table = self.report.add_table(df.shape[0]+1, df.shape[1] + 1)
+        table.cell(0, 0).text = title
+        table.rows[0].cells[0].paragraphs[0].runs[0].font.bold = True
+        j = 0
+
+        while j < len(df.columns):
+            table.cell(0, j + 1).text = df.columns[j]
+            j = j + 1
+
+        j = 0
+        while j < len(df):
+            table.cell(j + 1, 0).text = str(df.index[j])
+            j += 1
+
+        for i in range(df.shape[0]):
+            for j in range(df.shape[-1]):
+                table.cell(i + 1, j + 1).text = '{:0.2f}'.format(df.values[i, j])
+        self.report.add_paragraph()
 
 class Offense_Section(Graph_Utils):
     def __init__(self, data, report, team_of_interest):
@@ -249,7 +269,7 @@ class Offense_Section(Graph_Utils):
     def GetOData(self):
         self.o_report = self.data[(self.data["Possession"] != self.team_of_interest)]
         self.o_report["Distance_Hash"] = self.o_report["Hash"] + " - " + self.o_report["DownGroup"]
-        self.o_passing_zones = self.o_report[self.o_report["Pass_Zone"] != "Non Passing Play"]
+        self.o_passing_zones = self.o_report[self.o_report["Pass_Zone"] != "Not Selected"]
         self.o_runs = self.o_report[(self.o_report["Play_Type"] == "Inside Run") | (self.o_report["Play_Type"] == "Outside Run")]
         self.o_pass = self.o_report[(self.o_report["Play_Type"] == "Boot Pass") | (self.o_report["Play_Type"] == "Pocket Pass")]
         self.o_1_down = self.o_report[self.o_report["Down"] == 1]
@@ -353,6 +373,7 @@ class Offense_Section(Graph_Utils):
     
     def Yards():
         pass
+
     def Rushers(self):
         title = self.report.add_heading('%s Defense - Rush Analysis' %self.team_of_interest, 2)
         title.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -406,10 +427,12 @@ class Defense_Section(Graph_Utils):
     def ReportManager(self):
         self.GetData()
         self.Effenciies()
+        self.Yards()
         self.PlayType()
         self.BallCarrier()
         self.Down()
         self.PassZone()
+        self.IdealCoverage()
         self.Targets()
         self.Redzone()
         self.Boundary()
@@ -419,7 +442,7 @@ class Defense_Section(Graph_Utils):
     def GetData(self):
         self.d_report = self.data[self.data["Possession"] == self.team_of_interest]
         self.d_report["Distance_Hash"] = self.d_report["Hash"] + " - " + self.d_report["DownGroup"]
-        self.d_passing_zones = self.d_report[self.d_report["Pass_Zone"] != "Non Passing Play"]
+        self.d_passing_zones = self.d_report[self.d_report["Pass_Zone"] != "Not Selected"]
         self.d_runs = self.d_report[(self.d_report["Play_Type"] == "Inside Run") | (self.d_report["Play_Type"] == "Outside Run")]
         self.d_pass = self.d_report[(self.d_report["Play_Type"] == "Boot Pass") | (self.d_report["Play_Type"] == "Pocket Pass")]
         self.d_1_down = self.d_report[self.d_report["Down"] == 1]
@@ -570,12 +593,127 @@ class Defense_Section(Graph_Utils):
             cells[1].text = "No Data"
 
         self.report.add_page_break()
+    
+    def Yards(self):
+        title = self.report.add_heading('%s Offense - Yardage Breakdown' %self.team_of_interest, 2)
+        title.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
-        pass
+        ## Set Headers
+        table = self.report.add_table(8, 5)
+        headers = table.rows[0].cells
+        headers[0].text = "Type"
+        headers[1].text = "Total Yards"
+        headers[2].text = "Yards Per Game"
+        headers[3].text = "Yards Per Drive"
+        headers[4].text = "Yards Per Attempt"
+
+        ### Make Bold
+        table.rows[0].cells[0].paragraphs[0].runs[0].font.bold = True
+        table.rows[0].cells[1].paragraphs[0].runs[0].font.bold = True
+        table.rows[0].cells[2].paragraphs[0].runs[0].font.bold = True
+        table.rows[0].cells[3].paragraphs[0].runs[0].font.bold = True
+        table.rows[0].cells[4].paragraphs[0].runs[0].font.bold = True
+
+        unique_games = len(pd.concat([self.d_report['Team_Name'],self.d_report['Opponent_Name'],self.d_report['Year']]).unique())
+        unique_drives = len(self.d_report["Drive"].unique())
+        unqiue_plays = len(self.d_report)
+
+        cells = table.rows[1].cells
+        cells[0].text = "Total Yards"
+        try:
+            cells[1].text = str(self.d_report["Result"].sum())
+            cells[2].text = '{:0.2f}'.format(self.d_report["Result"].sum() / unique_games)
+            cells[3].text = '{:0.2f}'.format(self.d_report["Result"].sum() / unique_drives)
+            cells[4].text = '{:0.2f}'.format(self.d_report["Result"].sum() /unqiue_plays)
+        except:
+            cells[1].text = "No Data"
+            cells[2].text = "No Data"
+            cells[3].text = "No Data"
+            cells[4].text = "No Data"
     
-    def Yards():
-        pass
-    
+        cells = table.rows[2].cells
+        cells[0].text = "Rushing Yards"
+        try:   
+            cells[1].text = str(self.d_runs["Result"].sum())
+            cells[2].text = '{:0.2f}'.format(self.d_runs["Result"].sum() / unique_games)
+            cells[3].text = '{:0.2f}'.format(self.d_runs["Result"].sum() / unique_drives)
+            cells[4].text = '{:0.2f}'.format(self.d_runs["Result"].sum() /unqiue_plays) 
+        except: 
+            cells[1].text = "No Data"
+            cells[2].text = "No Data"
+            cells[3].text = "No Data"
+            cells[4].text = "No Data"    
+
+        cells = table.rows[3].cells
+        cells[0].text = "Inside Run Yards"
+        try: 
+            cells[1].text = str(self.d_report.query("Play_Type == 'Inside Run'")["Result"].sum())
+            cells[2].text = '{:0.2f}'.format(self.d_report.query("Play_Type == 'Inside Run'")["Result"].sum() / unique_games)
+            cells[3].text = '{:0.2f}'.format(self.d_report.query("Play_Type == 'Inside Run'")["Result"].sum() / unique_drives)
+            cells[4].text = '{:0.2f}'.format(self.d_report.query("Play_Type == 'Inside Run'")["Result"].sum() /unqiue_plays) 
+        except: 
+            cells[1].text = "No Data"
+            cells[2].text = "No Data"
+            cells[3].text = "No Data"
+            cells[4].text = "No Data"
+
+        cells = table.rows[4].cells
+        cells[0].text = "Outside Run Yards"
+        try:    
+            cells[1].text = str(self.d_report.query("Play_Type == 'Outside Run'")["Result"].sum())
+            cells[2].text = '{:0.2f}'.format(self.d_report.query("Play_Type == 'Outside Run'")["Result"].sum() / unique_games)
+            cells[3].text = '{:0.2f}'.format(self.d_report.query("Play_Type == 'Outside Run'")["Result"].sum() / unique_drives)
+            cells[4].text = '{:0.2f}'.format(self.d_report.query("Play_Type == 'Outside Run'")["Result"].sum() /unqiue_plays) 
+        except:
+            cells[1].text = "No Data"
+            cells[2].text = "No Data"
+            cells[3].text = "No Data"
+            cells[4].text = "No Data"
+
+        cells = table.rows[5].cells
+        cells[0].text = "Passing Yards"
+        try:    
+            cells[1].text = str(self.d_pass["Result"].sum())
+            cells[2].text = '{:0.2f}'.format(self.d_pass["Result"].sum() / unique_games)
+            cells[3].text = '{:0.2f}'.format(self.d_pass["Result"].sum() / unique_drives)
+            cells[4].text = '{:0.2f}'.format(self.d_pass["Result"].sum() /unqiue_plays)
+        except: 
+            cells[1].text = "No Data"
+            cells[2].text = "No Data"
+            cells[3].text = "No Data"
+            cells[4].text = "No Data"  
+
+        cells = table.rows[6].cells
+        cells[0].text = "Pocket Pass Yards"
+        try:    
+            cells[1].text = str(self.d_pass.query("Play_Type == 'Pocket Pass'")["Result"].sum())
+            cells[2].text = '{:0.2f}'.format(self.d_pass.query("Play_Type == 'Pocket Pass'")["Result"].sum() / unique_games)
+            cells[3].text = '{:0.2f}'.format(self.d_pass.query("Play_Type == 'Pocket Pass'")["Result"].sum() / unique_drives)
+            cells[4].text = '{:0.2f}'.format(self.d_pass.query("Play_Type == 'Pocket Pass'")["Result"].sum() /unqiue_plays) 
+        except: 
+            cells[1].text = "No Data"
+            cells[2].text = "No Data"
+            cells[3].text = "No Data"
+            cells[4].text = "No Data" 
+
+        cells = table.rows[7].cells
+        cells[0].text = "Boot Pass Yards"
+        try:    
+
+            cells[1].text = str(self.d_pass.query("Play_Type == 'Boot Pass'")["Result"].sum())
+            cells[2].text = '{:0.2f}'.format(self.d_pass.query("Play_Type == 'Boot Pass'")["Result"].sum() / unique_games)
+            cells[3].text = '{:0.2f}'.format(self.d_pass.query("Play_Type == 'Boot Pass'")["Result"].sum() / unique_drives)
+            cells[4].text = '{:0.2f}'.format(self.d_pass.query("Play_Type == 'Boot Pass'")["Result"].sum() /unqiue_plays) 
+        except: 
+            cells[1].text = "No Data"
+            cells[2].text = "No Data"
+            cells[3].text = "No Data"
+            cells[4].text = "No Data" 
+        self.report.add_paragraph()
+
+        self.Table(self.d_report.groupby(["Play_Type"]).agg({"Result": ["count", "mean", "median", "std", "max"]}), "Play Type Yardage")
+        self.report.add_page_break()
+
     def PlayType(self):
         ### D Play Type Page 1
         title = self.report.add_heading('%s Offense - Play Type' %self.team_of_interest, 2)
@@ -605,6 +743,7 @@ class Defense_Section(Graph_Utils):
 
         title = self.report.add_heading('%s Offense - Ball Carrier' %self.team_of_interest, 2)
         title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        self.Table(self.d_runs.groupby("Result_BallCarrier").agg({"Result": ["mean", "std", "min", "max", "median"]}), "Ball Carrier Stats")
         self.CrosstabDisplay(pd.crosstab(self.d_runs.Personnel,  self.d_runs.Result_BallCarrier, margins=True, normalize="index"), "Ball Carrier by Personnel")
         self.CrosstabDisplay(pd.crosstab(self.d_runs.Formation, self.d_runs.Result_BallCarrier, margins=True, normalize="index"), "Ball Carrier by Formation")
 
@@ -651,6 +790,15 @@ class Defense_Section(Graph_Utils):
         self.CrosstabDisplay(pd.crosstab(self.d_3_down.Personnel, self.d_3_down.Play_Type, margins=True, normalize="index"), "Play Type by Personnel")
         self.report.add_page_break()
 
+    def IdealCoverage(self):
+        title = self.report.add_heading('%s Offense - Ideal Passing Coverage' %self.team_of_interest, 2)
+        title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        
+        self.Table(self.d_pass.groupby(["Down", "Coverage"]).agg({"Result": ["count", "mean", "median", "std"]}), "Coverage Detailed by Down")
+        self.Table(self.d_pass.groupby(["DownGroup", "Coverage"]).agg({"Result": ["count", "mean", "median", "std"]}), "Coverage Detailed by Down Distance")
+        self.Table(self.d_pass.groupby(["FieldGroup", "Coverage"]).agg({"Result": ["count", "mean", "median", "std"]}), "Coverage Detailed by Down Field Position")
+        self.report.add_page_break()
+
     def PassZone(self):
         ### D Pass Zones
         title = self.report.add_heading('%s Offense - Pass Zones' %self.team_of_interest, 2)
@@ -663,7 +811,13 @@ class Defense_Section(Graph_Utils):
         self.report.add_page_break()
 
     def Targets(self):
-        pass
+        title = self.report.add_heading('%s Offense - Pass Zone Targets' %self.team_of_interest, 2)
+        title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+        self.CrosstabDisplay(pd.crosstab(self.d_passing_zones.Pass_Zone, self.d_passing_zones.Coverage, margins=True, normalize="index"), "Coverage by Passzone")
+        self.CrosstabDisplay(pd.crosstab(self.d_passing_zones.Pass_Zone, str(self.d_passing_zones.Result_BallCarrier), margins=True, normalize="index"), "Targets by Passzone")
+        self.Table(self.d_passing_zones.groupby(["Result_BallCarrier"]).agg({"Result": ["count", "mean", "median", "std"]}), "Reciever Yardage")
+        self.report.add_page_break()
 
     def Redzone(self):
         ### D Redzone
@@ -676,7 +830,6 @@ class Defense_Section(Graph_Utils):
         self.CrosstabDisplay(pd.crosstab(self.d_redzone.Personnel, self.d_redzone.Play_Type, margins=True, normalize="index"), "Play Type by Personnel")
         self.CrosstabDisplay(pd.crosstab(self.d_redzone.Formation, self.d_redzone.Play_Type, margins=True, normalize="index"), "Play Type by Formation")
         self.report.add_page_break()
-        pass
 
     def Boundary(self):
         title = self.report.add_heading('%s Offense - Boundary' %self.team_of_interest, 2)
@@ -692,7 +845,6 @@ class Defense_Section(Graph_Utils):
         # Plays to Strength
         self.CrosstabDisplay(pd.crosstab(self.d_boundary.Boundary, self.d_boundary.Hash, margins=True, normalize="index"), "Boundary by Hash")
         self.report.add_page_break()
-        pass
 
     def Temporal(self):
         pass

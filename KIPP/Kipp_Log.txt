@@ -1,0 +1,156 @@
+INFO:root:	 Job 1662862073 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:07:53.050174
+INFO:root:	 Job 1662862073 Complete | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:07:57.161199
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:07:57] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:08:43] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:08:43] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:08:43] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:08:43] "[36mGET /static/js/KIPP.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:08:43] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:08:43] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:08:43] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662862159 Start | 	['', 'LN_Totino-Grace_2021', 'Edina_LN_2021', 'LN_Stillwater_2021', 'LN_Maple-Grove_2021', 'White-Bear-Lake_LN_2021', 'LN_Totino-Grace_2022', 'LN_Maple Grove_2022', 'LN_Stillwater_2022', 'Eastview_LN_2022']	2022-09-10T21:09:19.159039
+ERROR:root:'numpy.int64' object is not iterable
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:09:21] "[32mPOST /Endzone/KIPP/Run HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:09:22] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:09:22] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:09:22] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:09:22] "[36mGET /static/js/KIPP.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:09:22] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:09:22] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662862204 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:10:04.265233
+INFO:root:	 Job 1662862204 Complete | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:10:08.338726
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:10:08] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662862338 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:12:18.402298
+INFO:root:	 Job 1662862338 Complete | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:12:22.574878
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:12:22] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662862802 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:20:02.389817
+INFO:root:	 Job 1662862802 Complete | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:20:06.510852
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:20:06] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662862851 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:20:51.139136
+INFO:root:	 Job 1662862851 Complete | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:20:55.249661
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:20:55] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662862886 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:21:26.694636
+ERROR:root:'numpy.float64' object is not iterable
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:21:28] "[32mPOST /Endzone/KIPP/Run HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:21:28] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:21:28] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:21:28] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:21:28] "[36mGET /static/js/KIPP.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:21:28] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:21:28] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662862910 Start | 	['', 'LN_Totino-Grace_2021', 'Edina_LN_2021', 'LN_Stillwater_2021', 'LN_Maple-Grove_2021', 'White-Bear-Lake_LN_2021', 'LN_Totino-Grace_2022', 'LN_Maple Grove_2022', 'LN_Stillwater_2022', 'Eastview_LN_2022']	2022-09-10T21:21:50.316399
+INFO:root:	 Job 1662862910 Complete | 	['', 'LN_Totino-Grace_2021', 'Edina_LN_2021', 'LN_Stillwater_2021', 'LN_Maple-Grove_2021', 'White-Bear-Lake_LN_2021', 'LN_Totino-Grace_2022', 'LN_Maple Grove_2022', 'LN_Stillwater_2022', 'Eastview_LN_2022']	2022-09-10T21:21:55.346214
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:21:55] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662862951 Start | 	['', 'LN_Totino-Grace_2021', 'Edina_LN_2021', 'LN_Stillwater_2021', 'LN_Maple-Grove_2021', 'White-Bear-Lake_LN_2021', 'LN_Totino-Grace_2022', 'LN_Maple Grove_2022', 'LN_Stillwater_2022', 'Eastview_LN_2022']	2022-09-10T21:22:31.365111
+INFO:root:	 Job 1662862951 Complete | 	['', 'LN_Totino-Grace_2021', 'Edina_LN_2021', 'LN_Stillwater_2021', 'LN_Maple-Grove_2021', 'White-Bear-Lake_LN_2021', 'LN_Totino-Grace_2022', 'LN_Maple Grove_2022', 'LN_Stillwater_2022', 'Eastview_LN_2022']	2022-09-10T21:22:36.368403
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:22:36] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662863050 Start | 	['', 'LN_Totino-Grace_2021', 'Edina_LN_2021', 'LN_Stillwater_2021', 'LN_Maple-Grove_2021', 'White-Bear-Lake_LN_2021', 'LN_Totino-Grace_2022', 'LN_Maple Grove_2022', 'LN_Stillwater_2022', 'Eastview_LN_2022']	2022-09-10T21:24:10.854673
+INFO:root:	 Job 1662863050 Complete | 	['', 'LN_Totino-Grace_2021', 'Edina_LN_2021', 'LN_Stillwater_2021', 'LN_Maple-Grove_2021', 'White-Bear-Lake_LN_2021', 'LN_Totino-Grace_2022', 'LN_Maple Grove_2022', 'LN_Stillwater_2022', 'Eastview_LN_2022']	2022-09-10T21:24:15.865972
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:24:15] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662863113 Start | 	['', 'LN_Totino-Grace_2021', 'Edina_LN_2021', 'LN_Stillwater_2021', 'LN_Maple-Grove_2021', 'White-Bear-Lake_LN_2021', 'LN_Totino-Grace_2022', 'LN_Maple Grove_2022', 'LN_Stillwater_2022', 'Eastview_LN_2022']	2022-09-10T21:25:13.576477
+INFO:root:	 Job 1662863113 Complete | 	['', 'LN_Totino-Grace_2021', 'Edina_LN_2021', 'LN_Stillwater_2021', 'LN_Maple-Grove_2021', 'White-Bear-Lake_LN_2021', 'LN_Totino-Grace_2022', 'LN_Maple Grove_2022', 'LN_Stillwater_2022', 'Eastview_LN_2022']	2022-09-10T21:25:18.583772
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:25:18] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:25:51] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662863349 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:29:09.516372
+INFO:root:	 Job 1662863349 Complete | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:29:13.620392
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:29:13] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662863488 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:31:28.119269
+INFO:root:	 Job 1662863488 Complete | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:31:32.271330
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:31:32] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662863696 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:34:56.765249
+INFO:root:	 Job 1662863696 Complete | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:35:01.080451
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:35:01] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662863796 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:36:36.021894
+INFO:root:	 Job 1662863796 Complete | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:36:40.698906
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:36:40] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662863936 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:38:56.152602
+ERROR:root:'DistanceGroup'
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:38:58] "[32mPOST /Endzone/KIPP/Run HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:38:58] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:38:58] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:38:58] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:38:58] "[36mGET /static/js/KIPP.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:38:58] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:38:58] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662864199 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:43:19.672655
+ERROR:root:'PlayType'
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:43:21] "[32mPOST /Endzone/KIPP/Run HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:43:21] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:43:21] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:43:21] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:43:21] "[36mGET /static/js/KIPP.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:43:21] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:43:21] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662864213 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:43:33.594598
+INFO:root:	 Job 1662864213 Complete | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:43:38.637923
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:43:38] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662864517 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:48:37.920155
+ERROR:root:'SeriesGroupBy' object has no attribute 'mode'
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:48:39] "[32mPOST /Endzone/KIPP/Run HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:48:39] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:48:39] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:48:39] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:48:39] "[36mGET /static/js/KIPP.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:48:39] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:48:39] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662864638 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:50:38.939969
+ERROR:root:'SeriesGroupBy' object has no attribute 'np.sum'
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:50:41] "[32mPOST /Endzone/KIPP/Run HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:50:41] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:50:41] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:50:41] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:50:41] "[36mGET /static/js/KIPP.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:50:41] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:50:41] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662864756 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:52:36.286131
+INFO:root:	 Job 1662864756 Complete | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:52:40.842539
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:52:40] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662865103 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:58:23.538011
+ERROR:root:'DataFrame' object has no attribute 'Passing_Zone'
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:27] "[32mPOST /Endzone/KIPP/Run HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:28] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:28] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:28] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:28] "[36mGET /static/js/KIPP.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:28] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:28] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662865123 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:58:43.203381
+ERROR:root:'int' object is not iterable
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:47] "[32mPOST /Endzone/KIPP/Run HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:47] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:47] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:47] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:47] "[36mGET /static/js/KIPP.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:47] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:58:47] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading
+INFO:root:	 Job 1662865157 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:59:17.120976
+INFO:root:	 Job 1662865157 Complete | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T21:59:21.707410
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 21:59:21] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:matplotlib.font_manager:generated new fontManager
+INFO:root:	 Job 1662865401 Start | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T22:03:21.035211
+INFO:root:	 Job 1662865401 Complete | 	['', 'Park_LS_2021', 'Park_Eagan_2021', 'Burnsville_Park_2021', 'Eagan_Park_2021']	2022-09-10T22:03:25.673190
+INFO:werkzeug:192.168.1.127 - - [10/Sep/2022 22:03:25] "POST /Endzone/KIPP/Run HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\KIPP.py', reloading

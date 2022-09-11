@@ -385,4 +385,4 @@ def Delete_Formation():
         return str(e)
 
 if __name__ == '__main__':
-    app.run(use_reloader = False, host = "0.0.0.0", debug=False, port = 80)
+    app.run(use_reloader = True, host = "0.0.0.0", debug=False, port = 80)
