@@ -1,10 +1,10 @@
-from flask import *
+from flask import Blueprint, send_file, request, Response, jsonify
 from db import db
-from classes import *
-from login import *
+from classes import Game, Formation
+from login import user_login
 from flask_login import current_user
-from sqlalchemy import *
-from utils import *
+from sqlalchemy import asc, create_engine, true
+from utils import load_games_json
 import pandas as pd
 import os
 from db import db_uri

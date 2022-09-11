@@ -1,8 +1,7 @@
-from flask import *
+from flask import Flask, render_template, request, redirect, send_file, jsonify
 from flask_login import login_manager, LoginManager, login_required, login_user, logout_user, current_user
-from sqlalchemy import *
 from login import user_login
-from classes import *
+from classes import User, GameLoad, Team, Game, Formation, Model
 from db import db, db_uri
 from KIPP import Run_Kip
 from utils import *
@@ -11,7 +10,6 @@ from utils_api import utils_api
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
 app.secret_key = "jSY8ov4if99WKAFlDOg3"
-app.debug = True
 
 app.register_blueprint(utils_api)
 db.init_app(app)
@@ -261,7 +259,6 @@ def TARS_Run():
             opponent = ",".join(opponent)
             year = ",".join(year)
         group_by = ", ".join(group_by)
-        print(group_by)
         response = db.session.execute("""SELECT sub."Play_Type", ROUND((COUNT(*) * 100.0/ sum(count(*)) over ()), 3) as "Total", count(*)
                                             FROM (
                                                 SELECT
@@ -388,4 +385,4 @@ def Delete_Formation():
         return str(e)
 
 if __name__ == '__main__':
-    app.run(use_reloader = True, host = "0.0.0.0", debug=True)
+    app.run(use_reloader = False, host = "0.0.0.0", debug=False, port = 80)

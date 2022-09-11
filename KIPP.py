@@ -1,20 +1,16 @@
-import sys
 import os
 from datetime import datetime
 import time
-
 import pandas as pd
-import docx
 from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Inches
 import matplotlib
 import matplotlib.pyplot as plt
-import matplotlib.gridspec as gridspec
 import seaborn as sns
 from io import BytesIO
 import warnings
-from sqlalchemy import *
+from sqlalchemy import create_engine
 from sqlalchemy.sql import functions 
 from sqlalchemy.orm import sessionmaker
 from classes import Game, Formation
@@ -579,6 +575,7 @@ class Defense_Section(Graph_Utils):
     
     def Yards():
         pass
+    
     def PlayType(self):
         ### D Play Type Page 1
         title = self.report.add_heading('%s Offense - Play Type' %self.team_of_interest, 2)
