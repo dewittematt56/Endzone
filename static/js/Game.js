@@ -40,6 +40,9 @@ function clearmap()
       mapObject.map_p.removeLayer(layer)
     }
   })
+  PlayData.pright = 0;
+  PlayData.pmiddle = 0;
+  PlayData.pleft = 0;
 }
 
 // Turn field location into hash position
@@ -151,6 +154,7 @@ function PlayTypeUpdate()
   {
     document.getElementById("passzone").style.display = "none";
     document.getElementById("passzoneLbl").style.display = "none";
+    document.getElementById("passzone").value = "Non Passing Play";
   }
 }
 

@@ -186,11 +186,12 @@ def KIPP_Run():
             if request.form["kipps_action"] == "run_kipps":
                 user_input = request.form["kipps_jobs"].split(',')
                 team_of_interest = request.form["TeamOfInterest"]
+                job_type = request.form["kipps_type"]
                 if len(user_input) == 1 and user_input[0] == "":
                     query_response = db.session.query(GameLoad).filter(GameLoad.User_Team_Code == current_user.team_code).filter(or_(GameLoad.Team_Name == team_of_interest,  GameLoad.Opponent_Name == team_of_interest))
                     for game in query_response.all():
                         user_input.append(game.Team_Name + "_" + game.Opponent_Name + "_" + str(game.Year))
-            return send_file(Run_Kip(user_input, team_of_interest, current_user.team_code, "Defense"), as_attachment=True)
+            return send_file(Run_Kip(user_input, team_of_interest, current_user.team_code, job_type), as_attachment=True)
         else:
              return redirect("/Endzone/KIPP")
     except Exception as e:
