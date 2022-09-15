@@ -132,7 +132,7 @@ function getResult(marker1, marker2){PlayData.result = Math.round(marker2.getLat
 // When select possession changes
 function changePossession(team)
 {
-  if(team == document.getElementById("Possession").value)
+  if(team == PlayData.team)
   {
     document.getElementById("sub_bar").style.backgroundColor = "#353b48";
   }
@@ -140,6 +140,7 @@ function changePossession(team)
   {
     document.getElementById("sub_bar").style.backgroundColor = "#ecf0f1";
   }
+  document.getElementById("Possession").value = team;
 }
 
 function PlayTypeUpdate()

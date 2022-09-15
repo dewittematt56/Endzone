@@ -51,6 +51,16 @@
           <a href = "/Logout">{{ User }}</a>
         </div>
       </div>
+      <div class="sidenav">
+        <a href = "/Logout">{{ User }}</a>
+        <a class = "active" href="/Endzone/Hub">Hub</a>
+        <a href="/Endzone/GameManagement">Game Management</a>
+        <a href = "/Endzone/Formations">Formations</a>
+        <a href="/Endzone/KIPP">Pre-Game KIPP</a>
+        <a href = "/Endzone/DAT">In-Game Drive Analyzer</a>
+        <a href="/Endzone/CASE">In-Game CASE</a>
+        <a href="/Endzone/TARS">In-Game TARS</a>
+      </div>   
       <div class = "container2">
         <h3>Load Game</h3>
         <div class = "subcontainer2">
@@ -83,7 +93,7 @@
                   <button onclick="LoadGame(this.id)" id = {{ loop.index }}>Load</button>
                 </td>
                 <td ALIGN="center">
-                  <button id = {{ Game.ID }} onclick="DeleteGame(this.id)">Delete</button>
+                  <button id = {{ loop.index }} onclick="DeleteGame(this.id)">Delete</button>
                 </td>
                 <td ALIGN="center">
                   <button id = {{ loop.index }} onclick="ExportGame(this.id)">Export</button>
@@ -173,9 +183,16 @@
           {
             if(confirm("Do you really want to delete this game?"))
             {
-                document.getElementById("action").value = "delete_game";
-                document.getElementById("row_id").value = id;
-                document.getElementById("form").submit();
+                alert("Try")
+                const table = document.getElementById("table"); 
+                row = table.rows[id];
+                team = row.cells[0].innerText;
+                opponent = row.cells[1].innerText;
+                year = row.cells[2].innerText;
+                alert(team)
+                base_url = "/endzone/rest/deletegame?team=" + team + "&opponent=" + opponent + "&year=" + year 
+                window.location.href = base_url
+                alert("Sucess")
             }
           }
 
