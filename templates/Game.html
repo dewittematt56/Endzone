@@ -70,7 +70,7 @@
           <a href = "/Endzone/DAT">In-Game Drive Analyzer</a>
           <a href="/Endzone/CASE">In-Game CASE</a>
           <a href="/Endzone/TARS">In-Game TARS</a>
-      </div>   
+        </div>   
         <form id = "form">
           <!-- Top bar section -->
           <div class = "sub_bar" id = "sub_bar">
@@ -81,7 +81,7 @@
 
             <!-- Normal elements-->
             <label>Possession:</label>
-            <select name = "possession" class="Hash" id = "Possession" onchange="changePossession('{{ metadata.team}}')">
+            <select name = "possession" class="Hash" id = "Possession">
               <option value = "{{ metadata.team}}">{{ metadata.team}}</option>
               <option value = "{{ metadata.opponent}}">{{ metadata.opponent}}</option>
             </select>
@@ -606,6 +606,7 @@
             PlayData.distance = 10;
             newdrive()
           }
+
 
           // Displays
           document.getElementById("distance").value = PlayData.distance;

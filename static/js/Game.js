@@ -40,6 +40,9 @@ function clearmap()
       mapObject.map_p.removeLayer(layer)
     }
   })
+  PlayData.pright = 0;
+  PlayData.pmiddle = 0;
+  PlayData.pleft = 0;
 }
 
 // Turn field location into hash position
@@ -129,7 +132,7 @@ function getResult(marker1, marker2){PlayData.result = Math.round(marker2.getLat
 // When select possession changes
 function changePossession(team)
 {
-  if(team == document.getElementById("Possession").value)
+  if(team == PlayData.team)
   {
     document.getElementById("sub_bar").style.backgroundColor = "#353b48";
   }
@@ -137,6 +140,7 @@ function changePossession(team)
   {
     document.getElementById("sub_bar").style.backgroundColor = "#ecf0f1";
   }
+  document.getElementById("Possession").value = team;
 }
 
 function PlayTypeUpdate()
@@ -151,6 +155,7 @@ function PlayTypeUpdate()
   {
     document.getElementById("passzone").style.display = "none";
     document.getElementById("passzoneLbl").style.display = "none";
+    document.getElementById("passzone").value = "Non Passing Play";
   }
 }
 
