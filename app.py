@@ -83,7 +83,7 @@ def LoginAttempt():
         filter(User.Password == password)
     if len(response.all()) == 1:
         login_user(load_user(request.form["email"]))
-        return redirect("/Endzone/Hub")
+        return redirect("/endzone/hub")
 
     response = db.session.query(User).filter(User.Email == email)
     if len(response.all()) == 0:
@@ -97,19 +97,19 @@ def logout():
     logout_user()
     return redirect("/")
 
-@app.route("/Endzone/Hub")
+@app.route("/endzone/hub")
 @login_required
 def Hub():
     return render_template("Hub.html", User = "Coach " + current_user.last)
 
-@app.route("/Endzone/GameManagement")
+@app.route("/endzone/gamemanagement")
 @login_required
 def GameManagement():
     query_response = db.session.query(GameLoad).filter(GameLoad.User_Team_Code == current_user.team_code).order_by(asc(GameLoad.Team_Name))
     games = query_response.all()
     return render_template("GameManagement.html", User = "Coach " + current_user.last, Games = games)
 
-@app.route("/Endzone/Game", methods = ["POST", "GET"])
+@app.route("/endzone/game", methods = ["POST", "GET"])
 @login_required
 def GameData():
     try:
@@ -142,9 +142,9 @@ def GameData():
         return render_template("Game.html", User = "Coach " + current_user.last, metadata = meta_payload, plays = past_plays)
     except Exception as e:
         print(e)
-        redirect("/Endzone/GameManagement")
+        redirect("/endzone/gamemanagement")
 
-@app.route("/Endzone/Dashboard", methods = ["POST", "GET"])
+@app.route("/endzone/dashboard", methods = ["POST", "GET"])
 @login_required
 def Dashboard():
     try: 
@@ -167,20 +167,20 @@ def Dashboard():
         return render_template("Dashboard.html", User = "Coach " + current_user.last, payload = json)
     except Exception as e:
         print(e)
-        return redirect("/Endzone/Game")
+        return redirect("/endzone/game")
 
-@app.route("/Endzone/KIPP", methods = ["POST", "GET"])
+@app.route("/endzone/prereport", methods = ["POST", "GET"])
 @login_required
-def KIPP():
+def prereport():
     query_response = db.session.query(GameLoad).filter(GameLoad.User_Team_Code == current_user.team_code).order_by(asc(GameLoad.Team_Name))
     games = query_response.all()
     query_response = db.session.query(Game.Possession).filter(Game.Owner_Team_Code == current_user.team_code).distinct().order_by(asc(Game.Possession))
     teams = query_response.all()
-    return render_template("KIPP.html", User = "Coach " + current_user.last, Games = games, Teams = teams)
+    return render_template("PreReport.html", User = "Coach " + current_user.last, Games = games, Teams = teams)
 
-@app.route("/Endzone/KIPP/Run", methods = ["POST", "GET"])
+@app.route("/endzone/prereport/Run", methods = ["POST", "GET"])
 @login_required
-def KIPP_Run():
+def prereport_run():
     try:
         if request.method == "POST":
             if request.form["kipps_action"] == "run_kipps":
@@ -193,12 +193,12 @@ def KIPP_Run():
                         user_input.append(game.Team_Name + "_" + game.Opponent_Name + "_" + str(game.Year))
             return send_file(Run_Report(user_input, team_of_interest, current_user.team_code, job_type), as_attachment=True)
         else:
-             return redirect("/Endzone/KIPP")
+             return redirect("/endzone/prereport")
     except Exception as e:
         print(e)
-        return redirect("/Endzone/KIPP")
+        return redirect("/endzone/prereport")
 
-@app.route("/Endzone/TARS", methods = ["POST", "GET"])
+@app.route("/endzone/tars", methods = ["POST", "GET"])
 @login_required
 def TARS():
     query_response = db.session.query(GameLoad).filter(GameLoad.User_Team_Code == current_user.team_code).order_by(asc(GameLoad.Team_Name))
@@ -208,7 +208,7 @@ def TARS():
     teams_of_interest = query_response.all()
     return render_template("TARS.html", User = "Coach " + current_user.last, Games = games, Teams = teams_of_interest)
 
-@app.route("/Endzone/TARS/Run", methods = ["GET"])
+@app.route("/endzone/tars/run", methods = ["GET"])
 @login_required
 def TARS_Run():
     try:
@@ -303,21 +303,21 @@ def TARS_Run():
         print(e)
         return "TARS-Response: An error has occured"
 
-@app.route("/Endzone/CASE", methods = ["POST", "GET"])
+@app.route("/endzone/dataviewer", methods = ["POST", "GET"])
 @login_required
-def CASE():
-    return render_template("CASE.html")
+def DataViewer():
+    return render_template("DataViewer.html")
 
-@app.route("/Endzone/DAT", methods = ["GET"])
+@app.route("/endzone/driveanalyzer", methods = ["GET"])
 @login_required
-def DAT():
+def DriveAnalyzer():
     query_response = db.session.query(GameLoad).filter(GameLoad.User_Team_Code == current_user.team_code).order_by(asc(GameLoad.Team_Name))
     games = query_response.all()
-    return render_template("DAT.html", User = "Coach " + current_user.last, Games = games)
+    return render_template("DriveAnalyzer.html", User = "Coach " + current_user.last, Games = games)
 
-@app.route("/Endzone/DAT/GetParam", methods = ["GET"])
+@app.route("/endzone/driveanalyzer/getparam", methods = ["GET"])
 @login_required
-def Dat_GetParam():
+def DriveAnalyzer_GetParam():
     try:
         if request.args.get("team") != null:
             if request.args.get("opponent") != null:
@@ -332,9 +332,9 @@ def Dat_GetParam():
         return ""
 
 ## TO-DO: Move to utilites API
-@app.route("/Endzone/DAT/GetData", methods = ["GET"])
+@app.route("/endzone/driveanalyzer/getdata", methods = ["GET"])
 @login_required
-def Dat_GetData():
+def DriveAnalyzer_GetData():
     try:
         if request.args.get("team") != null:
             if request.args.get("opponent") != null:
@@ -347,14 +347,14 @@ def Dat_GetData():
         print(e)
         return ""
 
-@app.route("/Endzone/Formations", methods = ["GET"])
+@app.route("/endzone/formations", methods = ["GET"])
 @login_required
 def Formations():
     query_response = db.session.query(Formation).filter(Formation.Team_Code == current_user.team_code).order_by(asc(Formation.Formation))
     return render_template("Formations.html", User = "Coach " + current_user.last, Formations = query_response.all(), teamcode = current_user.team_code)
 
 ## TO-DO: Move to utilites API
-@app.route("/Endzone/Formations/Build", methods = ["POST"])
+@app.route("/endzone/formations/build", methods = ["POST"])
 @login_required
 def Build_Formation():
     try:
@@ -363,17 +363,17 @@ def Build_Formation():
             if request.form["Formation"] in [r[0] for r in query]:
                 Formation.query.filter_by(Formation = request.form["Formation"], Team_Code = current_user.team_code).delete()
                 new_formation = Formation(request.form["Formation"],current_user.team_code, request.form["WR"], request.form["TE"], request.form["RB"], "/Dev")
-                return redirect("/Endzone/Formations")
+                return redirect("/endzone/formations")
             else:
                 new_formation = Formation(request.form["Formation"],current_user.team_code, request.form["WR"], request.form["TE"], request.form["RB"], "/Dev")
                 db.session.add(new_formation)
                 db.session.commit()
-        return redirect("/Endzone/Formations")
+        return redirect("/endzone/formations")
     except Exception as e:
         print(e)
-        return redirect("/Endzone/Formations")
+        return redirect("/endzone/formations")
 
-@app.route("/Endzone/GameRecap", methods = ["GET"])
+@app.route("/endzone/gamerecap", methods = ["GET"])
 @login_required
 def GameRecap():
     return render_template("PostGameReport.html", Team_Code = current_user.team_code, User = "Coach " + current_user.last,)

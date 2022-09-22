@@ -40,7 +40,7 @@ def getData():
 # Parameters: Full Game Parameters
 def addPlay():
     try:
-        columns = ["team", "opponent", "year", "teamcode", "simplified", "playnum", "drive", "quarter", "possession", "yard", "hash", "down", "distance", "dformation", "formation", "strength", "playtype", "playdir", "passzone", "coverage", "result", "ballcarrier", "pright", "pmiddle", "pleft", "pstunt", "lat", "lon", "r_lat", "r_lon"]
+        columns = ["team", "opponent", "year", "teamcode", "simplified", "playnum", "drive", "quarter", "possession", "yard", "hash", "down", "distance", "dformation", "formation", "strength", "playtype", "playdir", "passzone", "coverage", "result", "ballcarrier", "pright", "pmiddle", "pleft", "pstunt", "lat", "lon", "r_lat", "r_lon", "event"]
         for col in columns:
             if col not in request.args.to_dict().keys():
                 print(col)
@@ -48,8 +48,12 @@ def addPlay():
             else:
                 pass
         # Add Play to database
+        if request.args.get("event") == "Not Selected" or request.args.get("event") == None:
+            event = None
+        else:
+            event = request.args.get("event")
         new_play = Game(request.args.get("team"), request.args.get("opponent"), request.args.get("year"), request.args.get("teamcode"), request.args.get("playnum"), request.args.get("possession"), request.args.get("yard"), request.args.get("hash"), request.args.get("down"), request.args.get("distance"), request.args.get("drive"), request.args.get("quarter"), request.args.get("dformation"), request.args.get("formation"), request.args.get("strength"),
-                            request.args.get("playtype"), request.args.get("playdir"), request.args.get("passzone"), request.args.get("coverage"), request.args.get("pleft"), request.args.get("pmiddle"), request.args.get("pright"), request.args.get("result"), request.args.get("ballcarrier"), request.args.get("r_lat"), request.args.get("r_lon"), request.args.get("lat"), request.args.get("lon"), request.args.get("simplified"))
+                            request.args.get("playtype"), request.args.get("playdir"), request.args.get("passzone"), request.args.get("coverage"), request.args.get("pleft"), request.args.get("pmiddle"), request.args.get("pright"), request.args.get("result"), request.args.get("ballcarrier"), event, request.args.get("r_lat"), request.args.get("r_lon"), request.args.get("lat"), request.args.get("lon"), request.args.get("simplified"))
         db.session.add(new_play)
         db.session.commit()
         return Response("Success", status=200)
@@ -117,7 +121,7 @@ def exportGame():
         # Get Data and Export as CSV
         sql_engine = create_engine(db_uri, echo=False)
         df = pd.read_sql(db.session.query(Game).filter(Game.Owner_Team_Code == teamcode).filter(Game.Team_Name == request.args.get("team")).filter(Game.Opponent_Name == request.args.get("opponent")).filter(Game.Year == request.args.get("year")).order_by(asc(Game.PlayNum)).statement, sql_engine)
-        export_path = os.path.dirname(__file__) + "/Exports/%s.csv" %(request.args.get("team") + "_" + request.args.get("opponent") + "_" + request.args.get("year") + "_" + str(int(time.time())))
+        export_path = os.path.dirname(__file__) + "/game_exports/%s.csv" %(request.args.get("team") + "_" + request.args.get("opponent") + "_" + request.args.get("year") + "_" + str(int(time.time())))
         df.to_csv(export_path, index=False)
         return send_file(export_path, as_attachment=true)
     except Exception as e:

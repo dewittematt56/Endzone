@@ -49,7 +49,6 @@ function LoadFormation(id, teamcode)
 
 function DeleteFormation(id, teamcode)
 {
-    alert(teamcode)
     table = document.getElementById("table")
     row = table.rows[id]
     $.ajax({

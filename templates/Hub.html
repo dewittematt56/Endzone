@@ -9,61 +9,61 @@
         <link rel = "stylesheet" href = "{{ url_for('static', filename='css/nav.css') }}">
     </head>
     <body>
-        <div class="topnav">
-            <div class="logo-image">
-              <img src="{{ url_for('static', filename='images/EndzoneLogo.png') }}" class="img-fluid">
-          </div>
-            <a href="/Endzone/Hub" class = "active">Hub</a>
-            <a  href="/Endzone/GameManagement">Game Management</a>
-            <div class="dropdown">
-              <button class="dropbtn">Team Management
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href = "/Endzone/Formations">Formations</a>
-              </div>
-            </div>
-            <div class="dropdown">
-              <button class="dropbtn">Pre-Game Analysis
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="/Endzone/KIPP">KIPP</a>
-              </div>
-            </div>
-            <div class="dropdown">
-              <button class="dropbtn">In-Game Analysis
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href = "/Endzone/DAT">Drive Analyzer</a>
-                <a href="/Endzone/CASE">CASE</a>
-                <a href="/Endzone/TARS">TARS</a>
-              </div>
-            </div>
-            <div class="dropdown">
-              <button class="dropbtn">Post-Game Analysis
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href = "/Endzone/GameRecap">Recap Report</a>
-              </div>
-            </div>
-            <div class = "topnav-right">
-              <a href = "/Logout">{{ User }}</a>
-            </div>
+      <div class="topnav">
+        <div class="logo-image">
+          <img src="{{ url_for('static', filename='images/EndzoneLogo.png') }}" class="img-fluid">
         </div>
-        <div class="sidenav">
+        <a href="/endzone/hub" class="active">Hub</a>
+        <a  href="/endzone/gamemanagement">Game Management</a>
+        <div class="dropdown">
+          <button class="dropbtn">Team Management
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/endzone/formations">Formations</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Pre-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/endzone/prereport">Pre Game Report</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">In-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/endzone/driveanalyzer">Drive Analyzer</a>
+            <a href="/endzone/dataviewer">Data Viewer</a>
+            <a href="/endzone/tars">TARS</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Post-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/endzone/gamerecap">Recap Report</a>
+          </div>
+        </div>
+        <div class = "topnav-right">
           <a href = "/Logout">{{ User }}</a>
-          <a class = "active" href="/Endzone/Hub">Hub</a>
-          <a href="/Endzone/GameManagement">Game Management</a>
-          <a href = "/Endzone/Formations">Formations</a>
-          <a href="/Endzone/KIPP">Pre-Game KIPP</a>
-          <a href = "/Endzone/DAT">In-Game Drive Analyzer</a>
-          <a href="/Endzone/CASE">In-Game CASE</a>
-          <a href="/Endzone/TARS">In-Game TARS</a>
-          <a href = "/Endzone/DAT">Post-Game Recap Report</a>
-        </div>  
+        </div>
+    </div>
+    <div class="sidenav">
+      <a href = "/Logout">{{ User }}</a>
+      <a class = "active" href="/endzone/hub">Hub</a>
+      <a href="/endzone/gamemanagement">Game Management</a>
+      <a href = "/endzone/formations">Formations</a>
+      <a href="/endzone/prereport">Pre-Game Report</a>
+      <a href = "/endzone/driveanalyzer">In-Game Drive Analyzer</a>
+      <a href="/endzone/dataviewer">In-Game Data Viewer</a>
+      <a href="/endzone/tars">In-Game TARS</a>
+      <a href = "/endzone/gamerecap">Post-Game Recap Report</a>
+    </div>
         <h2>Hub</h2>
     </body>
 </html>

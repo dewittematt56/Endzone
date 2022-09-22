@@ -98,7 +98,7 @@ select {
 .ballcarrier {
     position: relative;
     top: 1vh;
-    width: auto;
+    width: 7.5%;
     margin-bottom: 2vh;
     display: inline; 
 }

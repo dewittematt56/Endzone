@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Endzone - Data Viewer</title>
+        <link rel="icon" type="image/x-icon" href= "{{ url_for('static', filename='images/Endzone.jpg') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/nav.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/TARS.css') }}">
+    </head>
+    <body>
+      <div class="topnav">
+        <div class="logo-image">
+          <img src="{{ url_for('static', filename='images/EndzoneLogo.png') }}" class="img-fluid">
+        </div>
+        <a href="/endzone/hub">Hub</a>
+        <a  href="/endzone/gamemanagement">Game Management</a>
+        <div class="dropdown">
+          <button class="dropbtn">Team Management
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/endzone/formations">Formations</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Pre-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/endzone/prereport">Pre Game Report</a>
+          </div>
+        </div>
+        <div class="dropdown" style="background-color: #1e73be;">
+          <button class="dropbtn">In-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/endzone/driveanalyzer">Drive Analyzer</a>
+            <a href="/endzone/dataviewer">Data Viewer</a>
+            <a href="/endzone/tars">TARS</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Post-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/endzone/gamerecap">Recap Report</a>
+          </div>
+        </div>
+        <div class = "topnav-right">
+          <a href = "/Logout">{{ User }}</a>
+        </div>
+    </div>
+    </body>
+</html>
