@@ -6,12 +6,15 @@ from Endzone_Database.db import db, db_uri
 from Endzone_Reports.pre_game import Run_Report
 from Endzone_Utils.utils import *
 from Endzone_API.utils_api import utils_api
+from Endzone_API.tools_api import tools_api
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
 app.secret_key = "jSY8ov4if99WKAFlDOg3"
 
 app.register_blueprint(utils_api)
+app.register_blueprint(tools_api)
+
 db.init_app(app)
 
 # Build DB if not existing
@@ -65,9 +68,6 @@ def Join():
     except Exception as e:
         print(e)
         return render_template("JoinTeam.html", message = str(e))
-
-
-
     return redirect("/Login")
 
 @app.route("/Login")
@@ -351,7 +351,7 @@ def Dat_GetData():
 @login_required
 def Formations():
     query_response = db.session.query(Formation).filter(Formation.Team_Code == current_user.team_code).order_by(asc(Formation.Formation))
-    return render_template("Formations.html", User = "Coach " + current_user.last, Formations = query_response.all())
+    return render_template("Formations.html", User = "Coach " + current_user.last, Formations = query_response.all(), teamcode = current_user.team_code)
 
 ## TO-DO: Move to utilites API
 @app.route("/Endzone/Formations/Build", methods = ["POST"])
@@ -373,17 +373,10 @@ def Build_Formation():
         print(e)
         return redirect("/Endzone/Formations")
 
-## TO-DO: Move to utilites API
-@app.route("/Endzone/Formations/Delete", methods = ["POST"])
+@app.route("/Endzone/GameRecap", methods = ["GET"])
 @login_required
-def Delete_Formation():
-    try:
-        formation = request.args.get("Formation")
-        Formation.query.filter_by(Formation = formation, Team_Code = current_user.team_code).delete()
-        db.session.commit()
-        return "200"
-    except Exception as e:
-        return str(e)
+def GameRecap():
+    return render_template("PostGameReport.html", Team_Code = current_user.team_code, User = "Coach " + current_user.last,)
 
 if __name__ == '__main__':
-    app.run(use_reloader = False, host = "0.0.0.0", debug=False, port = 80)
+    app.run(use_reloader = True, host = "0.0.0.0", debug=True, port = 80)

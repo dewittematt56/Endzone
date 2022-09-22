@@ -48,6 +48,14 @@
             <a href="/Endzone/TARS">TARS</a>
           </div>
         </div>
+        <div class="dropdown">
+          <button class="dropbtn">Post-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/Endzone/GameRecap">Recap Report</a>
+          </div>
+        </div>
         <div class = "topnav-right">
           <a href = "/Logout">{{ User }}</a>
         </div>
@@ -82,10 +90,10 @@
                     <td ALIGN="center">{{ Formation.Tight_Ends }}</td>
                     <td ALIGN="center">{{ Formation.Running_Backs }}</td>
                     <td ALIGN="center">
-                      <button onclick="LoadFormation(this.id)" id = {{ loop.index }}>Load</button>
+                      <button onclick="LoadFormation(this.id, '{{ teamcode }}')" id = {{ loop.index }}>Load</button>
                     </td>
                     <td>
-                      <button onclick="DeleteFormation(this.id)" id = {{ loop.index }}>Delete</button>
+                      <button onclick="DeleteFormation(this.id, '{{ teamcode }}')" id = {{ loop.index }}>Delete</button>
                     </td>
                   </tr>
                   {% endfor %}

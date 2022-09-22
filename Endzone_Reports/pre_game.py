@@ -155,7 +155,7 @@ class PregameReport:
                             pass
 
 
-            self.output_path = os.path.dirname(__file__) + "/Outputs/EVFB_PreGameReport_%s.docx" %self.jobId
+            self.output_path = os.path.dirname(__file__) + "/Outputs/post_game/EVFB_PreGameReport_%s.docx" %self.jobId
             self.report.save(self.output_path)
             logging.info("\t Job " + self.jobId +  " Complete | \t" + str(self.input) + "\t" + str(datetime.fromtimestamp(time.time()).isoformat()))
         except Exception as e:

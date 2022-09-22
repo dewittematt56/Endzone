@@ -167,7 +167,7 @@ function Get_Formation()
       if(status != 404)
       {
         var option = document.createElement('option');
-        for(i = 0; i < Object.keys(data).length; i++)
+        for(i = 0; i <= Object.keys(data).length; i++)
         {
           var option = document.createElement('option');
           option.text = data[i];

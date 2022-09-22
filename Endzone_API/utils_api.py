@@ -3,7 +3,7 @@ from Endzone_Database.db import db, db_uri
 from Endzone_Database.classes import Game, Formation, GameLoad
 from login import user_login
 from flask_login import current_user
-from sqlalchemy import asc, create_engine, true
+from sqlalchemy import asc, desc, create_engine, true
 from Endzone_Utils.utils import load_games_json
 import pandas as pd
 import os
@@ -101,7 +101,7 @@ def deletePlay():
 
 @utils_api.route("/endzone/rest/exportgame")
 # Parameters: Team Code, Team, Opponent, Year
-def Export_Game():
+def exportGame():
     try:
         columns = ["team", "opponent", "year"]
         for col in columns:
@@ -125,7 +125,7 @@ def Export_Game():
         return Response("Error Occured", 500)
 
 @utils_api.route("/endzone/rest/deletegame")
-def Delete_Game():
+def deleteGame():
     try:
         columns = ["team", "opponent", "year"]
         for col in columns:
@@ -149,5 +149,60 @@ def Delete_Game():
         print(e)
         return Response("Error Occured", 500)
 
+@utils_api.route("/endzone/rest/getgames", methods = ["GET"])
+def getGame():
+    try:
+        if request.args.get("teamcode") != None:
+            if request.args.get("year") == None:
+                query = db.session.query(GameLoad.Year).filter(GameLoad.User_Team_Code == request.args.get("teamcode")).distinct().order_by(desc(GameLoad.Year))
+                years = [year[0] for year in query.all()]
+                return jsonify(years)
+            else:
+                query = db.session.query(GameLoad.Team_Name, GameLoad.Opponent_Name, GameLoad.Year).filter(GameLoad.User_Team_Code == request.args.get("teamcode")).filter(GameLoad.Year == request.args.get("year")).distinct().order_by(desc(GameLoad.Year))
+                games = []
+                for game in query:
+                    games.append(game.Team_Name + "_" + game.Opponent_Name + "_" + str(game.Year))
+                return jsonify(games)
+        else:
+            return Response("Please provide a team code", 404)
+    except Exception as e:
+        return Response(str(e), 500)
 
-## TARS API
+
+## TO-DO: Move to utilites API
+## To-DO: Make Async
+@utils_api.route("/endzone/rest/buildformation", methods = ["POST"])
+def Build_Formation():
+    try:
+        if request.args.get("teamcode"):
+            if(request.args.get("formation")):
+                query = db.session.query(Formation.Formation).filter(Formation.Team_Code == current_user.team_code).distinct().all()
+                if request.args.get("formation") in [r[0] for r in query]:
+                    Formation.query.filter_by(Formation = request.args.get("formation"), Team_Code = current_user.team_code).delete()
+                    new_formation = Formation(request.args.get("formation"),current_user.team_code, request.form["WR"], request.form["TE"], request.form["RB"], "/Dev")
+                    return Response("Formation Updated", 200)
+                else:
+                    new_formation = Formation(request.args.get("formation"),current_user.team_code, request.form["WR"], request.form["TE"], request.form["RB"], "/Dev")
+                    db.session.add(new_formation)
+                    db.session.commit()
+                    return Response("Formation Created", 200)
+            return Response("Please supply a formation")
+        else:
+            return Response("Please supply a teamcode")
+    except Exception as e:
+        return Response(str(e), 404)
+
+@utils_api.route("/endzone/rest/deleteformation", methods = ["POST"])
+def Delete_Formation():
+    try:
+        if request.args.get("teamcode"):
+            if request.args.get("formation"):
+                Formation.query.filter_by(Formation = request.args.get("formation"), Team_Code = request.args.get("teamcode")).delete()
+                db.session.commit()
+                return Response("Successfully deleted", 200)
+            else:
+                return Response("Please supply a formation")
+        else:
+            return Response("Please supply a teamcode")   
+    except Exception as e:
+        return Response(str(e), 500)
