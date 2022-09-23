@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    background-color: #1e272e;
+	font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+
+.filterbar {
+    position: relative;
+    width: 100%;
+    height: 3vh;
+    background-color: #1e272e;
+    border-bottom: .25vh solid #353b48;
+    margin-bottom: 1vh;
+    padding: 1vh;
+}
+
+.filterbar label {
+    position: relative;
+    color: white;
+    margin-right: 1vw;
+    font-size: 2vh;
+    width: 10%;
+}
+
+.filterbar select {
+    color: white;
+    background-color: #2f3640;
+    border: .1vh solid #353b48;
+    margin-left: 1vw;
+    position: relative;
+    font-size: 2vh;
+    margin: auto;
+    padding: .25vh;
+}
+
+.filterbar button {
+    margin-left: 1vw;
+    position: relative;
+    color: white;
+    background-color: #2f3640;
+    border: .1vh solid #353b48;
+    font-size: 2vh;
+    padding-top: .25vh;
+    padding-bottom: .25vh;
+    padding-right: .5vw;
+    padding-left: .5vw;
+    border-radius: .75vh;
+}
+
+.filterbar select:hover {
+    background-color: #1e73be;
+}
+
+.filterbar button:hover {
+    background-color: #1e73be;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+.tableDiv {
+    width: 98%;
+    margin: auto;
+    height: 85vh;
+    overflow: auto;
+    background-color: #2f3640;
+    border: .25vh solid #353b48;
+    border: .25vh solid #353b48;
+    border: .25vh solid #353b48;
+    border-radius: 1vh;
+    padding: 1vh;
+}
+

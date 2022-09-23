@@ -306,7 +306,7 @@ def TARS_Run():
 @app.route("/endzone/dataviewer", methods = ["POST", "GET"])
 @login_required
 def DataViewer():
-    return render_template("DataViewer.html")
+    return render_template("DataViewer.html", Team_Code = current_user.team_code, User = "Coach " + current_user.last)
 
 @app.route("/endzone/driveanalyzer", methods = ["GET"])
 @login_required
@@ -376,7 +376,7 @@ def Build_Formation():
 @app.route("/endzone/gamerecap", methods = ["GET"])
 @login_required
 def GameRecap():
-    return render_template("PostGameReport.html", Team_Code = current_user.team_code, User = "Coach " + current_user.last,)
+    return render_template("PostGameReport.html", Team_Code = current_user.team_code, User = "Coach " + current_user.last)
 
 if __name__ == '__main__':
     app.run(use_reloader = True, host = "0.0.0.0", debug=True, port = 80)

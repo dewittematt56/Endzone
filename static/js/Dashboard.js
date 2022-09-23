@@ -432,3 +432,67 @@ var redIcon = new L.Icon({
     }
   }
 }
+
+function Filter_Data()
+{
+  // Get filter inputs
+  possession = document.getElementById("possession").value
+  down = document.getElementById("down").value
+  distance = document.getElementById("distance").value
+  o_form = document.getElementById("formation").value
+  drive_num = document.getElementById("drive").value
+  play_type = document.getElementById("play_type").value
+  quarter =  document.getElementById("quarter").value
+  
+  if(possession != "No Filter"){data = Filter_ByColumn(data, "Possession", possession)}
+  if(down != "No Filter"){data = Filter_ByColumn(data, "Down", down)}
+  if(distance != "No Filter")
+  {
+    new_data = []
+    if(distance == "Short")
+    {
+      for(i = 0; i < Object.keys(data).length; i++)
+      {
+        if(data[i]["Distance"] <= 3)
+        {
+          new_data.push(data[i])
+        }
+      }
+    }
+    else if(distance == "Medium")
+    {
+      for(i = 0; i < Object.keys(data).length; i++)
+      {
+        if(data[i]["Distance"] > 3 & data[i]["Distance"] <= 7)
+        {
+          new_data.push(data[i])
+        }
+      }
+    }
+    else
+    {
+      for(i = 0; i < Object.keys(data).length; i++)
+      {
+        if(data[i]["Distance"] > 7)
+        {
+          new_data.push(data[i])
+        }
+      }
+    }
+    data = new_data
+  }
+  if(o_form != "No Filter"){data = Filter_ByColumn(data, "Formation", o_form)}
+  if(drive_num != "No Filter"){data = Filter_ByColumn(data, "Drive", drive_num)}
+  if(play_type != "No Filter"){data = Filter_ByColumn(data, "Play_Type", play_type)}
+  if(quarter != "No Filter"){data = Filter_ByColumn(data, "Quarter", quarter)}
+  if(document.getElementById("spatial").value != "")
+  // Spatial Filter
+  canvas = document.getElementById("playTypeGraph");
+  var c = document.getElementById("playTypeGraph");
+  var ctx = c.getContext("2d");
+  ctx.clearRect(0, 0, c.width, c.height);
+  Clear_Graphs(graphObj)
+  Build_Graphs(data, graphObj)
+  Build_Stats(data)
+  Build_Points(data, map)
+}

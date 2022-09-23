@@ -23,13 +23,31 @@ def getFormation():
     except Exception as e:
         return Response(str(e), status = 404)
 
+@utils_api.route('/endzone/rest/getunique', methods = ["GET"])
+# Parameters: None
+def getUnique():
+    try:
+        query = db.session.query(Game.Possession).filter(Formation.Team_Code == current_user.team_code).distinct().order_by(asc(Game.Possession))
+        possessions = []
+        for form in query.all():
+            possessions.append(form[0])
+        return jsonify(possessions)
+    except Exception as e:
+        return Response(str(e), status = 404)
+
+
 @utils_api.route("/endzone/rest/getdata", methods = ["GET"])
 # Parameters required: TeamCode, Full (Boolean)
-# Optional Params: Team, Opponent, Year
+# Optional Params: Team, Opponent, Year, Possession (team of interest)
 def getData():
     try:
         if request.args.get("full") == "false":
-            query = db.session.query(Game).filter(Game.Team_Name == request.args.get("team")).filter(Game.Opponent_Name == request.args.get("opponent")).filter(Game.Year == request.args.get("year")).filter(Game.Owner_Team_Code == request.args.get("teamcode")).order_by(asc(Game.PlayNum))
+            if request.args.get("possession"):
+                query = db.session.query(Game).filter(Game.Possession == request.args.get("possession")).filter(Game.Owner_Team_Code == request.args.get("teamcode")).order_by(asc(Game.Opponent_Name)).order_by(desc(Game.PlayNum))
+                return jsonify(load_games_json(query.all()))
+            else:
+                query = db.session.query(Game).filter(Game.Team_Name == request.args.get("team")).filter(Game.Opponent_Name == request.args.get("opponent")).filter(Game.Year == request.args.get("year")).filter(Game.Owner_Team_Code == request.args.get("teamcode")).order_by(asc(Game.PlayNum))
+                return jsonify(load_games_json(query.all()))
         else:
             query = db.session.query(Game).filter(Game.Owner_Team_Code == request.args.get("teamcode")).order_by(asc(Game.ID))
         return jsonify(load_games_json(query.all()))
