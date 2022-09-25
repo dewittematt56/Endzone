@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #1e272e;
+    font-family: 'Lato', sans-serif;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.Background {
+	width: 100vw;
+	height: auto;
+	z-index: -1;
+}
+
+.MainPanel {
+	position: absolute;
+	top: 7vh;
+	margin: 3vh;
+	right: 0px;
+	background-color: #1e272e;
+	width: auto;
+	height: auto;
+	float: right;
+	text-align: center;
+	border-radius: 1vw;
+	border: solid .25vh #353b48;
+}
+
+.PanelInput {
+	text-align: left;
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+
+.MainPanel h3 {
+	color: white;
+	margin: 2vh;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	font-size: 3vh;
+	
+}
+
+.MainPanel label {
+	color: white;
+	font-size: 2vh;
+}
+
+.MainPanel select {
+	margin: 1vh;
+	font-size: 2vh;
+	width: auto;
+	clear: left;
+}
+
+.MainPanel button {
+	font-size: 2vh;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}

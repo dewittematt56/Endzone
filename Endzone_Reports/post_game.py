@@ -1,11 +1,10 @@
 import sys
-from graph_utils import Graph_Utils
+from Endzone_Reports.graph_utils import Graph_Utils
 from docx import Document
 import time
 import logging
 import os
-root_folder = os.path.abspath(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.append(root_folder)
+import warnings
 from datetime import datetime
 from sqlalchemy import create_engine
 from sqlalchemy.sql import functions 
@@ -32,7 +31,7 @@ class PostgameReport():
         db_engine = create_engine("postgresql://endzone:Hercules22!@172.104.25.168/Endzone")
         Session = sessionmaker(db_engine)
         session = Session()
-        data = pd.read_sql(session.query(Game).filter(Game.Owner_Team_Code == self.team_code).filter(functions.concat(Game.Team_Name, "_", Game.Opponent_Name, "_", Game.Year).in_(self.input)).statement, db_engine)
+        data = pd.read_sql(session.query(Game).filter(Game.Owner_Team_Code == self.team_code).filter(functions.concat(Game.Team_Name, "_", Game.Opponent_Name, "_", Game.Year) == self.input).statement, db_engine)
         if len(data) > 0:
             return data
         else:
@@ -102,17 +101,15 @@ class PostgameReport():
         return self.data
 
     def report_manager(self):
-
-            ### Title Page
-            title = self.report.add_heading("EVFB Analytics Postgame Analysis")
-            title.alignment = WD_ALIGN_PARAGRAPH.CENTER
-            for team in self.data.Possession.unique():
-                data = self.data[(self.data["Possession"] == team)]
-                Content(data, self.report, team)
-            
-            self.output_path = os.path.dirname(__file__) + "/Outputs/EVFB_PostGame_Report_%s.docx" %self.jobId
-            self.report.save(self.output_path)
-
+        ### Title Page
+        title = self.report.add_heading("EVFB Analytics Postgame Analysis")
+        title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        for team in self.data.Possession.unique():
+            data = self.data[(self.data["Possession"] == team)]
+            Content(data, self.report, team)
+        
+        self.output_path = os.path.dirname(__file__) + "/Outputs/post_game/EVFB_PostGame_Report_%s.docx" %self.jobId
+        self.report.save(self.output_path)
 
 class Content(Graph_Utils):
     def __init__(self, data, report, team):
@@ -339,6 +336,6 @@ class Content(Graph_Utils):
     def rushing(self):
         self.Table(self.data.query("Play_Type == 'Inside Run' or Play_Type == 'Outside Run'").groupby(["Result_BallCarrier"]).agg({"Result": ["count", "sum", "mean", "median", "max"]}), "Ball Carrier Stats")
 
-def run_report(input: list, team_code: str):
+def run_report(input: str, team_code: str):
+    warnings.filterwarnings("ignore")
     return PostgameReport(input, team_code).output_path
-run_report(["Eastview_LN_2022"], "EVHS22")

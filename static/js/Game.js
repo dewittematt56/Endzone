@@ -49,9 +49,9 @@ function clearmap()
 function ConvertHash(x)
 {
     var Hash;
-    if(x < 4.21){Hash = 'Left';}
-    else if(x >= 4.21 & x <= 5.88){Hash = 'Middle';}
-    else if(x > 5.88){Hash = "Right";}
+    if(x < 4.5){Hash = 'Left';}
+    else if(x >= 4.5 & x <= 5.58){Hash = 'Middle';}
+    else if(x > 5.58){Hash = "Right";}
     else {Hash = 'Middle';}
     return Hash
 }
@@ -167,7 +167,7 @@ function Get_Formation()
       if(status != 404)
       {
         var option = document.createElement('option');
-        for(i = 0; i < Object.keys(data).length; i++)
+        for(i = 0; i <= Object.keys(data).length; i++)
         {
           var option = document.createElement('option');
           option.text = data[i];

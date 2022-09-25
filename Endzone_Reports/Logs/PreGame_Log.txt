@@ -1,0 +1,248 @@
+INFO:root:Job | 1663809526 Start | Eastview_LN_2022	2022-09-21T20:18:46.873519
+INFO:root:Job | 1663809605 Start | Eastview_LN_2022	2022-09-21T20:20:05.285021
+INFO:root:Job | 1663809846 Start | Eastview_LN_2022	2022-09-21T20:24:06.726132
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663809851 Start | Eastview_LN_2022	2022-09-21T20:24:11.077002
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:80/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:24:13] "[33mGET /endzone/rest/tools/recapreport/teamcode=EVHS22&input=Eastview_LN_2022 HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:24:18] "[33mGET /endzone/rest/tools/recapreport/teamcode=EVHS22&input=Eastview_LN_2022 HTTP/1.1[0m" 404 -
+INFO:root:Job | 1663809870 Start | Eastview_LN_2022	2022-09-21T20:24:30.352567
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663809874 Start | Eastview_LN_2022	2022-09-21T20:24:34.752059
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:80/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:24:56] "GET /Endzone/GameManagement HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:24:56] "GET /static/css/GameManagement.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:24:56] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:24:56] "[36mGET /static/css/Table.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:24:56] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:25:00] "[33mGET /endzone/rest/tools/recapreport/teamcode=EVHS22&input=Eastview_LN_2022 HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:25:04] "GET /endzone/rest/tools/recapreport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:25:41] "[33mGET /endzone/rest/tools/recapreport/teamcode=EVHS22&input=Eastview_LN_2022 HTTP/1.1[0m" 404 -
+INFO:root:Job | 1663810089 Start | Eastview_LN_2022	2022-09-21T20:28:09.727222
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663810094 Start | Eastview_LN_2022	2022-09-21T20:28:14.092197
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-527-789
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.127:80/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\post_game.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663810138 Start | Eastview_LN_2022	2022-09-21T20:28:58.268214
+INFO:root:	 Job 1663810138 Error | 	Eastview_LN_2022	2022-09-21T20:28:59.252902
+ERROR:root:No Data found
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:28:59] "[35m[1mGET /endzone/rest/tools/recapreport?teamcode=2022&input=Eastview_LN_2022 HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:28:59] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:28:59] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:28:59] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:28:59] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:28:59] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_API\\tools_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663810208 Start | Eastview_LN_2022	2022-09-21T20:30:08.370599
+INFO:root:	 Job 1663810208 Error | 	Eastview_LN_2022	2022-09-21T20:30:09.348647
+ERROR:root:No Data found
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:30:09] "[35m[1mGET /endzone/rest/tools/recapreport?teamcode=2022&input=Eastview_LN_2022 HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:30:09] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:30:09] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:30:09] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:30:09] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:30:09] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\post_game.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663810249 Start | Eastview_LN_2022	2022-09-21T20:30:49.111475
+INFO:root:	 Job 1663810249 Error | 	Eastview_LN_2022	2022-09-21T20:30:50.061845
+ERROR:root:No Data found
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:30:50] "[35m[1mGET /endzone/rest/tools/recapreport?teamcode=2022&input=Eastview_LN_2022 HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:30:50] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:30:50] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:30:50] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:30:50] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:30:50] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\post_game.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663810309 Start | Eastview_LN_2022	2022-09-21T20:31:49.125903
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:31:50] "GET /endzone/rest/tools/recapreport?teamcode=2022&input=Eastview_LN_2022 HTTP/1.1" 200 -
+INFO:root:Job | 1663810315 Start | Eastview_LN_2022	2022-09-21T20:31:55.150548
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:31:56] "GET /endzone/rest/tools/recapreport?teamcode=2022&input=Eastview_LN_2022 HTTP/1.1" 200 -
+INFO:root:Job | 1663810346 Start | Eastview_LN_2022	2022-09-21T20:32:26.153507
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:32:27] "GET /endzone/rest/tools/recapreport?teamcode=2022&input=Eastview_LN_2022 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\post_game.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663810407 Start | Eastview_LN_2022	2022-09-21T20:33:27.171474
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:33:28] "GET /endzone/rest/tools/recapreport?teamcode=2022&input=Eastview_LN_2022 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\post_game.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663810445 Start | Eastview_LN_2022	2022-09-21T20:34:05.779679
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:34:06] "GET /endzone/rest/tools/recapreport?teamcode=2022&input=Eastview_LN_2022 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\post_game.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663810479 Start | Eastview_LN_2022	2022-09-21T20:34:39.225711
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:34:40] "GET /endzone/rest/tools/recapreport?teamcode=2022&input=Eastview_LN_2022 HTTP/1.1" 200 -
+INFO:root:Job | 1663810510 Start | Eastview_LN_2022	2022-09-21T20:35:10.216540
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:35:11] "GET /endzone/rest/tools/recapreport?teamcode=EVHS22&input=Eastview_LN_2022 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\post_game.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663810541 Start | Eastview_LN_2022	2022-09-21T20:35:41.291009
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:35:42] "GET /endzone/rest/tools/recapreport?teamcode=2022&input=Eastview_LN_2022 HTTP/1.1" 200 -
+INFO:root:Job | 1663810551 Start | Eastview_LN_2022	2022-09-21T20:35:51.033682
+INFO:root:	 Job 1663810551 Error | 	Eastview_LN_2022	2022-09-21T20:35:52.215632
+ERROR:root:No Data found
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:35:52] "[35m[1mGET /endzone/rest/tools/recapreport?teamcode=EVHS22&input=Eastview_LN_2022 HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:35:52] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:35:52] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:35:52] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:35:52] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:35:52] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\post_game.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663810586 Start | Eastview_LN_2022	2022-09-21T20:36:26.337162
+INFO:root:	 Job 1663810586 Error | 	Eastview_LN_2022	2022-09-21T20:36:27.384642
+ERROR:root:No Data found
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:36:27] "[35m[1mGET /endzone/rest/tools/recapreport?teamcode=EVHS22&input=Eastview_LN_2022 HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:36:27] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:36:27] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:36:27] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:36:27] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:36:27] "GET /endzone/rest/tools/recapreport?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\post_game.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663810631 Start | Eastview_LN_2022	2022-09-21T20:37:11.588518
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:13] "GET /endzone/rest/tools/recapreport?teamcode=EVHS22&input=Eastview_LN_2022 HTTP/1.1" 200 -
+INFO:root:Job | 1663810638 Start | Eastview_LN_2022	2022-09-21T20:37:18.032283
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:19] "GET /endzone/rest/tools/recapreport?teamcode=EVHS22&input=Eastview_LN_2022 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\post_game.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:root:Job | 1663810661 Start | Eastview_LN_2022	2022-09-21T20:37:41.097648
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:42] "GET /endzone/rest/tools/recapreport?teamcode=EVHS22&input=Eastview_LN_2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:55] "GET /Endzone/KIPP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:55] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:55] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:55] "[36mGET /static/js/KIPP.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:55] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:55] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:56] "GET /Endzone/GameRecap HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:56] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:56] "[36mGET /static/css/PostGame_Report.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:56] "[36mGET /static/js/PostGameReport.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:56] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:56] "[36mGET /static/images/PostGame_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:57] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:57] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:37:57] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:38] "[35m[1mGET /Endzone/GameRecap HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:38] "GET /Endzone/GameRecap?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:38] "GET /Endzone/GameRecap?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:38] "GET /Endzone/GameRecap?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:38] "GET /Endzone/GameRecap?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:38] "GET /Endzone/GameRecap?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:40] "[35m[1mGET /Endzone/GameRecap HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:40] "GET /Endzone/GameRecap?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:40] "GET /Endzone/GameRecap?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:40] "GET /Endzone/GameRecap?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:40] "GET /Endzone/GameRecap?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:40] "GET /Endzone/GameRecap?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:54] "GET /Endzone/GameRecap HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:54] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:54] "[36mGET /static/css/PostGame_Report.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:54] "GET /static/js/PostGameReport.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:54] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:54] "[36mGET /static/images/PostGame_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:54] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:55] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:55] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:42:55] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:29] "GET /Endzone/GameRecap HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:29] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:29] "[36mGET /static/css/PostGame_Report.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:29] "GET /static/js/PostGameReport.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:29] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:29] "[36mGET /static/images/PostGame_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:29] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:29] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:30] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:30] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:30] "[31m[1mPOST /endzone/rest/tools/recapreport HTTP/1.1[0m" 405 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:38] "[31m[1mPOST /endzone/rest/tools/recapreport HTTP/1.1[0m" 405 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:40] "[31m[1mPOST /endzone/rest/tools/recapreport HTTP/1.1[0m" 405 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:50] "GET /Endzone/GameRecap HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:50] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:50] "[36mGET /static/css/PostGame_Report.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:50] "[36mGET /static/js/PostGameReport.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:50] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:50] "[36mGET /static/images/PostGame_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:50] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:50] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:50] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:50] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:43:51] "GET /endzone/rest/tools/recapreport?teamcode= HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:24] "GET /endzone/rest/tools/recapreport?teamcode= HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:28] "GET /Endzone/GameRecap HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:28] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:28] "[36mGET /static/css/PostGame_Report.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:28] "GET /static/js/PostGameReport.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:28] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:28] "[36mGET /static/images/PostGame_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:28] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:28] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:28] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:28] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:51] "GET /Endzone/GameRecap HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:51] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:51] "[36mGET /static/css/PostGame_Report.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:51] "[36mGET /static/js/PostGameReport.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:51] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:51] "[36mGET /static/images/PostGame_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:51] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:51] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:51] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:51] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:44:52] "GET /endzone/rest/tools/recapreport?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:45:08] "GET /Endzone/GameRecap HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:45:08] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:45:08] "[36mGET /static/css/PostGame_Report.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:45:08] "[36mGET /static/js/PostGameReport.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:45:08] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:45:08] "[36mGET /static/images/PostGame_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:45:08] "[36mGET /static/images/Endzone.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:45:08] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:45:08] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:45:09] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:root:Job | 1663811109 Start | Eastview_LN_2022	2022-09-21T20:45:09.905517
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:45:11] "GET /endzone/rest/tools/recapreport?input=Eastview_LN_2022&teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:root:Job | 1663811118 Start | Eastview_Woodbury_2022	2022-09-21T20:45:18.902705
+INFO:werkzeug:192.168.1.127 - - [21/Sep/2022 20:45:20] "GET /endzone/rest/tools/recapreport?input=Eastview_Woodbury_2022&teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_API\\utils_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat

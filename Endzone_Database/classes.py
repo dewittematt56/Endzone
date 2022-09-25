@@ -80,13 +80,14 @@ class Game(db.Model):
     Pressure_Right = db.Column(db.Integer, nullable = False)
     Result = db.Column(db.Integer, nullable = False)
     Result_BallCarrier = db.Column(db.Integer, nullable = False)
+    Event = db.Column(db.String(20), nullable = True)
     Result_Lat = db.Column(db.Float(), nullable=False)
     Result_Lon = db.Column(db.Float(), nullable=False)
     Play_Lat = db.Column(db.Float(), nullable=False)
     Play_Lon = db.Column(db.Float(), nullable=False)
     Simplified = db.Column(db.String(20), nullable = False)
 
-    def __init__(self, Team_Name, Opponent_Name, Year, Owner_Team_Code, PlayNum, Possession, Yard, Hash, Down, Distance, Drive, Quarter, D_Formation, Formation, Formation_Strength, Play_Type, Play_Type_Dir, Pass_Zone, Coverage, Pressure_Left, Pressure_Middle, Pressure_Right, Result, Result_BallCarrier, Result_Lat, Result_Lon, Lat, Lon, Simple):
+    def __init__(self, Team_Name, Opponent_Name, Year, Owner_Team_Code, PlayNum, Possession, Yard, Hash, Down, Distance, Drive, Quarter, D_Formation, Formation, Formation_Strength, Play_Type, Play_Type_Dir, Pass_Zone, Coverage, Pressure_Left, Pressure_Middle, Pressure_Right, Result, Result_BallCarrier, Event, Result_Lat, Result_Lon, Lat, Lon, Simple):
         self.Team_Name = Team_Name
         self.Opponent_Name = Opponent_Name
         self.Year = Year
@@ -111,6 +112,7 @@ class Game(db.Model):
         self.Pressure_Right = Pressure_Right
         self.Result = Result
         self.Result_BallCarrier = Result_BallCarrier
+        self.Event = Event
         self.Result_Lat = Result_Lat
         self.Result_Lon = Result_Lon
         self.Play_Lat = Lat

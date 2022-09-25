@@ -18,14 +18,14 @@
         <div class="logo-image">
           <img src="{{ url_for('static', filename='images/EndzoneLogo.png') }}" class="img-fluid">
         </div>
-        <a href="/Endzone/Hub" >Hub</a>
-        <a  href="/Endzone/GameManagement" class = "active">Game Management</a>
+        <a href="/endzone/hub">Hub</a>
+        <a  href="/endzone/gamemanagement" class="active">Game Management</a>
         <div class="dropdown">
           <button class="dropbtn">Team Management
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href = "/Endzone/Formations">Formations</a>
+            <a href = "/endzone/formations">Formations</a>
           </div>
         </div>
         <div class="dropdown">
@@ -33,7 +33,7 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="/Endzone/KIPP">KIPP</a>
+            <a href="/endzone/prereport">Pre Game Report</a>
           </div>
         </div>
         <div class="dropdown">
@@ -41,26 +41,23 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href = "/Endzone/DAT">Drive Analyzer</a>
-            <a href="/Endzone/CASE">CASE</a>
-            <a href="/Endzone/TARS">TARS</a>
+            <a href = "/endzone/driveanalyzer">Drive Analyzer</a>
+            <a href="/endzone/dataviewer">Data Viewer</a>
+            <a href="/endzone/tars">TARS</a>
           </div>
         </div>
-
+        <div class="dropdown">
+          <button class="dropbtn">Post-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/endzone/gamerecap">Recap Report</a>
+          </div>
+        </div>
         <div class = "topnav-right">
           <a href = "/Logout">{{ User }}</a>
         </div>
-      </div>
-      <div class="sidenav">
-        <a href = "/Logout">{{ User }}</a>
-        <a class = "active" href="/Endzone/Hub">Hub</a>
-        <a href="/Endzone/GameManagement">Game Management</a>
-        <a href = "/Endzone/Formations">Formations</a>
-        <a href="/Endzone/KIPP">Pre-Game KIPP</a>
-        <a href = "/Endzone/DAT">In-Game Drive Analyzer</a>
-        <a href="/Endzone/CASE">In-Game CASE</a>
-        <a href="/Endzone/TARS">In-Game TARS</a>
-      </div>   
+    </div>
       <div class = "container2">
         <h3>Load Game</h3>
         <div class = "subcontainer2">
@@ -183,16 +180,13 @@
           {
             if(confirm("Do you really want to delete this game?"))
             {
-                alert("Try")
                 const table = document.getElementById("table"); 
                 row = table.rows[id];
                 team = row.cells[0].innerText;
                 opponent = row.cells[1].innerText;
                 year = row.cells[2].innerText;
-                alert(team)
                 base_url = "/endzone/rest/deletegame?team=" + team + "&opponent=" + opponent + "&year=" + year 
                 window.location.href = base_url
-                alert("Sucess")
             }
           }
 

@@ -37,7 +37,7 @@ const createCircle = () => {
 
 }
 
-function LoadFormation(id)
+function LoadFormation(id, teamcode)
 {
     table = document.getElementById("table")
     row = table.rows[id]
@@ -47,17 +47,17 @@ function LoadFormation(id)
     document.getElementById("RB").value = row.cells[3].innerText
 }
 
-function DeleteFormation(id)
+function DeleteFormation(id, teamcode)
 {
     table = document.getElementById("table")
     row = table.rows[id]
-    url = "/Endzone/Formations/Delete?Formation=" + row.cells[0].innerText
-    $.post(url, function(data, status){
-        if(data == "200"){
+    $.ajax({
+        async: false,
+        url: "/endzone/rest/deleteformation?formation=" + row.cells[0].innerText + "&teamcode=" + teamcode,
+        type: "POST",
+        success: function (data) 
+        {
             alert("Formation: " + row.cells[0].innerText + " deleted. Refresh to see changes.");
-        }
-        else {
-            alert(data);
         }
     });
 }

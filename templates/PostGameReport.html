@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Endzone - Post Game Report</title>
+        <link rel="icon" type="image/x-icon" href= "{{ url_for('static', filename='images/Endzone.jpg') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/nav.css') }}">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='css/PostGame_Report.css') }}">
+
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="{{ url_for('static', filename='js/PostGameReport.js') }}"></script>
+      </head>
+    <body onload="Load()">
+      <div class="topnav">
+        <div class="logo-image">
+          <img src="{{ url_for('static', filename='images/EndzoneLogo.png') }}" class="img-fluid">
+        </div>
+        <a href="/endzone/hub">Hub</a>
+        <a  href="/endzone/gamemanagement">Game Management</a>
+        <div class="dropdown">
+          <button class="dropbtn">Team Management
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/endzone/formations">Formations</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Pre-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/endzone/prereport">Pre Game Report</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">In-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/endzone/driveanalyzer">Drive Analyzer</a>
+            <a href="/endzone/dataviewer">Data Viewer</a>
+            <a href="/endzone/tars">TARS</a>
+          </div>
+        </div>
+        <div class="dropdown" style="background-color: #1e73be;">
+          <button class="dropbtn">Post-Game Analysis
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = "/endzone/gamerecap">Recap Report</a>
+          </div>
+        </div>
+        <div class = "topnav-right">
+          <a href = "/Logout">{{ User }}</a>
+        </div>
+    </div>
+    <div class="sidenav">
+      <a href = "/Logout">{{ User }}</a>
+      <a class = "active" href="/endzone/hub">Hub</a>
+      <a href="/endzone/gamemanagement">Game Management</a>
+      <a href = "/endzone/formations">Formations</a>
+      <a href="/endzone/prereport">Pre-Game Report</a>
+      <a href = "/endzone/driveanalyzer">In-Game Drive Analyzer</a>
+      <a href="/endzone/dataviewer">In-Game Data Viewer</a>
+      <a href="/endzone/tars">In-Game TARS</a>
+      <a href = "/endzone/gamerecap">Post-Game Recap Report</a>
+    </div>
+      <div class="BackgroundDiv">
+        <img src="{{ url_for('static', filename='images/PostGame_Background.jpg') }}" class = "Background">
+      </div>
+      <div class="MainPanel">
+        <h3>Post-Game Report</h3>
+        <form action = "{{url_for('Tools.RecapReport')}}" method="GET" id="form">
+        <div class = "PanelInput">
+          <label>Year:</label><select id = "cmbYear" onchange="LoadGame(params.team_code)"></select><br>
+          <label>Game:</label><select id = "cmbGame" name="input"></select><br>
+          <button type="button" id="btnSubmit" onclick="RunReport(params.team_code)">Run Report</button>
+          <input type="text" id = "teamcode" name = "teamcode" style="display: None;">
+        </div>
+      </form>
+      </div>
+  </body>
+
+  <script>
+    function Load()
+    {
+      params = new Object()
+      params.team_code = '{{ Team_Code }}'
+      LoadYear(params.team_code)
+    }
+  </script>
