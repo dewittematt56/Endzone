@@ -161,7 +161,7 @@
                   game_values.push(game_checkboxes[i].value);
                 }
               }
-            url = "/endzone/tars/run?down=" + down + "&distance=" + distance + "&yard=" + yard + '&hash=' + hash + "&games=" + game_values + "&possession=" + team_of_interest; 
+            url = "/endzone/rest/tools/tars/run?down=" + down + "&distance=" + distance + "&yard=" + yard + '&hash=' + hash + "&games=" + game_values + "&possession=" + team_of_interest; 
             $.get(url, function(data, status){
               TARS_write(data);
             });

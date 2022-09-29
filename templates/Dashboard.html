@@ -11,6 +11,7 @@
 
 
         <script src="{{ url_for('static', filename='js/Dashboard.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/Leaflet_Symbolize.js') }}"></script>
 
         <!-- Leaflet -->
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
@@ -25,13 +26,15 @@
         <script src="{{ url_for('static', filename='leaflet_draw/leaflet.draw.js') }}"></script>
         <script src="{{ url_for('static', filename='leaflet_draw/leaflet.draw-src.js') }}"></script>
         <link rel="stylesheet" href="{{ url_for('static', filename='leaflet_draw/leaflet.draw.css') }}" media="all">
-        <link rel="stylesheet" href="{{ url_for('static', filename='leaflet_draw/leaflet.draw-src.css') }}" media="all">
-
+        <link rel="stylesheet" href="{{ url_for('static', filename='leaflet_draw/leaflet.control.select.scss') }}" media="all">
+        <!--Leaflet Control -->
+        <script src="{{ url_for('static', filename='Leaflet.Control.Select-master/dist/leaflet.control.select.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='Leaflet.Control.Select-master/dist/leaflet.control.select.css') }}" media="all">
         <!-- Charts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
         
     </head>
-    <body onload="LoadPage()">
+    <body>
       <div class="topnav">
         <div class="logo-image">
           <img src="{{ url_for('static', filename='images/EndzoneLogo.png') }}" class="img-fluid">
@@ -94,12 +97,9 @@
         <button onclick="Filter_Data()">Activate Filter</button>
       </div>
       
-      <div id="fieldmap" class="fieldmap">
-          <div class = "bottom">
-            <label for = "show_result">Show Play Results:</label>
-            <input type="checkbox" id ="show_result">
-          </div>
-      </div>
+      <div class="legend">Legend:</div>
+      <div id="fieldmap" class="fieldmap"></div>
+      
 
       <div>
         <div id="graphMenu" class="graphMenu">
@@ -136,6 +136,16 @@
           minZoom: 6,
           maxZoom: 8});
         
+        L.control.select({
+          position: "topleft",
+          selectedDefault: "Play Type",
+          items: [{ label: "Play Type", value: "Play Type"}, { label: "Play Direction", value: "Play Dir" }, { label: "Strength", value: "Strength" }],
+          onSelect: function(newItemValue) {
+            Build_Points(data, map, newItemValue)
+          },
+        })
+        .addTo(map);
+
         map.fitBounds(mapBounds);
         map.setZoom(6);
         
@@ -150,23 +160,7 @@
         var imageUrl = "{{ url_for('static', filename='spatial/EndzoneSouth.jpg') }}";
         var latLngBounds = L.latLngBounds([[0, 0], [-2, 10]]);
         var imageOverlayNorth = L.imageOverlay(imageUrl, latLngBounds).addTo(map)
-        
-        var featureGroup = new L.FeatureGroup();
-          map.addLayer(featureGroup);
-          var drawControl = new L.Control.Draw({
-              edit: {
-                  featureGroup: featureGroup,
-                  position: 'topright',
-              },
-              draw: {
-                  polyline: false,
-                  circle: false, // Turns off this drawing tool
-                  rectangle: false,
-                  marker: false,
-                  circlemarker: false,
-              }
-          });
-          map.addControl(drawControl);
+      
 
           map.on('draw:created', function (e) {
               var fc_collection = {

@@ -2,7 +2,7 @@ function LoadYear(teamcode)
 {
     $.ajax({
         async: true,
-        url: "/endzone/rest/getgames" + "?teamcode=" + teamcode,
+        url: "/endzone/rest/getyear" + "?teamcode=" + teamcode,
         type: "GET",
         success: function (data) 
         {
@@ -14,7 +14,6 @@ function LoadYear(teamcode)
                     option.value = data[i];      
                     yearCombo.options.add(option)    
                     console.log(data[i])  
-                    LoadGame(teamcode)
             }
         }
     });

@@ -161,6 +161,7 @@
             <label class = "main_form_label">Formation:</label>
             <select name = "formation" id = "formation"></select>
             <select name = "strength" id = "strength">
+              <option>Unknown</option>
               <option>Left</option>
               <option>Right</option>
               <option>Balanced</option>
@@ -168,16 +169,16 @@
 
             <label class = "main_form_label">Play Type:</label>
             <select class = "playtype" name = "playtype" id = "playtype" onchange="PlayTypeUpdate()">
-              <option>Not Selected</option>
+              <option>Unknown</option>
               <option>Inside Run</option>
               <option>Outside Run</option>
               <option>Pocket Pass</option>
               <option>Boot Pass</option>
-              <option>Unknown</option>
+
             </select>
 
             <select name = "playdirection" id = "playdir">
-              <option>Not Selected</option>
+              <option>Unknown</option>
               <option>Left</option>
               <option>Right</option>
             </select><br>
@@ -592,6 +593,7 @@
         PlayData.ballcarrier = document.getElementById("ballcarrier").value
         PlayData.event = document.getElementById("event").value
 
+        if(PlayData.yard + PlayData.event >= 100){document.getElementById("event").value = "Touchdown"}
         if(PlayData.ballcarrier ==""){PlayData.ballcarrier = -99}
         PlayData.passzone = document.getElementById("passzone").value
         var url = "/endzone/rest/addplay?";

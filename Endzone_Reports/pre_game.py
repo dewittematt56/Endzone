@@ -967,6 +967,6 @@ class DefenseSection(Graph_Utils):
     def Temporal(self):
         pass
 
-def Run_Report(input: list, team_of_interest: list, team_code: str, type: str):
+def run_pre_report(input: list, team_of_interest: list, team_code: str, type: str):
     warnings.filterwarnings("ignore")
     return PregameReport(input, team_of_interest, team_code, type).output_path
