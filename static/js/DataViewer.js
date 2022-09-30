@@ -194,26 +194,26 @@ function loadCombobox(array, id)
 function getUnique(column){
     set = new Set(column)
     return Array.from(set)
-  }
+}
 
 function getColumn(data, column){
     values = [];
     for(i = 0; i < Object.keys(data).length; i++){values.push(data[i][column])}
     return values;
-  }
+}
 
-  function filterByColumn(data, column, value)
+function filterByColumn(data, column, value)
+{
+  filter_obj = []
+  for(i = 0; i < Object.keys(data).length; i++)
   {
-    filter_obj = []
-    for(i = 0; i < Object.keys(data).length; i++)
+    if(data[i][column] == value)
     {
-      if(data[i][column] == value)
-      {
-        filter_obj.push(data[i])
-      }
+      filter_obj.push(data[i])
     }
-    return filter_obj  
   }
+  return filter_obj  
+}
 
 function filterDataClick()
 {
@@ -338,4 +338,43 @@ function filterDataDistance(data, distance)
       }
     }
     return new_data
+}
+
+function createMap(mapObj)
+{
+  mapObj.mapBounds = L.latLngBounds([
+    [-2, 0],
+    [12, 10]
+  ]);
+
+  mapObj.map = L.map('map', {  
+  zoomControl: false,
+  maxBounds: mapObj.mapBounds,
+  maxBoundsViscosity: 1.0,
+  minZoom: 6,
+  maxZoom: 11});
+
+  mapObj.map.fitBounds(mapObj.mapBounds);
+  mapObj.map.setZoom(6);
+
+  mapObj.FieldBase = L.imageOverlay("/static/spatial/FootballFieldBase.jpg", L.latLngBounds([[0, 0], [10, 10]])).addTo(mapObj.map)
+  mapObj.EndzoneNorth = L.imageOverlay("/static/spatial/EndzoneNorth.jpg",  L.latLngBounds([[10, 0], [12, 10]])).addTo(mapObj.map)
+  mapObj.EndzoneSouth = L.imageOverlay("/static/spatial/EndzoneSouth.jpg", L.latLngBounds([[0, 0], [-2, 10]])).addTo(mapObj.map)
+}
+
+
+function viewToggle()
+{
+  mode = document.getElementById("cmbmode").value;
+  map = document.getElementById("map")
+  if(mode == "Table")
+  {
+    map.style = "display: none"
+    filterDataClick()
+  }
+  else if(mode == "Map")
+  {
+    map.style = "display: block"
+    refreshTable(mapObj)
+  }
 }

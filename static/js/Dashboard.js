@@ -385,7 +385,7 @@ function Build_Points(data, map, symbologyfield)
     }
   })
 
-  Symbolize(data, map, symbologyfield)
+  Symbolize(data, map, symbologyfield, "legend")
 }
 
 function Filter_Data()
@@ -449,5 +449,5 @@ function Filter_Data()
   Clear_Graphs(graphObj)
   Build_Graphs(data, graphObj)
   Build_Stats(data)
-  Build_Points(data, map)
+  Build_Points(data, map, "Play Type")
 }

@@ -10,6 +10,15 @@
         <!--JQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="{{ url_for('static', filename='js/DataViewer.js') }}"></script>
+
+        <!-- Leaflet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+          integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="">
+        </script>
+        <script src="https://unpkg.com/georaster-layer-for-leaflet/dist/georaster-layer-for-leaflet.min.js"></script>
     </head>
     <body>
       <div class="topnav">
@@ -63,6 +72,11 @@
         <select id="toi"></select>
         <button onclick="getDataClick()">Get Data</button>
         <button onclick="filterDataClick()">Activate Filters</button>
+        <label style="margin-left: 1vh;">Mode:</label>
+        <select onchange="viewToggle()" id="cmbmode">
+          <option>Table</option>
+          <option>Map</option>
+        </select>
       </div>
       <div class = "tableDiv">
         <table id = "table">
@@ -137,6 +151,8 @@
     </body>
     <script>
       var params = new Object()
+      var mapObj = new Object()
+      createMap(mapObj)
       params.teamcode = '{{Team_Code}}' 
     </script>
 </html>
