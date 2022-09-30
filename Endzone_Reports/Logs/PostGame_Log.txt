@@ -1,4 +1,60 @@
+<<<<<<< Updated upstream
 INFO:root:	 Job 1664408463 Start | 	['', 'White-Bear-Lake_Blaine_2021', 'White-Bear-Lake_Blaine_2022']	2022-09-28T18:41:03.820626
 INFO:root:	 Job 1664408463 Complete | 	['', 'White-Bear-Lake_Blaine_2021', 'White-Bear-Lake_Blaine_2022']	2022-09-28T18:41:07.630811
 INFO:werkzeug:192.168.1.127 - - [28/Sep/2022 18:41:07] "POST /endzone/rest/tools/prereport HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_API\\utils_api.py', reloading
+=======
+INFO:root:	 Job 1664330289 Start | 	['', 'Park_Eagan_2021', 'Eagan_East-Ridge_2021', 'Eagan_Park_2021', 'Park_Eagan_2022', 'Eagan_Rosemount_2022', 'Eagan_East-Ridge_2022']	2022-09-27T20:58:10.001870
+INFO:root:	 Job 1664330289 Complete | 	['', 'Park_Eagan_2021', 'Eagan_East-Ridge_2021', 'Eagan_Park_2021', 'Park_Eagan_2022', 'Eagan_Rosemount_2022', 'Eagan_East-Ridge_2022']	2022-09-27T20:58:15.480939
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 20:58:15] "POST /endzone/prereport/Run HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 20:59:13] "GET /endzone/gamerecap HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 20:59:13] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 20:59:13] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 20:59:13] "GET /static/css/PostGame_Report.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 20:59:13] "GET /static/js/PostGameReport.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 20:59:13] "GET /static/images/PostGame_Background.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 20:59:13] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 20:59:14] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 20:59:14] "GET /endzone/rest/getgames?teamcode=EVHS22&year=2022 HTTP/1.1" 200 -
+INFO:root:Job | 1664330367 Start | Eastview_Park_2022	2022-09-27T20:59:27.837939
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 20:59:29] "GET /endzone/rest/tools/recapreport?input=Eastview_Park_2022&teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "GET /endzone/driveanalyzer HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "[36mGET /static/css/Filterbar.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "[36mGET /static/leaflet_draw/leaflet.draw.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "GET /static/css/DAT.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "[36mGET /static/leaflet_draw/leaflet.draw-src.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "[36mGET /static/leaflet_draw/leaflet.draw.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "[36mGET /static/leaflet_draw/leaflet.draw-src.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "GET /static/js/DAT.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "[36mGET /static/spatial/FootballFieldBase.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "[36mGET /static/spatial/EndzoneNorth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "[36mGET /static/spatial/EndzoneSouth.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "[36mGET /static/leaflet_draw/images/spritesheet.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "GET /endzone/driveanalyzer/getparam?team=Burnsville&opponent=Farmington&year=2021&possession=Farmington&_=1664330419273 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:19] "GET /endzone/driveanalyzer/getdata?team=Burnsville&opponent=Farmington&year=2021&drive=1&_=1664330419274 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:35] "GET /endzone/driveanalyzer/getparam?team=Eastview&opponent=Park&year=2022&possession=Park&_=1664330419275 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:35] "GET /endzone/driveanalyzer/getdata?team=Eastview&opponent=Park&year=2022&drive=1&_=1664330419276 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:38] "GET /endzone/driveanalyzer/getdata?team=Eastview&opponent=Park&year=2022&drive=16&_=1664330419277 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:00:49] "GET /endzone/driveanalyzer/getdata?team=Eastview&opponent=Park&year=2022&drive=12&_=1664330419278 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:01:20] "GET /endzone/dataviewer HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:01:20] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:01:20] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:01:20] "GET /static/css/DataViewer.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:01:20] "GET /static/css/DataViewerTable.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:01:20] "GET /static/js/DataViewer.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:01:20] "GET /endzone/rest/getunique HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:01:28] "GET /endzone/rest/getdata?full=false&teamcode=EVHS22&possession=Eagan HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:02:49] "GET /endzone/tars HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:02:49] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:02:49] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:02:49] "GET /static/css/TARS.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:02:49] "GET /static/js/TARS.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:03:08] "GET /endzone/tars/run?down=1&distance=No%20Filter&yard=Backed%20Up&hash=No%20Filter&games=&possession=Eagan HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:03:17] "GET /endzone/tars/run?down=1&distance=No%20Filter&yard=Backed%20Up&hash=Left&games=&possession=Eagan HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:03:47] "GET /endzone/tars/run?down=2&distance=Short&yard=No%20Filter&hash=No%20Filter&games=Eastview_LN_2022&possession=Eagan HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:03:51] "GET /endzone/tars/run?down=2&distance=Medium&yard=No%20Filter&hash=No%20Filter&games=Eastview_LN_2022&possession=Eagan HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:03:58] "GET /endzone/tars/run?down=2&distance=Medium&yard=No%20Filter&hash=No%20Filter&games=Eastview_LN_2022&possession=LN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:04:05] "GET /endzone/tars/run?down=2&distance=Short&yard=No%20Filter&hash=No%20Filter&games=Eastview_LN_2022&possession=LN HTTP/1.1" 200 -
+>>>>>>> Stashed changes

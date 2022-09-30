@@ -174,7 +174,10 @@
               <option>Outside Run</option>
               <option>Pocket Pass</option>
               <option>Boot Pass</option>
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
             </select>
 
             <select name = "playdirection" id = "playdir">
@@ -595,6 +598,7 @@
 
         if(PlayData.yard + PlayData.event >= 100){document.getElementById("event").value = "Touchdown"}
         if(PlayData.ballcarrier ==""){PlayData.ballcarrier = -99}
+        if(PlayData.yard + PlayData.result == 100){PlayData.event = "Touchdown";}
         PlayData.passzone = document.getElementById("passzone").value
         var url = "/endzone/rest/addplay?";
         for(var attribute in PlayData)
@@ -616,6 +620,7 @@
           PlayData.lon = PlayData.r_lon;
           mapObject.map.fireEvent('click',{latlng:[PlayData.lat, PlayData.lon ]});
           mapObject.map.fireEvent('click',{latlng:[PlayData.lat, PlayData.lon ]});
+
           // First Down Case
           if(PlayData.distance - PlayData.result <= 0){
             PlayData.distance = 10
