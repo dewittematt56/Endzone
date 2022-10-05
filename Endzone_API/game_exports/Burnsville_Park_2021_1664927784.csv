@@ -1,0 +1,207 @@
+ID_x,Team_Name,Opponent_Name,Year,Owner_Team_Code,PlayNum,Possession,Yard,Hash,Down,Distance,Drive,Quarter,D_Formation,Formation,Formation_Strength,Play_Type,Play_Type_Dir,Pass_Zone,Coverage,Pressure_Left,Pressure_Middle,Pressure_Right,Result,Result_BallCarrier,Event,Result_Lat,Result_Lon,Play_Lat,Play_Lon,Simplified,ID_y,Team_Code,Wide_Recievers,Tight_Ends,Running_Backs,Image
+233,Burnsville,Park,2021,EVHS22,1,Burnsville,20,Middle,1,10,1,1,5-2,Pro,Right,Inside Run,Right,Non Passing Play,Man 1,0,0,0,3,-99,,2.3,5.045,2.0,4.0,false,22,EVHS22,2,1,2,/Dev
+130,Burnsville,Park,2021,EVHS22,1,Burnsville,20,Middle,1,10,1,1,5-2,Pro,Right,Inside Run,Right,Non Passing Play,Man 1,0,0,0,3,-99,,2.3,5.045,2.0,4.0,false,22,EVHS22,2,1,2,/Dev
+234,Burnsville,Park,2021,EVHS22,2,Burnsville,23,Middle,2,7,1,1,5-2,Pro,Right,Inside Run,Right,Non Passing Play,Man 1,0,0,0,29,-99,,5.2,5.045,2.3,4.0,false,22,EVHS22,2,1,2,/Dev
+131,Burnsville,Park,2021,EVHS22,2,Burnsville,23,Middle,2,7,1,1,5-2,Pro,Right,Inside Run,Right,Non Passing Play,Man 1,0,0,0,29,-99,,5.2,5.045,2.3,4.0,false,22,EVHS22,2,1,2,/Dev
+132,Burnsville,Park,2021,EVHS22,3,Burnsville,52,Right,1,10,1,1,5-2,Pro,Left,Inside Run,Left,Non Passing Play,Man 1,0,0,0,4,-99,,5.6,5.045,5.2,6.0,false,22,EVHS22,2,1,2,/Dev
+235,Burnsville,Park,2021,EVHS22,3,Burnsville,52,Right,1,10,1,1,5-2,Pro,Left,Inside Run,Left,Non Passing Play,Man 1,0,0,0,4,-99,,5.6,5.045,5.2,6.0,false,22,EVHS22,2,1,2,/Dev
+133,Burnsville,Park,2021,EVHS22,4,Burnsville,56,Left,2,6,1,1,4-3,Pro,Right,Outside Run,Right,Non Passing Play,Man 1,0,1,0,30,-99,,8.6,5.045,5.6,5.045,false,22,EVHS22,2,1,2,/Dev
+236,Burnsville,Park,2021,EVHS22,4,Burnsville,56,Left,2,6,1,1,4-3,Pro,Right,Outside Run,Right,Non Passing Play,Man 1,0,1,0,30,-99,,8.6,5.045,5.6,5.045,false,22,EVHS22,2,1,2,/Dev
+134,Burnsville,Park,2021,EVHS22,5,Burnsville,86,Right,1,10,1,1,4-3,Pro,Left,Inside Run,Left,Non Passing Play,Man 1,0,1,0,0,-99,,8.6,5.045,8.6,6.0,false,22,EVHS22,2,1,2,/Dev
+237,Burnsville,Park,2021,EVHS22,5,Burnsville,86,Right,1,10,1,1,4-3,Pro,Left,Inside Run,Left,Non Passing Play,Man 1,0,1,0,0,-99,,8.6,5.045,8.6,6.0,false,22,EVHS22,2,1,2,/Dev
+238,Burnsville,Park,2021,EVHS22,6,Burnsville,81,Middle,2,15,1,1,4-3,Pro,Left,Outside Run,Left,Non Passing Play,Man 1,0,0,0,2,-99,,8.3,5.045,8.1,4.0,false,22,EVHS22,2,1,2,/Dev
+135,Burnsville,Park,2021,EVHS22,6,Burnsville,81,Middle,2,15,1,1,4-3,Pro,Left,Outside Run,Left,Non Passing Play,Man 1,0,0,0,2,-99,,8.3,5.045,8.1,4.0,false,22,EVHS22,2,1,2,/Dev
+136,Burnsville,Park,2021,EVHS22,7,Burnsville,83,Left,3,13,1,1,4-3,Twins,Left,Inside Run,Left,Non Passing Play,Man 1,1,0,0,9,-99,,9.2,5.045,8.3,5.045,false,23,EVHS22,2,1,2,/Dev
+239,Burnsville,Park,2021,EVHS22,7,Burnsville,83,Left,3,13,1,1,4-3,Twins,Left,Inside Run,Left,Non Passing Play,Man 1,1,0,0,9,-99,,9.2,5.045,8.3,5.045,false,23,EVHS22,2,1,2,/Dev
+137,Burnsville,Park,2021,EVHS22,8,Burnsville,92,Left,4,4,1,1,4-3,Storm,Right,Inside Run,Right,Non Passing Play,Man 1,0,0,0,1,-99,,9.3,5.045,9.2,5.045,false,17,EVHS22,2,2,1,/Dev
+240,Burnsville,Park,2021,EVHS22,8,Burnsville,92,Left,4,4,1,1,4-3,Storm,Right,Inside Run,Right,Non Passing Play,Man 1,0,0,0,1,-99,,9.3,5.045,9.2,5.045,false,17,EVHS22,2,2,1,/Dev
+241,Burnsville,Park,2021,EVHS22,9,Park,7,Right,1,10,2,1,3-4,Double Wide,Right,Inside Run,Left,Non Passing Play,Zone 4,0,0,0,6,-99,,1.3,5.045,0.7,6.0,false,18,EVHS22,4,0,1,/Dev
+138,Burnsville,Park,2021,EVHS22,9,Park,7,Right,1,10,2,1,3-4,Double Wide,Right,Inside Run,Left,Non Passing Play,Zone 4,0,0,0,6,-99,,1.3,5.045,0.7,6.0,false,18,EVHS22,4,0,1,/Dev
+139,Burnsville,Park,2021,EVHS22,10,Park,13,Middle,2,4,2,1,3-4,Double Wide,Right,Pocket Pass,Unknown,Flats - Left,Zone 4,0,0,0,18,-99,,3.1,5.045,1.3,4.0,false,18,EVHS22,4,0,1,/Dev
+242,Burnsville,Park,2021,EVHS22,10,Park,13,Middle,2,4,2,1,3-4,Double Wide,Right,Pocket Pass,Unknown,Flats - Left,Zone 4,0,0,0,18,-99,,3.1,5.045,1.3,4.0,false,18,EVHS22,4,0,1,/Dev
+140,Burnsville,Park,2021,EVHS22,11,Park,31,Left,1,10,2,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Middle - Middle,Zone 4,0,0,0,0,-99,,3.1,5.045,3.1,5.045,false,19,EVHS22,4,0,1,/Dev
+243,Burnsville,Park,2021,EVHS22,11,Park,31,Left,1,10,2,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Middle - Middle,Zone 4,0,0,0,0,-99,,3.1,5.045,3.1,5.045,false,19,EVHS22,4,0,1,/Dev
+141,Burnsville,Park,2021,EVHS22,12,Park,28,Right,2,13,2,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Deep - Left,Man 0,0,1,0,0,-99,,2.8,5.045,2.8,6.0,false,18,EVHS22,4,0,1,/Dev
+244,Burnsville,Park,2021,EVHS22,12,Park,28,Right,2,13,2,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Deep - Left,Man 0,0,1,0,0,-99,,2.8,5.045,2.8,6.0,false,18,EVHS22,4,0,1,/Dev
+142,Burnsville,Park,2021,EVHS22,13,Park,28,Right,3,13,2,1,3-4,Trips Flex,Left,Pocket Pass,Unknown,Non Passing Play,Zone 4,0,0,0,7,-99,,3.5,5.045,2.8,6.0,false,19,EVHS22,4,0,1,/Dev
+245,Burnsville,Park,2021,EVHS22,13,Park,28,Right,3,13,2,1,3-4,Trips Flex,Left,Pocket Pass,Unknown,Non Passing Play,Zone 4,0,0,0,7,-99,,3.5,5.045,2.8,6.0,false,19,EVHS22,4,0,1,/Dev
+143,Burnsville,Park,2021,EVHS22,14,Burnsville,32,Right,1,10,3,1,3-4,Twins,Right,Outside Run,Left,Non Passing Play,Man 1,0,0,0,1,-99,,3.3,5.045,3.2,6.0,false,23,EVHS22,2,1,2,/Dev
+246,Burnsville,Park,2021,EVHS22,14,Burnsville,32,Right,1,10,3,1,3-4,Twins,Right,Outside Run,Left,Non Passing Play,Man 1,0,0,0,1,-99,,3.3,5.045,3.2,6.0,false,23,EVHS22,2,1,2,/Dev
+247,Burnsville,Park,2021,EVHS22,15,Burnsville,33,Middle,2,9,3,1,3-4,Pro,Left,Inside Run,Left,Non Passing Play,Man 1,0,1,0,1,-99,,3.4,5.045,3.3,4.0,false,22,EVHS22,2,1,2,/Dev
+144,Burnsville,Park,2021,EVHS22,15,Burnsville,33,Middle,2,9,3,1,3-4,Pro,Left,Inside Run,Left,Non Passing Play,Man 1,0,1,0,1,-99,,3.4,5.045,3.3,4.0,false,22,EVHS22,2,1,2,/Dev
+248,Burnsville,Park,2021,EVHS22,16,Burnsville,34,Left,3,8,3,1,3-4,Spread,Left,Pocket Pass,Unknown,Middle - Middle,Man 1,0,1,0,0,-99,,3.4,5.045,3.4,5.045,false,15,EVHS22,3,1,1,/Dev
+145,Burnsville,Park,2021,EVHS22,16,Burnsville,34,Left,3,8,3,1,3-4,Spread,Left,Pocket Pass,Unknown,Middle - Middle,Man 1,0,1,0,0,-99,,3.4,5.045,3.4,5.045,false,15,EVHS22,3,1,1,/Dev
+249,Burnsville,Park,2021,EVHS22,17,Park,57,Right,1,10,4,1,3-4,Double Wide,Right,Boot Pass,Unknown,Flats - Right,Zone 4,0,1,0,2,-99,,5.9,5.045,5.7,6.0,false,18,EVHS22,4,0,1,/Dev
+146,Burnsville,Park,2021,EVHS22,17,Park,57,Right,1,10,4,1,3-4,Double Wide,Right,Boot Pass,Unknown,Flats - Right,Zone 4,0,1,0,2,-99,,5.9,5.045,5.7,6.0,false,18,EVHS22,4,0,1,/Dev
+147,Burnsville,Park,2021,EVHS22,18,Park,59,Right,2,8,4,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Non Passing Play,Zone 4,0,0,0,-9,-99,,5.0,5.045,5.9,6.0,false,18,EVHS22,4,0,1,/Dev
+250,Burnsville,Park,2021,EVHS22,18,Park,59,Right,2,8,4,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Non Passing Play,Zone 4,0,0,0,-9,-99,,5.0,5.045,5.9,6.0,false,18,EVHS22,4,0,1,/Dev
+251,Burnsville,Park,2021,EVHS22,19,Park,50,Right,3,17,4,1,3-4,Trips Flex,Left,Pocket Pass,Unknown,Middle - Left,Zone 4,0,0,0,0,-99,,5.0,5.045,5.0,6.0,false,19,EVHS22,4,0,1,/Dev
+148,Burnsville,Park,2021,EVHS22,19,Park,50,Right,3,17,4,1,3-4,Trips Flex,Left,Pocket Pass,Unknown,Middle - Left,Zone 4,0,0,0,0,-99,,5.0,5.045,5.0,6.0,false,19,EVHS22,4,0,1,/Dev
+252,Burnsville,Park,2021,EVHS22,20,Burnsville,79,Right,1,10,5,1,4-3,Twins,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,10,-99,,8.9,5.045,7.9,6.0,false,23,EVHS22,2,1,2,/Dev
+149,Burnsville,Park,2021,EVHS22,20,Burnsville,79,Right,1,10,5,1,4-3,Twins,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,10,-99,,8.9,5.045,7.9,6.0,false,23,EVHS22,2,1,2,/Dev
+150,Burnsville,Park,2021,EVHS22,21,Burnsville,89,Right,1,10,5,1,4-3,Twins,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,11,-99,,10.0,5.045,8.9,6.0,false,23,EVHS22,2,1,2,/Dev
+253,Burnsville,Park,2021,EVHS22,21,Burnsville,89,Right,1,10,5,1,4-3,Twins,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,11,-99,,10.0,5.045,8.9,6.0,false,23,EVHS22,2,1,2,/Dev
+151,Burnsville,Park,2021,EVHS22,22,Park,42,Left,1,10,6,1,3-4,Thunder,Right,Pocket Pass,Unknown,Flats - Left,Zone 2,0,0,0,3,-99,,4.5,5.045,4.2,5.045,false,25,EVHS22,3,0,2,/Dev
+254,Burnsville,Park,2021,EVHS22,22,Park,42,Left,1,10,6,1,3-4,Thunder,Right,Pocket Pass,Unknown,Flats - Left,Zone 2,0,0,0,3,-99,,4.5,5.045,4.2,5.045,false,25,EVHS22,3,0,2,/Dev
+255,Burnsville,Park,2021,EVHS22,23,Park,50,Left,2,2,6,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Flats - Left,Zone 2,0,0,0,2,-99,,5.2,5.045,5.0,5.045,false,18,EVHS22,4,0,1,/Dev
+152,Burnsville,Park,2021,EVHS22,23,Park,50,Left,2,2,6,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Flats - Left,Zone 2,0,0,0,2,-99,,5.2,5.045,5.0,5.045,false,18,EVHS22,4,0,1,/Dev
+153,Burnsville,Park,2021,EVHS22,24,Park,52,Left,1,10,6,1,3-4,Double Wide,Right,Pocket Pass,Unknown,Flats - Left,Zone 4,0,0,0,5,-99,,5.7,5.045,5.2,5.045,false,18,EVHS22,4,0,1,/Dev
+256,Burnsville,Park,2021,EVHS22,24,Park,52,Left,1,10,6,1,3-4,Double Wide,Right,Pocket Pass,Unknown,Flats - Left,Zone 4,0,0,0,5,-99,,5.7,5.045,5.2,5.045,false,18,EVHS22,4,0,1,/Dev
+154,Burnsville,Park,2021,EVHS22,25,Park,57,Left,2,5,6,1,3-4,Double Wide,Left,Inside Run,Right,Non Passing Play,Zone 4,0,0,0,11,-99,,6.8,5.045,5.7,5.045,false,18,EVHS22,4,0,1,/Dev
+257,Burnsville,Park,2021,EVHS22,25,Park,57,Left,2,5,6,1,3-4,Double Wide,Left,Inside Run,Right,Non Passing Play,Zone 4,0,0,0,11,-99,,6.8,5.045,5.7,5.045,false,18,EVHS22,4,0,1,/Dev
+258,Burnsville,Park,2021,EVHS22,26,Park,68,Left,1,10,6,1,3-4,Trips Flex,Right,Inside Run,Left,Non Passing Play,Man 0,0,0,0,6,-99,,7.4,5.045,6.8,5.045,false,19,EVHS22,4,0,1,/Dev
+155,Burnsville,Park,2021,EVHS22,26,Park,68,Left,1,10,6,1,3-4,Trips Flex,Right,Inside Run,Left,Non Passing Play,Man 0,0,0,0,6,-99,,7.4,5.045,6.8,5.045,false,19,EVHS22,4,0,1,/Dev
+259,Burnsville,Park,2021,EVHS22,27,Park,74,Left,2,4,6,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Middle - Middle,Zone 4,0,0,0,13,-99,,8.7,5.045,7.4,5.045,false,18,EVHS22,4,0,1,/Dev
+156,Burnsville,Park,2021,EVHS22,27,Park,74,Left,2,4,6,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Middle - Middle,Zone 4,0,0,0,13,-99,,8.7,5.045,7.4,5.045,false,18,EVHS22,4,0,1,/Dev
+260,Burnsville,Park,2021,EVHS22,28,Park,87,Left,1,10,6,1,3-4,Double Wide,Right,Pocket Pass,Unknown,Flats - Right,Zone 4,0,0,0,0,-99,,8.7,5.045,8.7,5.045,false,18,EVHS22,4,0,1,/Dev
+157,Burnsville,Park,2021,EVHS22,28,Park,87,Left,1,10,6,1,3-4,Double Wide,Right,Pocket Pass,Unknown,Flats - Right,Zone 4,0,0,0,0,-99,,8.7,5.045,8.7,5.045,false,18,EVHS22,4,0,1,/Dev
+261,Burnsville,Park,2021,EVHS22,29,Park,87,Left,2,10,6,1,3-4,Double Wide,Right,Pocket Pass,Unknown,Flats - Left,Zone 3,0,0,0,8,-99,,9.5,5.045,8.7,5.045,false,18,EVHS22,4,0,1,/Dev
+158,Burnsville,Park,2021,EVHS22,29,Park,87,Left,2,10,6,1,3-4,Double Wide,Right,Pocket Pass,Unknown,Flats - Left,Zone 3,0,0,0,8,-99,,9.5,5.045,8.7,5.045,false,18,EVHS22,4,0,1,/Dev
+262,Burnsville,Park,2021,EVHS22,30,Park,95,Middle,3,2,6,1,3-4,Slot,Right,Boot Pass,Unknown,Middle - Right,Zone 4,1,1,0,5,-99,,10.0,5.045,9.5,4.0,false,26,EVHS22,1,2,2,/Dev
+159,Burnsville,Park,2021,EVHS22,30,Park,95,Middle,3,2,6,1,3-4,Slot,Right,Boot Pass,Unknown,Middle - Right,Zone 4,1,1,0,5,-99,,10.0,5.045,9.5,4.0,false,26,EVHS22,1,2,2,/Dev
+263,Burnsville,Park,2021,EVHS22,31,Burnsville,20,Middle,1,10,7,1,4-3,Twins,Left,Outside Run,Left,Non Passing Play,Man 1,0,1,0,1,-99,,2.1,5.045,2.0,4.0,false,23,EVHS22,2,1,2,/Dev
+160,Burnsville,Park,2021,EVHS22,31,Burnsville,20,Middle,1,10,7,1,4-3,Twins,Left,Outside Run,Left,Non Passing Play,Man 1,0,1,0,1,-99,,2.1,5.045,2.0,4.0,false,23,EVHS22,2,1,2,/Dev
+264,Burnsville,Park,2021,EVHS22,32,Burnsville,21,Left,2,9,7,1,4-3,Pro,Right,Inside Run,Right,Non Passing Play,Man 1,0,0,0,0,-99,,2.1,5.045,2.1,5.045,false,22,EVHS22,2,1,2,/Dev
+161,Burnsville,Park,2021,EVHS22,32,Burnsville,21,Left,2,9,7,1,4-3,Pro,Right,Inside Run,Right,Non Passing Play,Man 1,0,0,0,0,-99,,2.1,5.045,2.1,5.045,false,22,EVHS22,2,1,2,/Dev
+265,Burnsville,Park,2021,EVHS22,33,Park,79,Right,1,10,8,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Flats - Left,Zone 4,0,0,0,-1,-99,,7.8,5.045,7.9,6.0,false,18,EVHS22,4,0,1,/Dev
+162,Burnsville,Park,2021,EVHS22,33,Park,79,Right,1,10,8,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Flats - Left,Zone 4,0,0,0,-1,-99,,7.8,5.045,7.9,6.0,false,18,EVHS22,4,0,1,/Dev
+266,Burnsville,Park,2021,EVHS22,34,Park,78,Left,2,11,8,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Flats - Right,Zone 4,0,0,0,4,-99,,8.2,5.045,7.8,5.045,false,19,EVHS22,4,0,1,/Dev
+163,Burnsville,Park,2021,EVHS22,34,Park,78,Left,2,11,8,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Flats - Right,Zone 4,0,0,0,4,-99,,8.2,5.045,7.8,5.045,false,19,EVHS22,4,0,1,/Dev
+267,Burnsville,Park,2021,EVHS22,35,Park,82,Right,3,7,8,1,3-4,Triangle,Right,Inside Run,Left,Non Passing Play,Zone 3,0,0,0,-2,-99,,8.0,5.045,8.2,6.0,false,14,EVHS22,4,0,1,/Dev
+164,Burnsville,Park,2021,EVHS22,35,Park,82,Right,3,7,8,1,3-4,Triangle,Right,Inside Run,Left,Non Passing Play,Zone 3,0,0,0,-2,-99,,8.0,5.045,8.2,6.0,false,14,EVHS22,4,0,1,/Dev
+268,Burnsville,Park,2021,EVHS22,36,Park,80,Middle,4,9,8,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Deep - Right,Zone 3,0,0,0,20,-99,,10.0,5.045,8.0,4.0,false,19,EVHS22,4,0,1,/Dev
+165,Burnsville,Park,2021,EVHS22,36,Park,80,Middle,4,9,8,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Deep - Right,Zone 3,0,0,0,20,-99,,10.0,5.045,8.0,4.0,false,19,EVHS22,4,0,1,/Dev
+166,Burnsville,Park,2021,EVHS22,37,Burnsville,35,Left,1,10,9,1,4-3,Twins,Left,Inside Run,Left,Non Passing Play,Man 1,0,1,0,0,-99,,3.5,5.045,3.5,5.045,false,23,EVHS22,2,1,2,/Dev
+269,Burnsville,Park,2021,EVHS22,37,Burnsville,35,Left,1,10,9,1,4-3,Twins,Left,Inside Run,Left,Non Passing Play,Man 1,0,1,0,0,-99,,3.5,5.045,3.5,5.045,false,23,EVHS22,2,1,2,/Dev
+270,Burnsville,Park,2021,EVHS22,38,Burnsville,35,Left,2,10,9,1,4-3,Twins,Right,Inside Run,Left,Non Passing Play,Man 1,0,1,0,4,-99,,3.9,5.045,3.5,5.045,false,23,EVHS22,2,1,2,/Dev
+167,Burnsville,Park,2021,EVHS22,38,Burnsville,35,Left,2,10,9,1,4-3,Twins,Right,Inside Run,Left,Non Passing Play,Man 1,0,1,0,4,-99,,3.9,5.045,3.5,5.045,false,23,EVHS22,2,1,2,/Dev
+271,Burnsville,Park,2021,EVHS22,39,Burnsville,39,Left,3,6,9,1,4-3,Twins,Left,Boot Pass,Unknown,Middle - Middle,Man 1,0,1,0,61,-99,,10.0,5.045,3.9,5.045,false,23,EVHS22,2,1,2,/Dev
+168,Burnsville,Park,2021,EVHS22,39,Burnsville,39,Left,3,6,9,1,4-3,Twins,Left,Boot Pass,Unknown,Middle - Middle,Man 1,0,1,0,61,-99,,10.0,5.045,3.9,5.045,false,23,EVHS22,2,1,2,/Dev
+272,Burnsville,Park,2021,EVHS22,40,Park,22,Right,1,10,10,1,3-4,Double Wide,Left,Inside Run,Right,Non Passing Play,Man 0,1,0,0,78,-99,,10.0,5.045,2.2,6.0,false,18,EVHS22,4,0,1,/Dev
+169,Burnsville,Park,2021,EVHS22,40,Park,22,Right,1,10,10,1,3-4,Double Wide,Left,Inside Run,Right,Non Passing Play,Man 0,1,0,0,78,-99,,10.0,5.045,2.2,6.0,false,18,EVHS22,4,0,1,/Dev
+273,Burnsville,Park,2021,EVHS22,41,Burnsville,35,Left,1,10,11,1,4-3,Twins,Left,Inside Run,Left,Non Passing Play,Man 1,0,1,0,11,-99,,4.6,5.045,3.5,5.045,false,23,EVHS22,2,1,2,/Dev
+170,Burnsville,Park,2021,EVHS22,41,Burnsville,35,Left,1,10,11,1,4-3,Twins,Left,Inside Run,Left,Non Passing Play,Man 1,0,1,0,11,-99,,4.6,5.045,3.5,5.045,false,23,EVHS22,2,1,2,/Dev
+274,Burnsville,Park,2021,EVHS22,42,Burnsville,46,Left,1,10,11,1,4-3,Twins,Left,Inside Run,Right,Non Passing Play,Man 1,1,1,0,6,-99,,5.2,5.045,4.6,5.045,false,23,EVHS22,2,1,2,/Dev
+171,Burnsville,Park,2021,EVHS22,42,Burnsville,46,Left,1,10,11,1,4-3,Twins,Left,Inside Run,Right,Non Passing Play,Man 1,1,1,0,6,-99,,5.2,5.045,4.6,5.045,false,23,EVHS22,2,1,2,/Dev
+275,Burnsville,Park,2021,EVHS22,43,Burnsville,52,Middle,2,4,11,1,4-3,Twins,Left,Inside Run,Right,Non Passing Play,Man 1,0,0,0,48,-99,,10.0,5.045,5.2,4.0,false,23,EVHS22,2,1,2,/Dev
+172,Burnsville,Park,2021,EVHS22,43,Burnsville,52,Middle,2,4,11,1,4-3,Twins,Left,Inside Run,Right,Non Passing Play,Man 1,0,0,0,48,-99,,10.0,5.045,5.2,4.0,false,23,EVHS22,2,1,2,/Dev
+173,Burnsville,Park,2021,EVHS22,44,Park,68,Right,1,10,12,1,3-4,Trips Flex,Left,Pocket Pass,Unknown,Flats - Left,Zone 4,0,1,0,5,-99,,7.3,5.045,6.8,6.0,false,19,EVHS22,4,0,1,/Dev
+276,Burnsville,Park,2021,EVHS22,44,Park,68,Right,1,10,12,1,3-4,Trips Flex,Left,Pocket Pass,Unknown,Flats - Left,Zone 4,0,1,0,5,-99,,7.3,5.045,6.8,6.0,false,19,EVHS22,4,0,1,/Dev
+174,Burnsville,Park,2021,EVHS22,45,Park,37,Left,2,5,12,1,3-4,Trips Flex,Right,Inside Run,Right,Non Passing Play,Zone 2,0,0,0,0,-99,,3.7,5.045,3.7,5.045,false,19,EVHS22,4,0,1,/Dev
+277,Burnsville,Park,2021,EVHS22,45,Park,37,Left,2,5,12,1,3-4,Trips Flex,Right,Inside Run,Right,Non Passing Play,Zone 2,0,0,0,0,-99,,3.7,5.045,3.7,5.045,false,19,EVHS22,4,0,1,/Dev
+278,Burnsville,Park,2021,EVHS22,46,Park,37,Left,3,5,12,1,3-4,Thunder,Right,Boot Pass,Unknown,Middle - Middle,Zone 2,0,0,0,21,-99,,5.8,5.045,3.7,5.045,false,25,EVHS22,3,0,2,/Dev
+175,Burnsville,Park,2021,EVHS22,46,Park,37,Left,3,5,12,1,3-4,Thunder,Right,Boot Pass,Unknown,Middle - Middle,Zone 2,0,0,0,21,-99,,5.8,5.045,3.7,5.045,false,25,EVHS22,3,0,2,/Dev
+279,Burnsville,Park,2021,EVHS22,47,Park,58,Middle,1,10,12,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Flats - Left,Zone 2,0,0,0,-22,-99,,3.6,5.045,5.8,4.0,false,18,EVHS22,4,0,1,/Dev
+176,Burnsville,Park,2021,EVHS22,47,Park,58,Middle,1,10,12,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Flats - Left,Zone 2,0,0,0,-22,-99,,3.6,5.045,5.8,4.0,false,18,EVHS22,4,0,1,/Dev
+280,Burnsville,Park,2021,EVHS22,48,Park,56,Left,2,32,12,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Flats - Right,Zone 2,0,0,0,11,-99,,6.7,5.045,5.6,5.045,false,19,EVHS22,4,0,1,/Dev
+177,Burnsville,Park,2021,EVHS22,48,Park,56,Left,2,32,12,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Flats - Right,Zone 2,0,0,0,11,-99,,6.7,5.045,5.6,5.045,false,19,EVHS22,4,0,1,/Dev
+281,Burnsville,Park,2021,EVHS22,49,Park,67,Middle,3,1,12,1,3-4,Slot,Right,Inside Run,Left,Non Passing Play,Zone 2,0,0,0,4,-99,,7.1,5.045,6.7,4.0,false,26,EVHS22,1,2,2,/Dev
+178,Burnsville,Park,2021,EVHS22,49,Park,67,Middle,3,1,12,1,3-4,Slot,Right,Inside Run,Left,Non Passing Play,Zone 2,0,0,0,4,-99,,7.1,5.045,6.7,4.0,false,26,EVHS22,1,2,2,/Dev
+282,Burnsville,Park,2021,EVHS22,50,Park,71,Left,1,10,12,1,3-4,Thunder,Right,Inside Run,Right,Non Passing Play,Zone 4,0,0,0,0,-99,,7.1,5.045,7.1,5.045,false,25,EVHS22,3,0,2,/Dev
+179,Burnsville,Park,2021,EVHS22,50,Park,71,Left,1,10,12,1,3-4,Thunder,Right,Inside Run,Right,Non Passing Play,Zone 4,0,0,0,0,-99,,7.1,5.045,7.1,5.045,false,25,EVHS22,3,0,2,/Dev
+180,Burnsville,Park,2021,EVHS22,51,Park,71,Middle,2,10,12,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Middle - Middle,Zone 4,0,0,0,0,-99,,7.1,5.045,7.1,4.0,false,19,EVHS22,4,0,1,/Dev
+283,Burnsville,Park,2021,EVHS22,51,Park,71,Middle,2,10,12,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Middle - Middle,Zone 4,0,0,0,0,-99,,7.1,5.045,7.1,4.0,false,19,EVHS22,4,0,1,/Dev
+284,Burnsville,Park,2021,EVHS22,52,Park,71,Middle,3,10,12,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Middle - Left,Zone 3,0,0,0,29,-99,,10.0,5.045,7.1,4.0,false,19,EVHS22,4,0,1,/Dev
+181,Burnsville,Park,2021,EVHS22,52,Park,71,Middle,3,10,12,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Middle - Left,Zone 3,0,0,0,29,-99,,10.0,5.045,7.1,4.0,false,19,EVHS22,4,0,1,/Dev
+285,Burnsville,Park,2021,EVHS22,53,Burnsville,23,Middle,1,10,13,1,4-3,Spread,Left,Inside Run,Left,Non Passing Play,Man 1,0,1,0,3,-99,,2.6,5.045,2.3,4.0,false,15,EVHS22,3,1,1,/Dev
+182,Burnsville,Park,2021,EVHS22,53,Burnsville,23,Middle,1,10,13,1,4-3,Spread,Left,Inside Run,Left,Non Passing Play,Man 1,0,1,0,3,-99,,2.6,5.045,2.3,4.0,false,15,EVHS22,3,1,1,/Dev
+183,Burnsville,Park,2021,EVHS22,54,Burnsville,26,Left,2,7,13,1,4-3,Twins,Left,Pocket Pass,Unknown,Deep - Right,Man 1,0,0,0,0,-99,,2.6,5.045,2.6,5.045,false,23,EVHS22,2,1,2,/Dev
+286,Burnsville,Park,2021,EVHS22,54,Burnsville,26,Left,2,7,13,1,4-3,Twins,Left,Pocket Pass,Unknown,Deep - Right,Man 1,0,0,0,0,-99,,2.6,5.045,2.6,5.045,false,23,EVHS22,2,1,2,/Dev
+184,Burnsville,Park,2021,EVHS22,55,Burnsville,26,Left,3,7,13,1,4-3,Spread,Right,Outside Run,Right,Non Passing Play,Man 1,0,0,0,-2,-99,,2.4,5.045,2.6,5.045,false,15,EVHS22,3,1,1,/Dev
+287,Burnsville,Park,2021,EVHS22,55,Burnsville,26,Left,3,7,13,1,4-3,Spread,Right,Outside Run,Right,Non Passing Play,Man 1,0,0,0,-2,-99,,2.4,5.045,2.6,5.045,false,15,EVHS22,3,1,1,/Dev
+288,Burnsville,Park,2021,EVHS22,56,Park,37,Left,1,10,14,1,3-4,Double Wide,Right,Outside Run,Left,Non Passing Play,Zone 4,0,0,0,3,-99,,4.0,5.045,3.7,5.045,false,18,EVHS22,4,0,1,/Dev
+185,Burnsville,Park,2021,EVHS22,56,Park,37,Left,1,10,14,1,3-4,Double Wide,Right,Outside Run,Left,Non Passing Play,Zone 4,0,0,0,3,-99,,4.0,5.045,3.7,5.045,false,18,EVHS22,4,0,1,/Dev
+186,Burnsville,Park,2021,EVHS22,57,Park,40,Left,2,7,14,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Flats - Left,Zone 4,0,0,0,8,-99,,4.8,5.045,4.0,5.045,false,18,EVHS22,4,0,1,/Dev
+289,Burnsville,Park,2021,EVHS22,57,Park,40,Left,2,7,14,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Flats - Left,Zone 4,0,0,0,8,-99,,4.8,5.045,4.0,5.045,false,18,EVHS22,4,0,1,/Dev
+187,Burnsville,Park,2021,EVHS22,58,Park,36,Left,1,22,14,1,3-4,Double Wide,Right,Outside Run,Right,Non Passing Play,Zone 2,0,0,0,-4,-99,,3.2,5.045,3.6,5.045,false,18,EVHS22,4,0,1,/Dev
+290,Burnsville,Park,2021,EVHS22,58,Park,36,Left,1,22,14,1,3-4,Double Wide,Right,Outside Run,Right,Non Passing Play,Zone 2,0,0,0,-4,-99,,3.2,5.045,3.6,5.045,false,18,EVHS22,4,0,1,/Dev
+291,Burnsville,Park,2021,EVHS22,59,Park,32,Right,2,26,14,1,3-4,Trips Flex,Left,Pocket Pass,Unknown,Flats - Right,Zone 4,0,0,0,2,-99,,3.4,5.045,3.2,6.0,false,19,EVHS22,4,0,1,/Dev
+188,Burnsville,Park,2021,EVHS22,59,Park,32,Right,2,26,14,1,3-4,Trips Flex,Left,Pocket Pass,Unknown,Flats - Right,Zone 4,0,0,0,2,-99,,3.4,5.045,3.2,6.0,false,19,EVHS22,4,0,1,/Dev
+189,Burnsville,Park,2021,EVHS22,60,Park,34,Right,3,24,14,1,3-4,Double Wide,Right,Pocket Pass,Unknown,Middle - Right,Zone 4,0,0,0,11,-99,,4.5,5.045,3.4,6.0,false,18,EVHS22,4,0,1,/Dev
+292,Burnsville,Park,2021,EVHS22,60,Park,34,Right,3,24,14,1,3-4,Double Wide,Right,Pocket Pass,Unknown,Middle - Right,Zone 4,0,0,0,11,-99,,4.5,5.045,3.4,6.0,false,18,EVHS22,4,0,1,/Dev
+190,Burnsville,Park,2021,EVHS22,61,Park,52,Left,1,10,15,1,3-4,Trips Flex,Right,Inside Run,Right,Non Passing Play,Man 0,0,1,0,-1,-99,,5.1,5.045,5.2,5.045,false,19,EVHS22,4,0,1,/Dev
+293,Burnsville,Park,2021,EVHS22,61,Park,52,Left,1,10,15,1,3-4,Trips Flex,Right,Inside Run,Right,Non Passing Play,Man 0,0,1,0,-1,-99,,5.1,5.045,5.2,5.045,false,19,EVHS22,4,0,1,/Dev
+191,Burnsville,Park,2021,EVHS22,62,Park,51,Left,2,11,15,1,3-4,Trips Flex,Right,Inside Run,Left,Non Passing Play,Man 0,0,0,0,49,-99,,10.0,5.045,5.1,5.045,false,19,EVHS22,4,0,1,/Dev
+294,Burnsville,Park,2021,EVHS22,62,Park,51,Left,2,11,15,1,3-4,Trips Flex,Right,Inside Run,Left,Non Passing Play,Man 0,0,0,0,49,-99,,10.0,5.045,5.1,5.045,false,19,EVHS22,4,0,1,/Dev
+295,Burnsville,Park,2021,EVHS22,63,Park,17,Right,1,10,16,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Middle - Right,Man 0,0,0,0,0,-99,,1.7,5.045,1.7,6.0,false,18,EVHS22,4,0,1,/Dev
+192,Burnsville,Park,2021,EVHS22,63,Park,17,Right,1,10,16,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Middle - Right,Man 0,0,0,0,0,-99,,1.7,5.045,1.7,6.0,false,18,EVHS22,4,0,1,/Dev
+193,Burnsville,Park,2021,EVHS22,64,Park,6,Right,2,21,16,1,3-4,Trips Flex,Left,Inside Run,Left,Non Passing Play,Zone 4,0,0,0,3,-99,,0.9,5.045,0.6,6.0,false,19,EVHS22,4,0,1,/Dev
+296,Burnsville,Park,2021,EVHS22,64,Park,6,Right,2,21,16,1,3-4,Trips Flex,Left,Inside Run,Left,Non Passing Play,Zone 4,0,0,0,3,-99,,0.9,5.045,0.6,6.0,false,19,EVHS22,4,0,1,/Dev
+194,Burnsville,Park,2021,EVHS22,65,Park,9,Right,3,18,16,1,3-4,Trips Flex,Left,Pocket Pass,Unknown,Flats - Left,Zone 2,0,0,0,4,-99,,1.3,5.045,0.9,6.0,false,19,EVHS22,4,0,1,/Dev
+297,Burnsville,Park,2021,EVHS22,65,Park,9,Right,3,18,16,1,3-4,Trips Flex,Left,Pocket Pass,Unknown,Flats - Left,Zone 2,0,0,0,4,-99,,1.3,5.045,0.9,6.0,false,19,EVHS22,4,0,1,/Dev
+195,Burnsville,Park,2021,EVHS22,66,Burnsville,24,Left,1,10,17,1,4-3,Spread,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,3,-99,,2.7,5.045,2.4,5.045,false,15,EVHS22,3,1,1,/Dev
+298,Burnsville,Park,2021,EVHS22,66,Burnsville,24,Left,1,10,17,1,4-3,Spread,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,3,-99,,2.7,5.045,2.4,5.045,false,15,EVHS22,3,1,1,/Dev
+299,Burnsville,Park,2021,EVHS22,67,Burnsville,27,Left,2,7,17,1,4-3,Spread,Left,Outside Run,Left,Non Passing Play,Man 1,0,1,0,3,-99,,3.0,5.045,2.7,5.045,false,15,EVHS22,3,1,1,/Dev
+196,Burnsville,Park,2021,EVHS22,67,Burnsville,27,Left,2,7,17,1,4-3,Spread,Left,Outside Run,Left,Non Passing Play,Man 1,0,1,0,3,-99,,3.0,5.045,2.7,5.045,false,15,EVHS22,3,1,1,/Dev
+300,Burnsville,Park,2021,EVHS22,68,Burnsville,30,Left,3,4,17,1,4-3,Twins,Left,Pocket Pass,Unknown,Deep - Right,Man 1,0,0,0,0,-99,,3.0,5.045,3.0,5.045,false,23,EVHS22,2,1,2,/Dev
+197,Burnsville,Park,2021,EVHS22,68,Burnsville,30,Left,3,4,17,1,4-3,Twins,Left,Pocket Pass,Unknown,Deep - Right,Man 1,0,0,0,0,-99,,3.0,5.045,3.0,5.045,false,23,EVHS22,2,1,2,/Dev
+301,Burnsville,Park,2021,EVHS22,69,Park,40,Middle,1,10,18,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Non Passing Play,Zone 4,0,0,0,-7,-99,,3.3,5.045,4.0,4.0,false,18,EVHS22,4,0,1,/Dev
+198,Burnsville,Park,2021,EVHS22,69,Park,40,Middle,1,10,18,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Non Passing Play,Zone 4,0,0,0,-7,-99,,3.3,5.045,4.0,4.0,false,18,EVHS22,4,0,1,/Dev
+199,Burnsville,Park,2021,EVHS22,70,Park,33,Middle,2,17,18,1,3-4,Double Wide,Right,Inside Run,Left,Non Passing Play,Zone 4,0,0,0,-15,-99,,1.8,5.045,3.3,4.0,false,18,EVHS22,4,0,1,/Dev
+302,Burnsville,Park,2021,EVHS22,70,Park,33,Middle,2,17,18,1,3-4,Double Wide,Right,Inside Run,Left,Non Passing Play,Zone 4,0,0,0,-15,-99,,1.8,5.045,3.3,4.0,false,18,EVHS22,4,0,1,/Dev
+200,Burnsville,Park,2021,EVHS22,71,Park,18,Left,3,32,18,1,3-4,Thunder,Right,Pocket Pass,Unknown,Flats - Right,Zone 4,0,0,0,0,-99,,1.8,5.045,1.8,5.045,false,25,EVHS22,3,0,2,/Dev
+303,Burnsville,Park,2021,EVHS22,71,Park,18,Left,3,32,18,1,3-4,Thunder,Right,Pocket Pass,Unknown,Flats - Right,Zone 4,0,0,0,0,-99,,1.8,5.045,1.8,5.045,false,25,EVHS22,3,0,2,/Dev
+201,Burnsville,Park,2021,EVHS22,72,Burnsville,58,Right,1,10,19,1,4-3,Spread,Left,Inside Run,Left,Non Passing Play,Man 1,1,1,0,-2,-99,,5.6,5.045,5.8,6.0,false,15,EVHS22,3,1,1,/Dev
+304,Burnsville,Park,2021,EVHS22,72,Burnsville,58,Right,1,10,19,1,4-3,Spread,Left,Inside Run,Left,Non Passing Play,Man 1,1,1,0,-2,-99,,5.6,5.045,5.8,6.0,false,15,EVHS22,3,1,1,/Dev
+305,Burnsville,Park,2021,EVHS22,73,Burnsville,56,Middle,2,12,19,1,4-3,Spread,Left,Pocket Pass,Unknown,Non Passing Play,Man 1,0,1,0,0,-99,,5.6,5.045,5.6,4.0,false,15,EVHS22,3,1,1,/Dev
+202,Burnsville,Park,2021,EVHS22,73,Burnsville,56,Middle,2,12,19,1,4-3,Spread,Left,Pocket Pass,Unknown,Non Passing Play,Man 1,0,1,0,0,-99,,5.6,5.045,5.6,4.0,false,15,EVHS22,3,1,1,/Dev
+203,Burnsville,Park,2021,EVHS22,74,Burnsville,49,Right,3,19,19,1,4-3,Twins,Left,Pocket Pass,Unknown,Deep - Left,Man 1,0,1,0,0,-99,,4.9,5.045,4.9,6.0,false,23,EVHS22,2,1,2,/Dev
+306,Burnsville,Park,2021,EVHS22,74,Burnsville,49,Right,3,19,19,1,4-3,Twins,Left,Pocket Pass,Unknown,Deep - Left,Man 1,0,1,0,0,-99,,4.9,5.045,4.9,6.0,false,23,EVHS22,2,1,2,/Dev
+307,Burnsville,Park,2021,EVHS22,75,Park,20,Right,1,10,20,1,3-4,Double Wide,Right,Outside Run,Left,Non Passing Play,Man 0,0,0,0,3,-99,,2.3,5.045,2.0,6.0,false,18,EVHS22,4,0,1,/Dev
+204,Burnsville,Park,2021,EVHS22,75,Park,20,Right,1,10,20,1,3-4,Double Wide,Right,Outside Run,Left,Non Passing Play,Man 0,0,0,0,3,-99,,2.3,5.045,2.0,6.0,false,18,EVHS22,4,0,1,/Dev
+308,Burnsville,Park,2021,EVHS22,76,Park,7,Middle,2,23,20,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Deep - Left,Zone 4,0,0,0,0,-99,,0.7,5.045,0.7,4.0,false,19,EVHS22,4,0,1,/Dev
+205,Burnsville,Park,2021,EVHS22,76,Park,7,Middle,2,23,20,1,3-4,Trips Flex,Right,Pocket Pass,Unknown,Deep - Left,Zone 4,0,0,0,0,-99,,0.7,5.045,0.7,4.0,false,19,EVHS22,4,0,1,/Dev
+309,Burnsville,Park,2021,EVHS22,77,Park,7,Middle,3,23,20,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Flats - Left,Zone 4,0,0,0,10,-99,,1.7,5.045,0.7,4.0,false,18,EVHS22,4,0,1,/Dev
+206,Burnsville,Park,2021,EVHS22,77,Park,7,Middle,3,23,20,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Flats - Left,Zone 4,0,0,0,10,-99,,1.7,5.045,0.7,4.0,false,18,EVHS22,4,0,1,/Dev
+310,Burnsville,Park,2021,EVHS22,78,Burnsville,56,Right,1,10,21,1,4-3,Spread,Left,Inside Run,Left,Non Passing Play,Man 1,0,1,0,11,-99,,6.7,5.045,5.6,6.0,false,15,EVHS22,3,1,1,/Dev
+207,Burnsville,Park,2021,EVHS22,78,Burnsville,56,Right,1,10,21,1,4-3,Spread,Left,Inside Run,Left,Non Passing Play,Man 1,0,1,0,11,-99,,6.7,5.045,5.6,6.0,false,15,EVHS22,3,1,1,/Dev
+311,Burnsville,Park,2021,EVHS22,79,Burnsville,67,Right,1,10,21,1,4-3,Twins,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,13,-99,,8.0,5.045,6.7,6.0,false,23,EVHS22,2,1,2,/Dev
+208,Burnsville,Park,2021,EVHS22,79,Burnsville,67,Right,1,10,21,1,4-3,Twins,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,13,-99,,8.0,5.045,6.7,6.0,false,23,EVHS22,2,1,2,/Dev
+209,Burnsville,Park,2021,EVHS22,80,Burnsville,80,Right,1,10,21,1,4-3,Twins,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,19,-99,,9.9,5.045,8.0,6.0,false,23,EVHS22,2,1,2,/Dev
+312,Burnsville,Park,2021,EVHS22,80,Burnsville,80,Right,1,10,21,1,4-3,Twins,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,19,-99,,9.9,5.045,8.0,6.0,false,23,EVHS22,2,1,2,/Dev
+210,Burnsville,Park,2021,EVHS22,81,Burnsville,99,Right,1,10,21,1,4-3,Storm,Left,Inside Run,Left,Non Passing Play,Man 1,0,0,0,1,-99,,10.0,5.045,9.9,6.0,false,17,EVHS22,2,2,1,/Dev
+313,Burnsville,Park,2021,EVHS22,81,Burnsville,99,Right,1,10,21,1,4-3,Storm,Left,Inside Run,Left,Non Passing Play,Man 1,0,0,0,1,-99,,10.0,5.045,9.9,6.0,false,17,EVHS22,2,2,1,/Dev
+211,Burnsville,Park,2021,EVHS22,82,Park,32,Left,1,10,22,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Non Passing Play,Zone 2,0,0,0,0,-99,,3.2,5.045,3.2,5.045,false,18,EVHS22,4,0,1,/Dev
+314,Burnsville,Park,2021,EVHS22,82,Park,32,Left,1,10,22,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Non Passing Play,Zone 2,0,0,0,0,-99,,3.2,5.045,3.2,5.045,false,18,EVHS22,4,0,1,/Dev
+212,Burnsville,Park,2021,EVHS22,83,Park,32,Middle,2,10,22,1,3-4,Trips Flex,Left,Boot Pass,Unknown,Middle - Middle,Zone 4,0,0,0,6,-99,,3.8,5.045,3.2,4.0,false,19,EVHS22,4,0,1,/Dev
+315,Burnsville,Park,2021,EVHS22,83,Park,32,Middle,2,10,22,1,3-4,Trips Flex,Left,Boot Pass,Unknown,Middle - Middle,Zone 4,0,0,0,6,-99,,3.8,5.045,3.2,4.0,false,19,EVHS22,4,0,1,/Dev
+316,Burnsville,Park,2021,EVHS22,84,Park,38,Right,3,4,22,1,3-4,Triangle,Right,Pocket Pass,Unknown,Flats - Right,Zone 3,0,0,0,4,-99,,4.2,5.045,3.8,6.0,false,14,EVHS22,4,0,1,/Dev
+213,Burnsville,Park,2021,EVHS22,84,Park,38,Right,3,4,22,1,3-4,Triangle,Right,Pocket Pass,Unknown,Flats - Right,Zone 3,0,0,0,4,-99,,4.2,5.045,3.8,6.0,false,14,EVHS22,4,0,1,/Dev
+214,Burnsville,Park,2021,EVHS22,85,Park,42,Right,1,10,22,1,3-4,Triangle,Right,Pocket Pass,Unknown,Flats - Right,Zone 3,0,1,0,2,-99,,4.4,5.045,4.2,6.0,false,14,EVHS22,4,0,1,/Dev
+317,Burnsville,Park,2021,EVHS22,85,Park,42,Right,1,10,22,1,3-4,Triangle,Right,Pocket Pass,Unknown,Flats - Right,Zone 3,0,1,0,2,-99,,4.4,5.045,4.2,6.0,false,14,EVHS22,4,0,1,/Dev
+318,Burnsville,Park,2021,EVHS22,86,Park,44,Right,2,8,22,1,3-4,Double Wide,Right,Pocket Pass,Unknown,Middle - Right,Zone 2,0,0,0,0,-99,,4.4,5.045,4.4,6.0,false,18,EVHS22,4,0,1,/Dev
+215,Burnsville,Park,2021,EVHS22,86,Park,44,Right,2,8,22,1,3-4,Double Wide,Right,Pocket Pass,Unknown,Middle - Right,Zone 2,0,0,0,0,-99,,4.4,5.045,4.4,6.0,false,18,EVHS22,4,0,1,/Dev
+319,Burnsville,Park,2021,EVHS22,87,Park,44,Right,3,8,22,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Deep - Left,Zone 4,0,1,0,56,-99,,10.0,5.045,4.4,6.0,false,18,EVHS22,4,0,1,/Dev
+216,Burnsville,Park,2021,EVHS22,87,Park,44,Right,3,8,22,1,3-4,Double Wide,Left,Pocket Pass,Unknown,Deep - Left,Zone 4,0,1,0,56,-99,,10.0,5.045,4.4,6.0,false,18,EVHS22,4,0,1,/Dev
+320,Burnsville,Park,2021,EVHS22,88,Burnsville,20,Middle,1,10,23,1,4-3,Spread,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,18,-99,,3.8,5.045,2.0,4.0,false,15,EVHS22,3,1,1,/Dev
+217,Burnsville,Park,2021,EVHS22,88,Burnsville,20,Middle,1,10,23,1,4-3,Spread,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,18,-99,,3.8,5.045,2.0,4.0,false,15,EVHS22,3,1,1,/Dev
+218,Burnsville,Park,2021,EVHS22,89,Burnsville,38,Left,1,10,23,1,4-3,Spread,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,5,-99,,4.3,5.045,3.8,5.045,false,15,EVHS22,3,1,1,/Dev
+321,Burnsville,Park,2021,EVHS22,89,Burnsville,38,Left,1,10,23,1,4-3,Spread,Right,Inside Run,Right,Non Passing Play,Man 1,0,1,0,5,-99,,4.3,5.045,3.8,5.045,false,15,EVHS22,3,1,1,/Dev
+219,Burnsville,Park,2021,EVHS22,90,Burnsville,43,Left,2,5,23,1,4-3,Spread,Left,Outside Run,Left,Non Passing Play,Man 1,0,0,0,1,-99,,4.4,5.045,4.3,5.045,false,15,EVHS22,3,1,1,/Dev
+322,Burnsville,Park,2021,EVHS22,90,Burnsville,43,Left,2,5,23,1,4-3,Spread,Left,Outside Run,Left,Non Passing Play,Man 1,0,0,0,1,-99,,4.4,5.045,4.3,5.045,false,15,EVHS22,3,1,1,/Dev
+323,Burnsville,Park,2021,EVHS22,91,Burnsville,44,Left,3,4,23,1,4-3,Spread,Left,Pocket Pass,Unknown,Middle - Left,Man 1,0,1,0,0,-99,,4.4,5.045,4.4,5.045,false,15,EVHS22,3,1,1,/Dev
+220,Burnsville,Park,2021,EVHS22,91,Burnsville,44,Left,3,4,23,1,4-3,Spread,Left,Pocket Pass,Unknown,Middle - Left,Man 1,0,1,0,0,-99,,4.4,5.045,4.4,5.045,false,15,EVHS22,3,1,1,/Dev
+221,Burnsville,Park,2021,EVHS22,92,Park,25,Middle,1,10,24,1,3-4,Double Wide,Left,Inside Run,Left,Non Passing Play,Man 0,0,0,0,-1,-99,,2.4,5.045,2.5,4.0,false,18,EVHS22,4,0,1,/Dev
+324,Burnsville,Park,2021,EVHS22,92,Park,25,Middle,1,10,24,1,3-4,Double Wide,Left,Inside Run,Left,Non Passing Play,Man 0,0,0,0,-1,-99,,2.4,5.045,2.5,4.0,false,18,EVHS22,4,0,1,/Dev
+325,Burnsville,Park,2021,EVHS22,93,Park,24,Left,2,11,24,1,3-4,Thunder,Right,Inside Run,Right,Non Passing Play,Man 1,0,0,0,8,-99,,3.2,5.045,2.4,5.045,false,25,EVHS22,3,0,2,/Dev
+222,Burnsville,Park,2021,EVHS22,93,Park,24,Left,2,11,24,1,3-4,Thunder,Right,Inside Run,Right,Non Passing Play,Man 1,0,0,0,8,-99,,3.2,5.045,2.4,5.045,false,25,EVHS22,3,0,2,/Dev
+223,Burnsville,Park,2021,EVHS22,94,Park,32,Left,3,3,24,1,3-4,Slot,Right,Inside Run,Right,Non Passing Play,Man 0,0,0,0,24,-99,,5.6,5.045,3.2,5.045,false,26,EVHS22,1,2,2,/Dev
+326,Burnsville,Park,2021,EVHS22,94,Park,32,Left,3,3,24,1,3-4,Slot,Right,Inside Run,Right,Non Passing Play,Man 0,0,0,0,24,-99,,5.6,5.045,3.2,5.045,false,26,EVHS22,1,2,2,/Dev
+224,Burnsville,Park,2021,EVHS22,95,Park,56,Middle,1,10,24,1,3-4,Slot,Right,Inside Run,Left,Non Passing Play,Man 0,1,1,0,29,-99,,8.5,5.045,5.6,4.0,false,26,EVHS22,1,2,2,/Dev
+327,Burnsville,Park,2021,EVHS22,95,Park,56,Middle,1,10,24,1,3-4,Slot,Right,Inside Run,Left,Non Passing Play,Man 0,1,1,0,29,-99,,8.5,5.045,5.6,4.0,false,26,EVHS22,1,2,2,/Dev
+225,Burnsville,Park,2021,EVHS22,96,Park,85,Right,1,10,24,1,3-4,Slot,Right,Inside Run,Right,Non Passing Play,Zone 3,1,0,0,10,-99,,9.5,5.045,8.5,6.0,false,26,EVHS22,1,2,2,/Dev
+328,Burnsville,Park,2021,EVHS22,96,Park,85,Right,1,10,24,1,3-4,Slot,Right,Inside Run,Right,Non Passing Play,Zone 3,1,0,0,10,-99,,9.5,5.045,8.5,6.0,false,26,EVHS22,1,2,2,/Dev
+329,Burnsville,Park,2021,EVHS22,97,Park,95,Left,1,10,24,1,3-4,Slot,Right,Inside Run,Right,Non Passing Play,Man 0,0,0,0,5,-99,,10.0,5.045,9.5,5.045,false,26,EVHS22,1,2,2,/Dev
+226,Burnsville,Park,2021,EVHS22,97,Park,95,Left,1,10,24,1,3-4,Slot,Right,Inside Run,Right,Non Passing Play,Man 0,0,0,0,5,-99,,10.0,5.045,9.5,5.045,false,26,EVHS22,1,2,2,/Dev
+330,Burnsville,Park,2021,EVHS22,98,Burnsville,20,Middle,1,10,25,1,4-3,Spread,Right,Inside Run,Left,Non Passing Play,Man 1,0,1,0,-5,-99,,1.5,5.045,2.0,4.0,false,15,EVHS22,3,1,1,/Dev
+227,Burnsville,Park,2021,EVHS22,98,Burnsville,20,Middle,1,10,25,1,4-3,Spread,Right,Inside Run,Left,Non Passing Play,Man 1,0,1,0,-5,-99,,1.5,5.045,2.0,4.0,false,15,EVHS22,3,1,1,/Dev
+228,Burnsville,Park,2021,EVHS22,99,Burnsville,15,Left,2,15,25,1,4-3,Trips Flex,Right,Pocket Pass,Unknown,Middle - Right,Man 1,0,1,0,0,-99,,1.5,5.045,1.5,5.045,false,19,EVHS22,4,0,1,/Dev
+331,Burnsville,Park,2021,EVHS22,99,Burnsville,15,Left,2,15,25,1,4-3,Trips Flex,Right,Pocket Pass,Unknown,Middle - Right,Man 1,0,1,0,0,-99,,1.5,5.045,1.5,5.045,false,19,EVHS22,4,0,1,/Dev
+229,Burnsville,Park,2021,EVHS22,100,Burnsville,15,Left,3,15,25,1,4-3,Trips Flex,Right,Pocket Pass,Unknown,Deep - Right,Man 1,0,1,0,33,-99,,4.8,5.045,1.5,5.045,false,19,EVHS22,4,0,1,/Dev
+332,Burnsville,Park,2021,EVHS22,100,Burnsville,15,Left,3,15,25,1,4-3,Trips Flex,Right,Pocket Pass,Unknown,Deep - Right,Man 1,0,1,0,33,-99,,4.8,5.045,1.5,5.045,false,19,EVHS22,4,0,1,/Dev
+230,Burnsville,Park,2021,EVHS22,101,Burnsville,48,Right,1,10,25,1,4-3,Spread,Right,Pocket Pass,Unknown,Deep - Left,Man 1,0,0,0,0,-99,,4.8,5.045,4.8,6.0,false,15,EVHS22,3,1,1,/Dev
+333,Burnsville,Park,2021,EVHS22,101,Burnsville,48,Right,1,10,25,1,4-3,Spread,Right,Pocket Pass,Unknown,Deep - Left,Man 1,0,0,0,0,-99,,4.8,5.045,4.8,6.0,false,15,EVHS22,3,1,1,/Dev
+231,Burnsville,Park,2021,EVHS22,102,Burnsville,49,Right,1,26,25,1,4-3,Spread,Right,Pocket Pass,Unknown,Middle - Left,Man 1,0,0,0,3,-99,,5.2,5.045,4.9,6.0,false,15,EVHS22,3,1,1,/Dev
+334,Burnsville,Park,2021,EVHS22,102,Burnsville,49,Right,1,26,25,1,4-3,Spread,Right,Pocket Pass,Unknown,Middle - Left,Man 1,0,0,0,3,-99,,5.2,5.045,4.9,6.0,false,15,EVHS22,3,1,1,/Dev
+335,Burnsville,Park,2021,EVHS22,103,Burnsville,54,Left,2,23,25,1,4-3,Trips Flex,Right,Pocket Pass,Unknown,Flats - Right,Man 1,0,1,0,0,-99,,5.4,5.045,5.4,5.045,false,19,EVHS22,4,0,1,/Dev
+232,Burnsville,Park,2021,EVHS22,103,Burnsville,54,Left,2,23,25,1,4-3,Trips Flex,Right,Pocket Pass,Unknown,Flats - Right,Man 1,0,1,0,0,-99,,5.4,5.045,5.4,5.045,false,19,EVHS22,4,0,1,/Dev

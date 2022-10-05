@@ -6,12 +6,12 @@
         <link rel = "stylesheet" href = "{{ url_for('static', filename='css/nav.css') }}">
         <link rel = "stylesheet" href = "{{ url_for('static', filename='css/Formations.css') }}">
         <link rel = "stylesheet" href = "{{ url_for('static', filename='css/Table.css') }}">
-
         <script src="{{ url_for('static', filename='js/Formation.js') }}"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.5.0/fabric.min.js"></script>
-
+        
+        <!-- Fabric -->
+        <script src="{{ url_for('static', filename='js/libs/Fabric/fabric.min.js') }}"></script>
         <!--JQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="{{ url_for('static', filename='js/libs/Jquery/jquery.min.js') }}"></script>
     </head>
     <body>
       <div class="topnav">
@@ -100,7 +100,7 @@
           </div>
         </div>
         <div class = "FormationCreate">
-          <form action = "{{url_for('Build_Formation')}}" method="POST">
+          <form action = "{{url_for('Utils.Build_Formation')}}" method="POST">
               <label>Formation:</label>
               <input type="text" maxlength="50" name="Formation" id = "Formation">
               <label>Wide Recievers:</label>

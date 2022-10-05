@@ -9,7 +9,7 @@
         <link rel = "stylesheet" href = "{{ url_for('static', filename='css/PostGame_Report.css') }}">
 
         <!--JQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="{{ url_for('static', filename='js/libs/Jquery/jquery.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/PostGameReport.js') }}"></script>
       </head>
     <body onload="Load()">

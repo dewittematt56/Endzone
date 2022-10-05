@@ -90,7 +90,7 @@ function MainMapDriver(e) {
 
     if (!mapObject.go_added)
     {
-        mapObject.marker_go = L.marker(e.latlng, {icon: mapObject.redIcon}).addTo(mapObject.map)
+        mapObject.marker_go = L.marker(e.latlng, {icon: mapObject.greenIcon}).addTo(mapObject.map)
         PlayData.lat = mapObject.marker_go.getLatLng().lat;
         PlayData.lon = mapObject.marker_go.getLatLng().lng;
         mapObject.go_added = Boolean(true)     

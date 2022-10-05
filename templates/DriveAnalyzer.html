@@ -10,24 +10,14 @@
         <script src="{{ url_for('static', filename='js/DAT.js') }}"></script>
 
         <!-- Leaflet -->
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
-        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
-        crossorigin=""/>
-        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
-         integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="">
-        </script>
-        <script src="https://unpkg.com/georaster-layer-for-leaflet/dist/georaster-layer-for-leaflet.min.js"></script>
-
-        <!-- Leaflet Draw -->
-        <script src="{{ url_for('static', filename='leaflet_draw/leaflet.draw.js') }}"></script>
-        <script src="{{ url_for('static', filename='leaflet_draw/leaflet.draw-src.js') }}"></script>
-        <link rel="stylesheet" href="{{ url_for('static', filename='leaflet_draw/leaflet.draw.css') }}" media="all">
-        <link rel="stylesheet" href="{{ url_for('static', filename='leaflet_draw/leaflet.draw-src.css') }}" media="all">
-
+        <script src="{{ url_for('static', filename='js/libs/Leaflet/leaflet.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='js/libs/Leaflet/leaflet.css') }}"/>
+        <!--Georaster-->
+        <script src="{{ url_for('static', filename='js/libs/Georaster/georaster-layer-for-leaflet.min.js') }}"></script>
         <!--JQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="{{ url_for('static', filename='js/libs/Jquery/jquery.min.js') }}"></script>
         <!-- Charts -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+        <script src="{{ url_for('static', filename='js/libs/Chart/Chart.min.js') }}"></script>
     </head>
     <body>
         <div class="topnav">
@@ -167,22 +157,6 @@
             var latLngBounds = L.latLngBounds([[0, 0], [-2, 10]]);
             var imageOverlayNorth = L.imageOverlay(imageUrl, latLngBounds).addTo(map)
             
-            var featureGroup = new L.FeatureGroup();
-              map.addLayer(featureGroup);
-              var drawControl = new L.Control.Draw({
-                  edit: {
-                      featureGroup: featureGroup,
-                      position: 'topright',
-                  },
-                  draw: {
-                      polyline: false,
-                      circle: false, // Turns off this drawing tool
-                      rectangle: false,
-                      marker: false,
-                      circlemarker: false,
-                  }
-              });
-              map.addControl(drawControl);
 
           
           $(document).ready(function(){
