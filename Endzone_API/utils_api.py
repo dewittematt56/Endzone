@@ -23,19 +23,6 @@ def getFormation():
     except Exception as e:
         return Response(str(e), status = 404)
 
-@utils_api.route('/endzone/rest/getunique', methods = ["GET"])
-# Parameters: None
-def getUnique():
-    try:
-        query = db.session.query(Game.Possession).filter(Formation.Team_Code == current_user.team_code).distinct().order_by(asc(Game.Possession))
-        possessions = []
-        for form in query.all():
-            possessions.append(form[0])
-        return jsonify(possessions)
-    except Exception as e:
-        return Response(str(e), status = 404)
-
-
 @utils_api.route("/endzone/rest/getdata", methods = ["GET"])
 # Parameters required: TeamCode, Full (Boolean)
 # Optional Params: Team, Opponent, Year, Possession (team of interest)
@@ -139,6 +126,8 @@ def exportGame():
         # Get Data and Export as CSV
         sql_engine = create_engine(db_uri, echo=False)
         df = pd.read_sql(db.session.query(Game).filter(Game.Owner_Team_Code == teamcode).filter(Game.Team_Name == request.args.get("team")).filter(Game.Opponent_Name == request.args.get("opponent")).filter(Game.Year == request.args.get("year")).order_by(asc(Game.PlayNum)).statement, sql_engine)
+        df_forms = pd.read_sql(db.session.query(Formation).filter(Formation.Team_Code == teamcode).statement, sql_engine)
+        df = pd.merge(df, df_forms, on='Formation', how='left')
         export_path = os.path.dirname(__file__) + "/game_exports/%s.csv" %(request.args.get("team") + "_" + request.args.get("opponent") + "_" + request.args.get("year") + "_" + str(int(time.time())))
         df.to_csv(export_path, index=False)
         return send_file(export_path, as_attachment=true)
@@ -147,6 +136,7 @@ def exportGame():
         return Response("Error Occured", 500)
 
 @utils_api.route("/endzone/rest/deletegame")
+# Parameters: Team Code, Team, Opponent, Year
 def deleteGame():
     try:
         columns = ["team", "opponent", "year"]
@@ -172,28 +162,50 @@ def deleteGame():
         return Response("Error Occured", 500)
 
 @utils_api.route("/endzone/rest/getgames", methods = ["GET"])
+# Parameters: Teamcode Optional: Year
 def getGame():
     try:
         if request.args.get("teamcode") != None:
             if request.args.get("year") == None:
-                query = db.session.query(GameLoad.Year).filter(GameLoad.User_Team_Code == request.args.get("teamcode")).distinct().order_by(desc(GameLoad.Year))
-                years = [year[0] for year in query.all()]
-                return jsonify(years)
+                query = db.session.query(GameLoad.Team_Name, GameLoad.Opponent_Name, GameLoad.Year).filter(GameLoad.User_Team_Code == request.args.get("teamcode")).distinct().order_by(desc(GameLoad.Year))
             else:
                 query = db.session.query(GameLoad.Team_Name, GameLoad.Opponent_Name, GameLoad.Year).filter(GameLoad.User_Team_Code == request.args.get("teamcode")).filter(GameLoad.Year == request.args.get("year")).distinct().order_by(desc(GameLoad.Year))
-                games = []
-                for game in query:
-                    games.append(game.Team_Name + "_" + game.Opponent_Name + "_" + str(game.Year))
-                return jsonify(games)
+            games = []
+            for game in query:
+                games.append(game.Team_Name + "_" + game.Opponent_Name + "_" + str(game.Year))
+            return jsonify(games)
         else:
             return Response("Please provide a team code", 404)
     except Exception as e:
         return Response(str(e), 500)
 
+@utils_api.route("/endzone/rest/getyear", methods = ["GET"])
+# Parameters: Team Code
+def getYear():
+    try:
+        if request.args.get("teamcode") != None:
+            query = db.session.query(GameLoad.Year).filter(GameLoad.User_Team_Code == request.args.get("teamcode")).distinct().order_by(desc(GameLoad.Year))
+            years = [year[0] for year in query.all()]
+            return jsonify(years)
+        else:
+            return Response("Please provide a team code", 404)
+    except Exception as e:
+        return Response(str(e), 500)
 
-## TO-DO: Move to utilites API
-## To-DO: Make Async
+@utils_api.route('/endzone/rest/getunique', methods = ["GET"])
+# Parameters: Team Code
+def getUnique():
+    try:
+        query = db.session.query(Game.Possession).filter(Formation.Team_Code == current_user.team_code).distinct().order_by(asc(Game.Possession))
+        possessions = []
+        for unique in query.all():
+            possessions.append(unique[0])
+        return jsonify(possessions)
+    except Exception as e:
+        return Response(str(e), status = 404)
+
 @utils_api.route("/endzone/rest/buildformation", methods = ["POST"])
+# Parameters Team Code, Formation, WR, TE, RB
 def Build_Formation():
     try:
         if request.args.get("teamcode"):
@@ -215,6 +227,7 @@ def Build_Formation():
         return Response(str(e), 404)
 
 @utils_api.route("/endzone/rest/deleteformation", methods = ["POST"])
+# Parameters Team Code, Formation
 def Delete_Formation():
     try:
         if request.args.get("teamcode"):

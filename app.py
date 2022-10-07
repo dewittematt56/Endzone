@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request, redirect, send_file, jsonify
 from flask_login import login_manager, LoginManager, login_required, login_user, logout_user, current_user
+from flask_executor import Executor
 from login import user_login
 from Endzone_Database.classes import User, GameLoad, Team, Game, Formation, Model
 from Endzone_Database.db import db, db_uri
-from Endzone_Reports.pre_game import Run_Report
 from Endzone_Utils.utils import *
 from Endzone_API.utils_api import utils_api
 from Endzone_API.tools_api import tools_api
@@ -39,11 +39,10 @@ def Home():
 def no_login_redirect():
     return redirect("/Login")
 
-# Render Page
 @app.route("/jointeam")
 def NewUser():
     return render_template("JoinTeam.html")
-# Join Team
+
 @app.route("/jointeam/join", methods = ["POST"])
 def Join():
     first = request.form["first"]
@@ -76,20 +75,24 @@ def Login():
 
 @app.route("/LoginAttempt", methods = ["POST"])
 def LoginAttempt():
-    email = request.form["email"]
-    password = request.form["password"]
+    try:
+        email = request.form["email"]
+        password = request.form["password"]
 
-    response = db.session.query(User).filter(User.Email == email). \
-        filter(User.Password == password)
-    if len(response.all()) == 1:
-        login_user(load_user(request.form["email"]))
-        return redirect("/endzone/hub")
+        response = db.session.query(User).filter(User.Email == email). \
+            filter(User.Password == password)
+        if len(response.all()) == 1:
+            login_user(load_user(request.form["email"]))
+            return redirect("/endzone/hub")
 
-    response = db.session.query(User).filter(User.Email == email)
-    if len(response.all()) == 0:
-        return render_template("Login.html", message = "Login Failed: No account with that email exists")
-    else:
-        return render_template("Login.html", message = "Login Failed: Incorrect Password")
+        response = db.session.query(User).filter(User.Email == email)
+        if len(response.all()) == 0:
+            return render_template("Login.html", message = "Login Failed: No account with that email exists")
+        else:
+            return render_template("Login.html", message = "Login Failed: Incorrect Password")
+    except Exception as e:
+        print(e)
+        return render_template("Login.html", message = "Login Failed: An error has occured")
 
 @app.route("/Logout")
 @login_required
@@ -115,7 +118,6 @@ def GameData():
     try:
         # Check if Game Exists
         query_response = db.session.query(GameLoad).filter(GameLoad.Team_Name == request.form["team"]).filter(GameLoad.Opponent_Name == request.form["opponent"]).filter(GameLoad.Year == int(request.form["year"])).filter(GameLoad.User_Team_Code == current_user.team_code)
-        # If exists pass on
         if len(query_response.all()) == 1:
             year = query_response[0].Year
             team = query_response[0].Team_Name
@@ -125,9 +127,9 @@ def GameData():
         elif len(query_response.all()) == 0:
             year = int(request.form["year"])
             team = request.form["team"]
-            team = team.replace("_", "-")
+            team = team.replace("_", "-").replace(" ", "")
             opponent = request.form["opponent"]
-            opponent = opponent.replace("_", "-")
+            opponent = opponent.replace("_", "-").replace(" ", "")
             team_code = current_user.team_code
             new_game = GameLoad(team, opponent, team_code, year)
             db.session.add(new_game)
@@ -176,27 +178,8 @@ def prereport():
     games = query_response.all()
     query_response = db.session.query(Game.Possession).filter(Game.Owner_Team_Code == current_user.team_code).distinct().order_by(asc(Game.Possession))
     teams = query_response.all()
-    return render_template("PreReport.html", User = "Coach " + current_user.last, Games = games, Teams = teams)
+    return render_template("PreReport.html", Team_Code = current_user.team_code, User = "Coach " + current_user.last)
 
-@app.route("/endzone/prereport/Run", methods = ["POST", "GET"])
-@login_required
-def prereport_run():
-    try:
-        if request.method == "POST":
-            if request.form["kipps_action"] == "run_kipps":
-                user_input = request.form["kipps_jobs"].split(',')
-                team_of_interest = request.form["TeamOfInterest"]
-                job_type = request.form["kipps_type"]
-                if len(user_input) == 1 and user_input[0] == "":
-                    query_response = db.session.query(GameLoad).filter(GameLoad.User_Team_Code == current_user.team_code).filter(or_(GameLoad.Team_Name == team_of_interest,  GameLoad.Opponent_Name == team_of_interest))
-                    for game in query_response.all():
-                        user_input.append(game.Team_Name + "_" + game.Opponent_Name + "_" + str(game.Year))
-            return send_file(Run_Report(user_input, team_of_interest, current_user.team_code, job_type), as_attachment=True)
-        else:
-             return redirect("/endzone/prereport")
-    except Exception as e:
-        print(e)
-        return redirect("/endzone/prereport")
 
 @app.route("/endzone/tars", methods = ["POST", "GET"])
 @login_required
@@ -207,101 +190,6 @@ def TARS():
     query_response = db.session.query(Game.Possession).filter(Game.Owner_Team_Code == current_user.team_code).distinct().order_by(asc(Game.Possession))
     teams_of_interest = query_response.all()
     return render_template("TARS.html", User = "Coach " + current_user.last, Games = games, Teams = teams_of_interest)
-
-@app.route("/endzone/tars/run", methods = ["GET"])
-@login_required
-def TARS_Run():
-    try:
-        team = []
-        opponent = []
-        year = []
-        down = request.args.get("down")
-        group_by = ['sub."Play_Type"']
-
-        if down == "No Filter":
-            down = '"Down"'
-        else:
-            down = "'" + down + "'"
-            group_by.append('"Down"')
-        distance = request.args.get("distance")
-        if distance == "No Filter":
-            distance = 'sub."Distance_Roll"'
-        else: 
-            distance = "'" + distance + "'"
-            group_by.append('sub."Distance_Roll"')
-
-        yard = request.args.get("yard")
-        if yard == "No Filter":
-            yard = 'sub."Yard_Roll"'
-        else:
-            yard = "'" + yard + "'"
-            group_by.append('sub."Yard_Roll"')
-        
-        hash = request.args.get("hash")
-        if hash == "No Filter":
-            hash = 'sub."Hash"'
-        else:
-            hash = "'" + hash + "'"
-            group_by.append('sub."Hash"')
-
-        games = request.args.get("games").split(',')
-        possession = "'" + request.args.get("possession") + "'"
-        if games[0] == "":
-            team = '"Team_Name"'
-            opponent = '"Opponent_Name"'
-            year = '"Year"'
-        else:
-            for game in games:
-                temp = game.split("_")
-                team.append("'" + temp[0] + "'")
-                opponent.append("'" + temp[1] + "'")
-                year.append(temp[2])
-            team = ",".join(team)
-            opponent = ",".join(opponent)
-            year = ",".join(year)
-        group_by = ", ".join(group_by)
-        response = db.session.execute("""SELECT sub."Play_Type", ROUND((COUNT(*) * 100.0/ sum(count(*)) over ()), 3) as "Total", count(*)
-                                            FROM (
-                                                SELECT
-                                                "Play_Type",
-                                                "Play_Type_Dir",
-                                                "Down",
-                                                "Hash",
-                                                CASE 
-                                                    WHEN "Distance" <= 3 THEN 'Short'
-                                                    WHEN "Distance" > 3 AND "Distance" <7 THEN 'Medium'
-                                                    WHEN "Distance" > 7 THEN 'Long'
-                                                    ELSE 'Unknown'
-                                                END AS "Distance_Roll",
-                                                CASE
-                                                    WHEN "Yard" > 66 THEN 'Scoring Position'
-                                                    WHEN "Yard" < 66 AND "Yard" > 33 THEN 'Midfield'
-                                                    WHEN "Yard" < 33 THEN 'Backed Up'
-                                                END AS "Yard_Roll"
-                                                FROM public."Game"
-                                                WHERE "Team_Name" IN (%s)
-                                                AND "Opponent_Name" IN (%s)
-                                                AND "Year" IN (%s)
-                                                AND "Possession" = %s
-                                            ) as sub
-                                                WHERE "Down" = %s
-                                                AND sub."Distance_Roll" = %s
-                                                AND sub."Yard_Roll" = %s
-                                                AND sub."Hash" = %s
-                                            GROUP BY %s
-                                            ORDER BY "Total" DESC
-                                        """ % (team, opponent, year, possession, down, distance, yard, hash, group_by)) 
-        responses = response.all()
-        TARS_Response = ""
-        for response in responses:
-            TARS_Response += "TARS-Response: "
-            TARS_Response += str(response[0]) + " | " + str(response[1]) + "% | " + str(response[2]) + "\n"
-        return TARS_Response
-    except IndexError:
-        return "TARS-Response: Unable to find data for those parameters"
-    except Exception as e:
-        print(e)
-        return "TARS-Response: An error has occured"
 
 @app.route("/endzone/dataviewer", methods = ["POST", "GET"])
 @login_required
@@ -352,26 +240,6 @@ def DriveAnalyzer_GetData():
 def Formations():
     query_response = db.session.query(Formation).filter(Formation.Team_Code == current_user.team_code).order_by(asc(Formation.Formation))
     return render_template("Formations.html", User = "Coach " + current_user.last, Formations = query_response.all(), teamcode = current_user.team_code)
-
-## TO-DO: Move to utilites API
-@app.route("/endzone/formations/build", methods = ["POST"])
-@login_required
-def Build_Formation():
-    try:
-        if(request.form.get("Formation")):
-            query = db.session.query(Formation.Formation).filter(Formation.Team_Code == current_user.team_code).distinct().all()
-            if request.form["Formation"] in [r[0] for r in query]:
-                Formation.query.filter_by(Formation = request.form["Formation"], Team_Code = current_user.team_code).delete()
-                new_formation = Formation(request.form["Formation"],current_user.team_code, request.form["WR"], request.form["TE"], request.form["RB"], "/Dev")
-                return redirect("/endzone/formations")
-            else:
-                new_formation = Formation(request.form["Formation"],current_user.team_code, request.form["WR"], request.form["TE"], request.form["RB"], "/Dev")
-                db.session.add(new_formation)
-                db.session.commit()
-        return redirect("/endzone/formations")
-    except Exception as e:
-        print(e)
-        return redirect("/endzone/formations")
 
 @app.route("/endzone/gamerecap", methods = ["GET"])
 @login_required

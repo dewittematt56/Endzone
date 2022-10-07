@@ -336,6 +336,6 @@ class Content(Graph_Utils):
     def rushing(self):
         self.Table(self.data.query("Play_Type == 'Inside Run' or Play_Type == 'Outside Run'").groupby(["Result_BallCarrier"]).agg({"Result": ["count", "sum", "mean", "median", "max"]}), "Ball Carrier Stats")
 
-def run_report(input: str, team_code: str):
+def run_post_report(input: str, team_code: str):
     warnings.filterwarnings("ignore")
     return PostgameReport(input, team_code).output_path

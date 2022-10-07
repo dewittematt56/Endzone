@@ -61,16 +61,21 @@ body {
 	color: #34ace0;
 }
 
-.bottom {
-	width: 100%;
+.legend {
 	position: absolute;
-	bottom: 0;
-	left: 0;
-	margin: 1vh;
+	bottom: 3vh;
+	z-index: 2;
+	background-color: white;
+	width: 28vw;
+	height: 10vh;
+	border: 1vh solid #353b48;
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+	border-bottom-left-radius: 16px;
+	padding: 1vh;
+	margin: 1vw;
 }
-.bottom label  {
-	font-size: 2vh;
-}
+
 
 .fieldmap {
     float: left;

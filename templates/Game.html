@@ -9,19 +9,17 @@
         <link rel = "stylesheet" href = "{{ url_for('static', filename='css/nav.css') }}">
         <link rel = "stylesheet" href = "{{ url_for('static', filename='css/switch.css') }}">
         <link rel = "stylesheet" href = "{{ url_for('static', filename='css/SlimTable.css') }}">
-
-        <!-- Leaflet -->
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
-        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
-        crossorigin=""/>
-        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
-         integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="">
-        </script>
-        <script src="https://unpkg.com/georaster-layer-for-leaflet/dist/georaster-layer-for-leaflet.min.js"></script>
-
-        <!--JQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="{{ url_for('static', filename='js/Game.js') }}"></script>
+        
+        <!-- Leaflet -->
+        <script src="{{ url_for('static', filename='js/libs/Leaflet/leaflet.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='js/libs/Leaflet/leaflet.css') }}"/>
+        <!--Georaster-->
+        <script src="{{ url_for('static', filename='js/libs/Georaster/georaster-layer-for-leaflet.min.js') }}"></script>
+        <!--JQuery-->
+        <script src="{{ url_for('static', filename='js/libs/Jquery/jquery.min.js') }}"></script>
+
+
     </head>
 
     <body>
@@ -161,6 +159,7 @@
             <label class = "main_form_label">Formation:</label>
             <select name = "formation" id = "formation"></select>
             <select name = "strength" id = "strength">
+              <option>Unknown</option>
               <option>Left</option>
               <option>Right</option>
               <option>Balanced</option>
@@ -168,16 +167,16 @@
 
             <label class = "main_form_label">Play Type:</label>
             <select class = "playtype" name = "playtype" id = "playtype" onchange="PlayTypeUpdate()">
-              <option>Not Selected</option>
+              <option>Unknown</option>
               <option>Inside Run</option>
               <option>Outside Run</option>
               <option>Pocket Pass</option>
               <option>Boot Pass</option>
-              <option>Unknown</option>
+
             </select>
 
             <select name = "playdirection" id = "playdir">
-              <option>Not Selected</option>
+              <option>Unknown</option>
               <option>Left</option>
               <option>Right</option>
             </select><br>
@@ -530,12 +529,12 @@
         btn_delete.innerHTML = "Delete";
         btn_delete.id = rowObj.ID;
         btn_delete.onclick = (function(){return DeletePlay(index)});
-        cell20.appendChild(btn_delete);
         let btn_update = document.createElement("button");
         btn_update.innerHTML = "Update";
         btn_update.id = rowObj.ID;
         btn_update.onclick = (function(){return UpdatePlay(index)});
-        cell21.appendChild(btn_update);
+        cell20.appendChild(btn_update);
+        cell21.appendChild(btn_delete);
       }
 
       async function DeletePlay(id)
@@ -543,7 +542,6 @@
           if(confirm("Do you really want to delete this play?"))
           {
             const table = document.getElementById("table");
-            alert(table.rows.length - id - 1) 
             row = table.rows[(table.rows.length - id) - 1];
             DeleteObj = new Object();
             DeleteObj.team = PlayData.team
@@ -592,7 +590,9 @@
         PlayData.ballcarrier = document.getElementById("ballcarrier").value
         PlayData.event = document.getElementById("event").value
 
+        if(PlayData.yard + PlayData.event >= 100){document.getElementById("event").value = "Touchdown"}
         if(PlayData.ballcarrier ==""){PlayData.ballcarrier = -99}
+        if(PlayData.yard + PlayData.result == 100){PlayData.event = "Touchdown";}
         PlayData.passzone = document.getElementById("passzone").value
         var url = "/endzone/rest/addplay?";
         for(var attribute in PlayData)
@@ -614,6 +614,7 @@
           PlayData.lon = PlayData.r_lon;
           mapObject.map.fireEvent('click',{latlng:[PlayData.lat, PlayData.lon ]});
           mapObject.map.fireEvent('click',{latlng:[PlayData.lat, PlayData.lon ]});
+
           // First Down Case
           if(PlayData.distance - PlayData.result <= 0){
             PlayData.distance = 10

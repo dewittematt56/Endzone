@@ -8,8 +8,15 @@
         <link rel = "stylesheet" href = "{{ url_for('static', filename='css/DataViewerTable.css') }}">
 
         <!--JQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="{{ url_for('static', filename='js/libs/Jquery/jquery.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/DataViewer.js') }}"></script>
+        <!-- Leaflet -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='js/libs/Leaflet/leaflet.css') }}"/>
+        <script src="{{ url_for('static', filename='js/libs/Leaflet/leaflet.js') }}"></script>
+        <!--Georaster-->
+        <script src="{{ url_for('static', filename='js/libs/Georaster/georaster-layer-for-leaflet.min.js') }}"></script>
+
+
     </head>
     <body>
       <div class="topnav">
@@ -137,6 +144,8 @@
     </body>
     <script>
       var params = new Object()
+      var mapObj = new Object()
       params.teamcode = '{{Team_Code}}' 
+      //createMap(mapObj)
     </script>
 </html>

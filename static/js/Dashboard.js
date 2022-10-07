@@ -12,6 +12,7 @@ function Load_Combobox(array, id)
     document.getElementById(id).options.add(option)
   }
 }
+
 function Page_Load(data)
 {
   Load_Combobox(Get_Unique(Get_Column(data, "Possession")), "possession")
@@ -355,6 +356,7 @@ function Filter_Spatial(data, filter_poly){
     alert(cords[i])
   }
 }
+
 function Get_Result(marker1, marker2)
 {
     result = Math.round(marker2.getLatLng().lat * 10) - Math.round(marker1.getLatLng().lat * 10)
@@ -370,25 +372,8 @@ function Draw_Line(marker1, marker2, map)
     return Line;
 }
 
-function Build_Points(data, map)
+function Build_Points(data, map, symbologyfield)
 {
-  var greenIcon = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-  });
-var redIcon = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
   map.eachLayer(function(layer) {
     // Trick to determine layer type and remove.
     if(layer.getLatLng != null)
@@ -400,37 +385,7 @@ var redIcon = new L.Icon({
         map.removeLayer(layer)
     }
   })
-
-  if(document.getElementById("show_result").checked)
-  {
-    for(i = 0; i < data.length; i++){
-      marker_go = L.marker(L.latLng(data[i]["Play_Lat"], data[i]["Play_Lon"]), {icon: greenIcon}).addTo(map)
-      marker_stop = L.marker(L.latLng(data[i]["Result_Lat"], data[i]["Result_Lon"]), {icon: redIcon}).addTo(map);
-      line_layer = Draw_Line(marker_go, marker_stop, map);
-    }
-  }
-  else
-  {
-    for(i = 0; i < data.length; i++){
-      new L.marker(L.latLng(data[i]["Play_Lat"], data[i]["Play_Lon"])).bindPopup(
-        '<h2>' + 'Play Number: ' + data[i]["PlayNum"] + '</h2>' +
-        '<h3>' + 'Possession: ' + data[i]["Possession"] + '</h3>' + 
-        '<h3>' + 'Down: ' + data[i]["Down"] + '</h3>' + 
-        '<h3>' + 'Distance: ' + data[i]["Distance"] + '</h3>' + 
-        '<h3>' + 'Quarter:' + data[i]["Quarter"] + '</h3>' + 
-        '<h3>' + 'O Formation: ' + data[i]["Formation"] + " " + data[i]["Formation_Strength"] + '</h3>' + 
-        '<h3>' + 'D Formation: ' + data[i]["D_Formation"] + '</h3>' + 
-        '<h3>' + 'Play: ' + data[i]["Play_Type"] + " " + data[i]["Play_Type_Dir"] + '</h3>' + 
-        '<h3>' + 'Coverage: ' + data[i]["Coverage"] + '</h3>' + 
-        '<h3>' + 'Pass_Zone: ' + data[i]["Pass_Zone"] + '</h3>' +
-        '<h3>' + 'Coverage: ' + data[i]["Coverage"] + '</h3>' +
-        '<h3>' + 'Pressure Left: ' + data[i]["Pressure_Left"] + '</h3>' +
-        '<h3>' + 'Pressure Middle: ' + data[i]["Pressure_Middle"] + '</h3>' +
-        '<h3>' + 'Pressure Right: ' + data[i]["Pressure_Right"] + '</h3>' +
-        '<h3>' + 'Result: ' + data[i]["Result"] + '</h3>'
-      ).addTo(map);
-    }
-  }
+  Symbolize(data, map, symbologyfield, "legend")
 }
 
 function Filter_Data()
@@ -494,5 +449,5 @@ function Filter_Data()
   Clear_Graphs(graphObj)
   Build_Graphs(data, graphObj)
   Build_Stats(data)
-  Build_Points(data, map)
+  Build_Points(data, map, "Play Type")
 }

@@ -76,3 +76,9 @@ body {
     padding: 1vh;
 }
 
+.map {
+    width: 100vh;
+    height: 30%;
+    rotate: 90deg;
+    background-color: pink;
+}

@@ -34,7 +34,7 @@ class PregameReport:
         db_engine = create_engine("postgresql://endzone:Hercules22!@172.104.25.168/Endzone")
         Session = sessionmaker(db_engine)
         session = Session()
-        data = pd.read_sql(session.query(Game).filter(Game.Owner_Team_Code == self.team_code).filter(functions.concat(Game.Team_Name, "_", Game.Opponent_Name, "_", Game.Year).in_(self.input)).statement, db_engine)
+        data = pd.read_sql(session.query(Game).filter(Game.Owner_Team_Code == self.team_code).filter(functions.concat(Game.Team_Name, " VS ", Game.Opponent_Name, " | ", Game.Year).in_(self.input)).statement, db_engine)
         df_forms = pd.read_sql(session.query(Formation).filter(Formation.Team_Code == self.team_code).statement, db_engine)
         data = pd.merge(data, df_forms, on='Formation', how='left')
         if len(data) > 0:
@@ -133,7 +133,6 @@ class PregameReport:
                             self.report.add_paragraph('Targets', style='List Number 2')
                             self.report.add_paragraph('Redzone', style='List Number 2')
                             self.report.add_paragraph('Boundary', style='List Number 2')
-                            self.report.add_paragraph('Temporal -- IN DEV', style='List Number 2')
                             self.report.add_page_break()
                             DefenseSection(self.data, self.report, self.team_of_interest)
                         if self.type == "Offense" or self.type == "All":
@@ -155,7 +154,7 @@ class PregameReport:
                             pass
 
 
-            self.output_path = os.path.dirname(__file__) + "/Outputs/post_game/EVFB_PreGameReport_%s.docx" %self.jobId
+            self.output_path = os.path.dirname(__file__) + "/Outputs/pre_game/EVFB_PreGameReport_%s.docx" %self.jobId
             self.report.save(self.output_path)
             logging.info("\t Job " + self.jobId +  " Complete | \t" + str(self.input) + "\t" + str(datetime.fromtimestamp(time.time()).isoformat()))
         except Exception as e:
@@ -967,6 +966,6 @@ class DefenseSection(Graph_Utils):
     def Temporal(self):
         pass
 
-def Run_Report(input: list, team_of_interest: list, team_code: str, type: str):
+def run_pre_report(input: list, team_of_interest: list, team_code: str, type: str):
     warnings.filterwarnings("ignore")
     return PregameReport(input, team_of_interest, team_code, type).output_path
