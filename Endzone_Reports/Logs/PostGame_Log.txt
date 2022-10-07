@@ -58,3 +58,153 @@ INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:03:51] "GET /endzone/tars/run?do
 INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:03:58] "GET /endzone/tars/run?down=2&distance=Medium&yard=No%20Filter&hash=No%20Filter&games=Eastview_LN_2022&possession=LN HTTP/1.1" 200 -
 INFO:werkzeug:192.168.1.127 - - [27/Sep/2022 21:04:05] "GET /endzone/tars/run?down=2&distance=Short&yard=No%20Filter&hash=No%20Filter&games=Eastview_LN_2022&possession=LN HTTP/1.1" 200 -
 >>>>>>> Stashed changes
+INFO:root:	 Job 1664932657 Start | 	['Burnsville VS Hopkins | 2022', 'Burnsville VS Park | 2022']	2022-10-04T20:17:37.969820
+INFO:root:	 Job 1664932657 Complete | 	['Burnsville VS Hopkins | 2022', 'Burnsville VS Park | 2022']	2022-10-04T20:17:42.317871
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:17:42] "POST /endzone/rest/tools/prereport HTTP/1.1" 200 -
+INFO:root:	 Job 1664932671 Start | 	['Burnsville VS Hopkins | 2022', 'Burnsville VS Park | 2022']	2022-10-04T20:17:51.214842
+ERROR:root:No objects to concatenate
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:17:52] "[32mPOST /endzone/rest/tools/prereport HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:17:53] "GET /endzone/prereport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:17:53] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:17:53] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:17:53] "[36mGET /static/js/PreGameReport.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:17:53] "[36mGET /static/js/libs/Jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:17:53] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:17:53] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:17:53] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:17:53] "GET /endzone/rest/getunique?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:root:	 Job 1664932697 Start | 	['Burnsville VS Hopkins | 2022', 'Burnsville VS Park | 2022']	2022-10-04T20:18:17.104928
+ERROR:root:No objects to concatenate
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:18] "[32mPOST /endzone/rest/tools/prereport HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:18] "GET /endzone/prereport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:18] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:18] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:18] "GET /static/js/PreGameReport.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:18] "[36mGET /static/js/libs/Jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:18] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:18] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:19] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:19] "GET /endzone/rest/getunique?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:root:	 Job 1664932714 Start | 	['Burnsville VS Hopkins | 2022', 'Burnsville VS Park | 2022']	2022-10-04T20:18:34.702705
+ERROR:root:main thread is not in main loop
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:37] "[32mPOST /endzone/rest/tools/prereport HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:37] "GET /endzone/prereport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:37] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:37] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:37] "[36mGET /static/js/PreGameReport.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:37] "[36mGET /static/js/libs/Jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:37] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:37] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:37] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:37] "GET /endzone/rest/getunique?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:root:	 Job 1664932726 Start | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-04T20:18:46.409041
+ERROR:root:main thread is not in main loop
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:48] "[32mPOST /endzone/rest/tools/prereport HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:49] "GET /endzone/prereport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:49] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:49] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:49] "[36mGET /static/js/PreGameReport.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:49] "[36mGET /static/js/libs/Jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:49] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:49] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:49] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:18:49] "GET /endzone/rest/getunique?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:root:	 Job 1664932807 Start | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-04T20:20:07.406766
+INFO:root:	 Job 1664932807 Complete | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-04T20:20:12.184810
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:20:12] "POST /endzone/rest/tools/prereport HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\pre_game.py', reloading
+INFO:root:	 Job 1664932847 Start | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-04T20:20:47.878521
+INFO:root:	 Job 1664932847 Complete | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-04T20:20:52.436211
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:20:52] "POST /endzone/rest/tools/prereport HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_API\\tools_api.py', reloading
+INFO:root:	 Job 1664933315 Start | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-04T20:28:35.776190
+INFO:root:	 Job 1664933315 Complete | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-04T20:28:40.319145
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:40] "POST /endzone/rest/tools/prereport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:41] "[32mGET /endzone/rest/tools/prereport HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:42] "GET /endzone/prereport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:42] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:42] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:42] "[36mGET /static/js/PreGameReport.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:42] "[36mGET /static/js/libs/Jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:42] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:42] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:42] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:42] "GET /endzone/rest/getunique?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:root:	 Job 1664933328 Start | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-04T20:28:48.774060
+ERROR:root:No objects to concatenate
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:50] "[32mPOST /endzone/rest/tools/prereport HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:50] "GET /endzone/prereport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:50] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:50] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:50] "[36mGET /static/js/PreGameReport.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:50] "[36mGET /static/js/libs/Jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:50] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:50] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:50] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:28:50] "GET /endzone/rest/getunique?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:root:	 Job 1664933337 Start | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-04T20:28:57.614420
+ERROR:root:main thread is not in main loop
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:29:00] "[32mPOST /endzone/rest/tools/prereport HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:29:00] "GET /endzone/prereport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:29:00] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:29:00] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:29:00] "[36mGET /static/js/PreGameReport.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:29:00] "[36mGET /static/js/libs/Jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:29:00] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:29:00] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:29:00] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:29:00] "GET /endzone/rest/getunique?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\background_thread.py', reloading
+INFO:root:	 Job 1664933861 Start | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-04T20:37:41.596556
+INFO:root:	 Job 1664933861 Complete | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-04T20:37:46.079245
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:37:46] "POST /endzone/rest/tools/prereport HTTP/1.1" 200 -
+INFO:root:	 Job 1664933870 Start | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-04T20:37:50.286489
+ERROR:root:main thread is not in main loop
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:37:52] "[32mPOST /endzone/rest/tools/prereport HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:37:53] "GET /endzone/prereport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:37:53] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:37:53] "[36mGET /static/js/PreGameReport.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:37:53] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:37:53] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:37:53] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:37:53] "[36mGET /static/js/libs/Jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:37:53] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:37:53] "GET /endzone/rest/getunique?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:root:	 Job 1664933878 Start | 	['', 'White-Bear-Lake_Blaine_2021', 'White-Bear-Lake_Blaine_2022']	2022-10-04T20:37:58.367918
+INFO:root:	 Job 1664933878 Error | 	['', 'White-Bear-Lake_Blaine_2021', 'White-Bear-Lake_Blaine_2022']	2022-10-04T20:37:59.759372
+ERROR:root:No Data found
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:37:59] "[32mPOST /endzone/rest/tools/prereport HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:00] "GET /endzone/prereport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:00] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:00] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:00] "[36mGET /static/js/PreGameReport.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:00] "[36mGET /static/js/libs/Jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:00] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:00] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:00] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:00] "GET /endzone/rest/getunique?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:root:	 Job 1664933887 Start | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-04T20:38:07.322197
+ERROR:root:main thread is not in main loop
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:09] "[32mPOST /endzone/rest/tools/prereport HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:10] "GET /endzone/prereport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:10] "[36mGET /static/css/nav.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:10] "[36mGET /static/css/KIPP.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:10] "[36mGET /static/js/PreGameReport.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:10] "[36mGET /static/js/libs/Jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:10] "[36mGET /static/images/EndzoneLogo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:10] "[36mGET /static/images/KIPP_Background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:10] "GET /endzone/rest/getgames?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.127 - - [04/Oct/2022 20:38:10] "GET /endzone/rest/getunique?teamcode=EVHS22 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_API\\tools_api.py', reloading
+INFO:root:	 Job 1665103141 Start | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-06T19:39:01.982215
+INFO:root:	 Job 1665103141 Complete | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-06T19:39:06.638803
+INFO:werkzeug:192.168.1.127 - - [06/Oct/2022 19:39:06] "POST /endzone/rest/tools/prereport HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\pre_game.py', reloading
+INFO:root:	 Job 1665103190 Start | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-06T19:39:50.376692
+INFO:root:	 Job 1665103190 Complete | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-06T19:39:54.824911
+INFO:werkzeug:192.168.1.127 - - [06/Oct/2022 19:39:54] "POST /endzone/rest/tools/prereport HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\pre_game.py', reloading
+INFO:root:	 Job 1665103210 Start | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-06T19:40:10.030379
+INFO:root:	 Job 1665103210 Complete | 	['Burnsville VS Anoka | 2022', 'Burnsville VS Hopkins | 2022']	2022-10-06T19:40:14.562148
+INFO:werkzeug:192.168.1.127 - - [06/Oct/2022 19:40:14] "POST /endzone/rest/tools/prereport HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Mater\\Documents\\Python_Projects\\Endzone\\Endzone\\Endzone_Reports\\pre_game.py', reloading

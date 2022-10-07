@@ -35,6 +35,7 @@ def prereport_run():
                     query_response = db.session.query(GameLoad).filter(GameLoad.User_Team_Code == current_user.team_code).filter(or_(GameLoad.Team_Name == team_of_interest,  GameLoad.Opponent_Name == team_of_interest))
                     for game in query_response.all():
                         user_input.append(game.Team_Name + "_" + game.Opponent_Name + "_" + str(game.Year))
+                    # Run Report
             return send_file(run_pre_report(user_input, team_of_interest, current_user.team_code, job_type), as_attachment=True)
         else:
              return redirect("/endzone/prereport")

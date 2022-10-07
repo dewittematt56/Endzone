@@ -14,17 +14,18 @@
         <!-- Leaflet -->
         <link rel="stylesheet" href="{{ url_for('static', filename='js/libs/Leaflet/leaflet.css') }}"/>
         <script src="{{ url_for('static', filename='js/libs/Leaflet/leaflet.js') }}"></script>
-
         <!--Georaster-->
         <script src="{{ url_for('static', filename='js/libs/Georaster/georaster-layer-for-leaflet.min.js') }}"></script>
-
         <!--Leaflet Control -->
         <script src="{{ url_for('static', filename='js/libs/Leaflet.Control.Select-master/dist/leaflet.control.select.js') }}"></script>
         <link rel="stylesheet" href="{{ url_for('static', filename='js/libs/Leaflet.Control.Select-master/dist/leaflet.control.select.css') }}" media="all">
-        
         <!-- Charts -->
         <script src="{{ url_for('static', filename='js/libs/Chart/Chart.min.js') }}"></script>
-        
+        <!--Leaflet Draw-->
+        <script src="{{ url_for('static', filename='js/libs/leaflet_draw/leaflet.draw.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='js/libs/leaflet_draw/leaflet.draw.css') }}" media="all">
+        <!--JQuery-->
+        <script src="{{ url_for('static', filename='js/libs/Jquery/jquery.min.js') }}"></script>
     </head>
     <body>
       <div class="topnav">
@@ -135,8 +136,7 @@
           onSelect: function(newItemValue) {
             Build_Points(data, map, newItemValue)
           },
-        })
-        .addTo(map);
+        }).addTo(map);
 
         map.fitBounds(mapBounds);
         map.setZoom(6);
@@ -153,24 +153,26 @@
         var latLngBounds = L.latLngBounds([[0, 0], [-2, 10]]);
         var imageOverlayNorth = L.imageOverlay(imageUrl, latLngBounds).addTo(map)
       
-
-          map.on('draw:created', function (e) {
-              var fc_collection = {
-                  "type": "FeatureCollection",
-                  "features": []
-              };
-              // Add Layer to Feature Group
-              featureGroup.addLayer(e.layer);
-              featureGroup.eachLayer(function(layer){
-                  var geojson = layer.toGeoJSON()
-                  fc_collection.features.push(geojson)
-              });
-              document.getElementById("spatial").value = JSON.stringify(fc_collection)
-          });
+        map.on('draw:created', function (e) {
+            var fc_collection = {
+                "type": "FeatureCollection",
+                "features": []
+            };
+            // Add Layer to Feature Group
+            featureGroup.addLayer(e.layer);
+            featureGroup.eachLayer(function(layer){
+                var geojson = layer.toGeoJSON()
+                fc_collection.features.push(geojson)
+            });
+            document.getElementById("spatial").value = JSON.stringify(fc_collection)
+        });
 
           //Get payload
           var data = JSON.parse('{{ payload | tojson | safe}}');
+
           const graphObj = new Object();
+          const mapObj = new Object();
+
           Page_Load(data);
           Clear_Graphs(graphObj);
           Build_Graphs(data, graphObj);

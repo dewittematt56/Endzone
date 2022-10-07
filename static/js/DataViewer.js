@@ -362,18 +362,3 @@ function createMap(mapObj)
   mapObj.EndzoneSouth = L.imageOverlay("/static/spatial/EndzoneSouth.jpg", L.latLngBounds([[0, 0], [-2, 10]])).addTo(mapObj.map)
 }
 
-function viewToggle()
-{
-  mode = document.getElementById("cmbmode").value;
-  map = document.getElementById("map")
-  if(mode == "Table")
-  {
-    map.style = "display: none"
-    filterDataClick()
-  }
-  else if(mode == "Map")
-  {
-    map.style = "display: block"
-    refreshTable(mapObj)
-  }
-}

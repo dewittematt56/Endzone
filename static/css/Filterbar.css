@@ -31,5 +31,14 @@
     color: white;
     background-color: #636e72;
     border: .25vh solid #2d3436;
+    padding: .25vh;
+}
+
+.filterbar button:hover {
+    color: white;
+    background-color: green;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+
 }
 

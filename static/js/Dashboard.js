@@ -12,6 +12,7 @@ function Load_Combobox(array, id)
     document.getElementById(id).options.add(option)
   }
 }
+
 function Page_Load(data)
 {
   Load_Combobox(Get_Unique(Get_Column(data, "Possession")), "possession")
@@ -384,7 +385,6 @@ function Build_Points(data, map, symbologyfield)
         map.removeLayer(layer)
     }
   })
-
   Symbolize(data, map, symbologyfield, "legend")
 }
 
