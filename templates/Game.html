@@ -368,6 +368,14 @@
             popupAnchor: [1, -34],
             shadowSize: [41, 41]
         });
+      mapObject.blueIcon = new L.Icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
       mapObject.go_added = Boolean(false);
       mapObject.stop_added = Boolean(false);
       mapObject.mapBounds = L.latLngBounds([
@@ -394,7 +402,7 @@
       // Set up Map Details
       mapObject.map.on('click', MainMapDriver);
       mapObject.map_p.on('click', function(e){
-          L.marker(e.latlng).addTo(mapObject.map_p);
+          L.marker(e.latlng, {icon: mapObject.blueIcon}).addTo(mapObject.map_p);
           pressure_validate(e)
         })
       mapObject.map.fitBounds(mapObject.mapBounds);
@@ -590,9 +598,8 @@
         PlayData.ballcarrier = document.getElementById("ballcarrier").value
         PlayData.event = document.getElementById("event").value
 
-        if(PlayData.yard + PlayData.event >= 100){document.getElementById("event").value = "Touchdown"}
         if(PlayData.ballcarrier ==""){PlayData.ballcarrier = -99}
-        if(PlayData.yard + PlayData.result == 100){PlayData.event = "Touchdown";}
+        if(PlayData.yard + PlayData.result >= 100){PlayData.event = "Touchdown";}
         PlayData.passzone = document.getElementById("passzone").value
         var url = "/endzone/rest/addplay?";
         for(var attribute in PlayData)
