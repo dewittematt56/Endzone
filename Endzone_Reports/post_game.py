@@ -242,30 +242,30 @@ class Content(Graph_Utils):
             cells[3].text = ' '    
 
         cells = table.rows[10].cells
-        cells[0].text = "Scoring -- ESTIMATE"
+        cells[0].text = "Scoring"
         table.rows[10].cells[0].paragraphs[0].runs[0].font.bold = True
 
         cells = table.rows[11].cells
         cells[0].text = "Inside Run Touchdowns"
         try:    
 
-            cells[1].text = str(len(self.data.query))
-            cells[2].text = '{:0.2f}'.format(len(self.data.query) / unique_drives)
-            cells[3].text = ' '
+            cells[1].text = str(len(self.data.query("Play_Type == 'Inside Run' and Event == 'Touchdown' ")))
+            cells[2].text = ''
+            cells[3].text = ''
         except: 
-            cells[1].text = str(len(self.data.query("Play_Type == 'Inside Run' and Result + Yard > 100")))
-            cells[2].text = ' '
-            cells[3].text = ' ' 
+            cells[1].text = '0'
+            cells[2].text = ''
+            cells[3].text = '' 
 
         cells = table.rows[12].cells
         cells[0].text = "Outside Run Touchdowns"
         try:    
 
-            cells[1].text = str(len(self.data.query("Play_Type == 'Outside Run' and Result + Yard > 100")))
+            cells[1].text = str(len(self.data.query("Play_Type == 'Outside Run' and Event == 'Touchdown'")))
             cells[2].text = ''
             cells[3].text = ' '
         except: 
-            cells[1].text = "No Data"
+            cells[1].text = "0"
             cells[2].text = ' '
             cells[3].text = ' ' 
 
@@ -273,7 +273,7 @@ class Content(Graph_Utils):
         cells[0].text = "Pocket Pass Touchdowns"
         try:    
 
-            cells[1].text = str(len(self.data.query("Play_Type == 'Pocket Pass' and Result + Yard > 100")))
+            cells[1].text = str(len(self.data.query("Play_Type == 'Pocket Pass' and Event == 'Touchdown'")))
             cells[2].text = ' '
             cells[3].text = ' '
         except: 
@@ -285,7 +285,7 @@ class Content(Graph_Utils):
         cells[0].text = "Boot Pass Touchdown's"
         try:    
 
-            cells[1].text = str(len(self.data.query("Play_Type == 'Boot Pass' and Result + Yard > 100")))
+            cells[1].text = str(len(self.data.query("Play_Type == 'Boot Pass' and Event == 'Touchdown'")))
             cells[2].text = ' '
             cells[3].text = ' '
         except: 
@@ -307,9 +307,9 @@ class Content(Graph_Utils):
         headers[2].text = "Yards"
         headers[3].text = "Completion %"
         headers[4].text = "TD's"
-        headers[5].text = "INT's --IN DEV"
-        headers[6].text = "College Rating -- IN DEV"
-        headers[7].text = "NFL Rating -- IN DEV"
+        headers[5].text = "INT's"
+        headers[6].text = "College Rating"
+        headers[7].text = "NFL Rating"
         headers[8].text = "Yards/Attempt"
         headers[9].text = "Yards/Completion"
 
@@ -319,15 +319,15 @@ class Content(Graph_Utils):
             cells[1].text = str(len(self.data.query("(Play_Type == 'Boot Pass' or Play_Type == 'Pocket Pass') and Pass_Zone != 'Non Passing Play' and Result != 0")))
             cells[2].text = str(self.data.query("(Play_Type == 'Boot Pass' or Play_Type == 'Pocket Pass')")["Result"].sum())
             cells[3].text = str(round(int(cells[1].text) / int(cells[0].text), 2) * 100) + "%"
-            cells[4].text = ' '
-            cells[5].text = ' '
-            cells[6].text = ' '
-            cells[7].text = ' '
+            cells[4].text = str(len(self.data.query("(Play_Type == 'Boot Pass' or Play_Type == 'Pocket Pass') and Event == 'Touchdown'")))
+            cells[5].text = str(len(self.data.query("(Play_Type == 'Boot Pass' or Play_Type == 'Pocket Pass') and Event == 'Interception'")))
+            cells[6].text = str(round(((8.4 * int(cells[2].text)) + (330 * int(cells[4].text)) + (100 * int(cells[1].text)) - (200 * int(cells[5].text))) / int(cells[0].text)))
+            cells[7].text = str(round(( (int(cells[1].text) / int(cells[0].text) -30) * .05 ) + ( (int(cells[2].text) / int(cells[1].text) -3) * .25) + ( (int(cells[4].text) / int(cells[0].text)) * .2) + (2.375 - (int(cells[5].text) / int(cells[0].text)) *.25) / 6 * 100))
             cells[8].text = str(round(int(cells[2].text) / int(cells[0].text), 2))
             cells[9].text = str(round(int(cells[2].text) / int(cells[1].text), 2))
 
-        except:
-            cells[0].text = ' '
+        except Exception as e:
+            print(e)
         self.report.add_paragraph()
 
     def targets(self):

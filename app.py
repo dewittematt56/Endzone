@@ -127,9 +127,9 @@ def GameData():
         elif len(query_response.all()) == 0:
             year = int(request.form["year"])
             team = request.form["team"]
-            team = team.replace("_", "-").replace(" ", "")
+            team = team.replace("_", "-").replace(" ", "-")
             opponent = request.form["opponent"]
-            opponent = opponent.replace("_", "-").replace(" ", "")
+            opponent = opponent.replace("_", "-").replace(" ", "-")
             team_code = current_user.team_code
             new_game = GameLoad(team, opponent, team_code, year)
             db.session.add(new_game)
