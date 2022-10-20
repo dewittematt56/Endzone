@@ -295,8 +295,6 @@ class Content(Graph_Utils):
 
         self.report.add_paragraph()
 
-    
-
     def passing(self):
         table = self.report.add_table(2, 10)
 
@@ -333,6 +331,7 @@ class Content(Graph_Utils):
     def targets(self):
         self.Table(self.data.query("Play_Type == 'Boot Pass' or Play_Type == 'Pocket Pass'").groupby(["Result_BallCarrier"]).agg({"Result": ["count", "sum", "mean", "median", "max"]}), "Reciever Stats")
         self.Table(self.data.query("Play_Type == 'Boot Pass' or Play_Type == 'Pocket Pass'").groupby(["Pass_Zone"]).agg({"Result": ["count", "sum", "mean", "median", "max"]}), "Pass Zone Stats")
+    
     def rushing(self):
         self.Table(self.data.query("Play_Type == 'Inside Run' or Play_Type == 'Outside Run'").groupby(["Result_BallCarrier"]).agg({"Result": ["count", "sum", "mean", "median", "max"]}), "Ball Carrier Stats")
 
